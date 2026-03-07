@@ -1,0 +1,25 @@
+{
+"self":{
+    "label":"Self",
+    "xpath":"/html/body/app-root/landing-page-parent/div/dbx-ds-layout/div/div[2]/home-parent/div/div/posts-parent/div/div/div[1]/div[2]/dbx-ds-tab-group//div/div/dbx-ds-tab[2]//div/div/div/span"
+},
+
+"createpost" : {
+    "shadow": [
+    "open",
+    "open",
+    "div.create-post-header.ptr.cursor-pointer.sds-bg-primary-negative.ng-tns-c217-51"
+  ]
+  
+},
+"newPostCard" : {
+    "selector": "div > div > post-templates > div > div:nth-child(1) > img",
+    "xpath" : ".//*[@src='assets/design-system/creation-templates/new-post.svg']"
+},
+"postTextArea" : {
+    "selector" : "div > quill-editor > div.ng-star-inserted.ql-container.ql-snow > div.ql-editor.ql-blank"
+},
+"postButton" :{
+    "id":"dbx-overflow-span"
+}
+}

@@ -1,0 +1,252 @@
+[
+  {
+    "path": "/appraisal/review/details/:userId",
+    "componentName": "AppraisalDetailComponent",
+    "id": "ack-form"
+  },
+  {
+    "path": "/appraisal/review/details/:userId",
+    "componentName": "AppraisalDetailComponent",
+    "id": "appraisal"
+  },
+  {
+    "path": "/appraisal/review/details/:userId",
+    "componentName": "AppraisalDetailComponent",
+    "id": "appraisal-body"
+  },
+  {
+    "path": "/appraisal/review/details/:userId",
+    "componentName": "AppraisalDetailComponent",
+    "id": "appraisal-container"
+  },
+  {
+    "path": "/appraisal/review/details/:userId",
+    "componentName": "AppraisalDetailComponent",
+    "id": "button-basic-2"
+  },
+  {
+    "path": "/appraisal/review/details/:userId",
+    "componentName": "AppraisalDetailComponent",
+    "id": "button-basic-3"
+  },
+  {
+    "path": "/appraisal/review/details/:userId",
+    "componentName": "AppraisalDetailComponent",
+    "id": "dropdown-basic-2"
+  },
+  {
+    "path": "/appraisal/review/details/:userId",
+    "componentName": "AppraisalDetailComponent",
+    "id": "dropdown-basic-3"
+  },
+  {
+    "path": "/appraisal/review/details/:userId",
+    "componentName": "AppraisalDetailComponent",
+    "id": "err-state"
+  },
+  {
+    "path": "/bulk-goals",
+    "componentName": "BulkGoalFormComponent",
+    "id": "goal-desc"
+  },
+  {
+    "path": "/goals/list",
+    "componentName": "GoalsComponent",
+    "id": "confirmModal"
+  },
+  {
+    "path": "/goals/list",
+    "componentName": "GoalsComponent",
+    "id": "goal_plan"
+  },
+  {
+    "path": "/goals/list",
+    "componentName": "GoalsComponent",
+    "id": "previous_add_goal"
+  },
+  {
+    "path": "/goals/list/:userId",
+    "componentName": "GoalsComponent",
+    "id": "confirmModal"
+  },
+  {
+    "path": "/goals/list/:userId",
+    "componentName": "GoalsComponent",
+    "id": "goal_plan"
+  },
+  {
+    "path": "/goals/list/:userId",
+    "componentName": "GoalsComponent",
+    "id": "previous_add_goal"
+  },
+  {
+    "path": "/newcalibration/admin/process/:processid",
+    "componentName": "CalibrationProcessContainerComponent",
+    "id": "customSwitch1"
+  },
+  {
+    "path": "/newcalibration/admin/process/:processid",
+    "componentName": "CalibrationProcessContainerComponent",
+    "id": "customSwitch2"
+  },
+  {
+    "path": "/newcalibration/admin/process/:processid/:lobbyId",
+    "componentName": "CalibrationProcessContainerComponent",
+    "id": "customSwitch1"
+  },
+  {
+    "path": "/newcalibration/admin/process/:processid/:lobbyId",
+    "componentName": "CalibrationProcessContainerComponent",
+    "id": "customSwitch2"
+  },
+  {
+    "path": "/newcalibration/clusters",
+    "componentName": "LobbiesOwnerComponent",
+    "id": "customSwitch3"
+  },
+  {
+    "path": "/newcalibration/clusters",
+    "componentName": "LobbiesOwnerComponent",
+    "id": "due_date"
+  },
+  {
+    "path": "/newcalibration/facilitator/:processid/:lobbyId",
+    "componentName": "CalibrationProcessContainerComponent",
+    "id": "customSwitch1"
+  },
+  {
+    "path": "/newcalibration/facilitator/:processid/:lobbyId",
+    "componentName": "CalibrationProcessContainerComponent",
+    "id": "customSwitch2"
+  },
+  {
+    "path": "/newcalibration/moderator/:processid/:lobbyId",
+    "componentName": "CalibrationProcessContainerComponent",
+    "id": "customSwitch1"
+  },
+  {
+    "path": "/newcalibration/moderator/:processid/:lobbyId",
+    "componentName": "CalibrationProcessContainerComponent",
+    "id": "customSwitch2"
+  },
+  {
+    "path": "/newcalibration/owner/:processid/:lobbyId",
+    "componentName": "CalibrationProcessContainerComponent",
+    "id": "customSwitch1"
+  },
+  {
+    "path": "/newcalibration/owner/:processid/:lobbyId",
+    "componentName": "CalibrationProcessContainerComponent",
+    "id": "customSwitch2"
+  },
+  {
+    "path": "/review/panel/details/:id",
+    "componentName": "AdminReviewSummaryComponent",
+    "id": "review-summary"
+  },
+  {
+    "path": "/talent-calibration/admin/process/:processid",
+    "componentName": "CalibrationProcessContainerComponent",
+    "id": "customSwitch1"
+  },
+  {
+    "path": "/talent-calibration/admin/process/:processid",
+    "componentName": "CalibrationProcessContainerComponent",
+    "id": "customSwitch2"
+  },
+  {
+    "path": "/talent-calibration/admin/process/:processid/:lobbyId",
+    "componentName": "CalibrationProcessContainerComponent",
+    "id": "customSwitch1"
+  },
+  {
+    "path": "/talent-calibration/admin/process/:processid/:lobbyId",
+    "componentName": "CalibrationProcessContainerComponent",
+    "id": "customSwitch2"
+  },
+  {
+    "path": "/talent-calibration/clusters",
+    "componentName": "LobbiesOwnerComponent",
+    "id": "customSwitch3"
+  },
+  {
+    "path": "/talent-calibration/clusters",
+    "componentName": "LobbiesOwnerComponent",
+    "id": "due_date"
+  },
+  {
+    "path": "/talent-calibration/facilitator/:processid/:lobbyId",
+    "componentName": "CalibrationProcessContainerComponent",
+    "id": "customSwitch1"
+  },
+  {
+    "path": "/talent-calibration/facilitator/:processid/:lobbyId",
+    "componentName": "CalibrationProcessContainerComponent",
+    "id": "customSwitch2"
+  },
+  {
+    "path": "/talent-calibration/moderator/:processid/:lobbyId",
+    "componentName": "CalibrationProcessContainerComponent",
+    "id": "customSwitch1"
+  },
+  {
+    "path": "/talent-calibration/moderator/:processid/:lobbyId",
+    "componentName": "CalibrationProcessContainerComponent",
+    "id": "customSwitch2"
+  },
+  {
+    "path": "/talent-calibration/owner/:processid/:lobbyId",
+    "componentName": "CalibrationProcessContainerComponent",
+    "id": "customSwitch1"
+  },
+  {
+    "path": "/talent-calibration/owner/:processid/:lobbyId",
+    "componentName": "CalibrationProcessContainerComponent",
+    "id": "customSwitch2"
+  },
+  {
+    "path": "/talent/assessment/search",
+    "componentName": "TalentSearchComponent",
+    "id": "{{ data.question_id }}"
+  },
+  {
+    "path": "/talent/nomination/:type/:id",
+    "componentName": "TalentNominationComponent",
+    "id": "act"
+  },
+  {
+    "path": "/talent/nomination/:type/:id",
+    "componentName": "TalentNominationComponent",
+    "id": "approve"
+  },
+  {
+    "path": "/talent/nomination/:type/:id",
+    "componentName": "TalentNominationComponent",
+    "id": "cancel"
+  },
+  {
+    "path": "/talent/nomination/:type/:id",
+    "componentName": "TalentNominationComponent",
+    "id": "reject"
+  },
+  {
+    "path": "/talent/nomination/:type/:id",
+    "componentName": "TalentNominationComponent",
+    "id": "view"
+  },
+  {
+    "path": "/tr-dashboard/details/:id",
+    "componentName": "TalentReviewSummaryComponent",
+    "id": "export-dropdown"
+  },
+  {
+    "path": "/tr-dashboard/details/:id",
+    "componentName": "TalentReviewSummaryComponent",
+    "id": "export-dropdown-btn"
+  },
+  {
+    "path": "/tr-dashboard/details/:id",
+    "componentName": "TalentReviewSummaryComponent",
+    "id": "talent-review-summary"
+  }
+]

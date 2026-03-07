@@ -1,0 +1,1602 @@
+[
+  {
+    "testKey": "VIBE-166",
+    "summary": "verify whether admin can able to disable 'Hide creator name from post'",
+    "description": "verify whether admin can able to disable 'Hide creator name from post'",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as Admin\n2. navigate to settings\n3. click on vibe\n4. click on content control\n5. click on addition settings\n6. disable Hide creator name from post",
+        "data": null,
+        "expectedResult": "should able to disable hide creator name from post"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-265",
+    "summary": "verify the vibe recognition in mobile,  in recogniser/reciever history",
+    "description": "verify the vibe recognition in mobile,  in recogniser/reciever history",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Recognise from vibe\n3. login to mobile \n4. check recogniser/reciever history",
+        "data": null,
+        "expectedResult": "Vibe recognition should show in recogniser/receiver history in mobile"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-262",
+    "summary": "verify whether the points get from the vibe recognition are adding in leaderboard points",
+    "description": "verify whether the points get from the vibe recognition are adding in leaderboard points",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Recognise from vibe\n3. check whether the points gained/given for vibe recognition affected in leaderboard points",
+        "data": null,
+        "expectedResult": "Points received/given for the vibe recognition should affect in leaderboard points"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-229",
+    "summary": "Verify whether user can able to select the required program ",
+    "description": "Verify whether user can able to select the required program ",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Navigate to vibe\n3. click on Recognize Tab \n4. select the required program",
+        "data": null,
+        "expectedResult": "User should able to select the required program"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-258",
+    "summary": "verify whether the recognition done from vibe is available in receiver recived history",
+    "description": "verify whether the recognition done from vibe is available in receiver recived history",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Recognise from vibe\n3. Check the receiver received history",
+        "data": null,
+        "expectedResult": "Recognition made from vibe should show in receiver's received history"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-171",
+    "summary": "verify the post with Enable Hide creator name from EVENT",
+    "description": "verify the post with Enable Hide creator name from EVENT",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. Login as Admin\n2. navigate to Vibe\n3. click on create EVENT\n4. create",
+        "data": null,
+        "expectedResult": "should not display creator name for EVENT"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-241",
+    "summary": "verify whether user can able to attach gif, video, images more than 10mb while recognising from vibe",
+    "description": "verify whether user can able to attach gif, video, images more than 10mb while recognising from vibe",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Navigate to vibe\n3. click on Recognise Tab \n4. select the required program\n5.Ensure that screen navigated to Recognition page post selection of program \n6. Ensure that selected program name is showing\n7. Try to attach required image, gif, video,doc more than 10mb..",
+        "data": null,
+        "expectedResult": "User should not able to attach gif, video, images more than 10mb while recognising from vibe"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-126",
+    "summary": "verify the indicator on vibe for new employee",
+    "description": null,
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as new employee\n2. navigate to dashboard\n3. verify indicator on vibe icon",
+        "data": null,
+        "expectedResult": "for new employee indicator on vibe will not display"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-238",
+    "summary": "verify whether user can able to preview the citation  while recognizing",
+    "description": "verify whether user can able to preview the citation  while recognizing",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Navigate to vibe\n3. Click on recognize\n4.select required program\n5.use @ to tag someone and enter ther citation,use + to give them points\n6.click on preview button",
+        "data": null,
+        "expectedResult": "user should able to preview the citation  while recognizing"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-233",
+    "summary": "verify whether �Use @ to tag the person you want to recognize, + to give them points � subtext is showing while recognising from vibe",
+    "description": "verify whether �Use @ to tag the person you want to recognize, + to give them points � subtext is showing while recognising from vibe",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Navigate to vibe\n3. click on Recognise Tab \n4. select the required program\n5.Ensure that selected program name is showing\n6. Check the subtext",
+        "data": null,
+        "expectedResult": "�Use @ to tag the person you want to recognize, + to give them points � subtext should show while recognising from vibe"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-228",
+    "summary": "verify whether Recognize button is available when Allow Recognition To Be Given From Vibe is not enabled to any program ",
+    "description": "verify whether Recognize button is available when Allow Recognition To Be Given From Vibe is not enabled to any program ",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Navigate to vibe\n3. click on Recognize Tab and check",
+        "data": null,
+        "expectedResult": "Recognize button should disappear"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-167",
+    "summary": "verify the post with Enable Hide creator name from post",
+    "description": "verify the post with Enable Hide creator name from post",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. Login as Admin\n2. navigate to Vibe\n3. click on create post\n4. create",
+        "data": null,
+        "expectedResult": "should not display creator name for post"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-133",
+    "summary": "verify whether admin can add mutiple embed links in singe post",
+    "description": null,
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as Admin / emp\n2. navigate to vibe \n3. click on create post\n4. provide content\n5. embed link in multiple places",
+        "data": null,
+        "expectedResult": "should allow"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-129",
+    "summary": "verify whether Admin can view embed link option \n",
+    "description": null,
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as Admin\n2. navigate to vibe \n3. click on create post\n4. verify embed link option",
+        "data": null,
+        "expectedResult": "should display embed link option"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-219",
+    "summary": "Verify whether Allow Recognition To Be Given From Vibe check box added in previously created nomination program settings (edit program)",
+    "description": "Verify whether Allow Recognition To Be Given From Vibe check box added in previously created nomination program settings (edit program)",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. Login as Admin\n2. Navigate to settings-> recognition-> programs->Edit the individul nomination program\n3.Check the field",
+        "data": null,
+        "expectedResult": "Allow Recognition To Be Given From Vibe check box should not add in previously created nomination program settings (edit program)"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-217",
+    "summary": "Verify whether Allow Recognition To Be Given From Vibe check box added in previously created program settings (edit program)",
+    "description": "Verify whether Allow Recognition To Be Given From Vibe check box added in previously created program settings (edit program)",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. Login as Admin\n2. Navigate to settings-> recognition-> programs->Edit the continuous program\n3.Check the field",
+        "data": null,
+        "expectedResult": "Allow Recognition To Be Given From Vibe check box should add in previously created program settings (edit program)"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-176",
+    "summary": "verify the edit post with Disable Hide creator name from POLL",
+    "description": "verify the edit post with Disable Hide creator name from POLL",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. Login as Admin\n2. navigate to Vibe\n3. click on edit POLL\n4. edit > update",
+        "data": null,
+        "expectedResult": "should display creator name for edited POLL"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-186",
+    "summary": "verify whether workflow triggers when user select lowest rating on pulse\n",
+    "description": "verify whether workflow triggers when user select lowest rating on pulse\n",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. Login as Admin / Emp\n2. navigate to dashboard\n3. click on pulse question\n4. select lowest rating on pulse",
+        "data": null,
+        "expectedResult": "once the cron is done workflow will trigger"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-179",
+    "summary": "verify whether Admin can able to create custom flow\n",
+    "description": "verify whether Admin can able to create custom flow\n",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as Admin\n2. navigate to settings\n3. click in custom workflow settings\n4. click on create custom flow\n5. create a custom flow",
+        "data": null,
+        "expectedResult": "should able to create custom flow"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-134",
+    "summary": "verify whether admin can add embed link in edit post modal",
+    "description": null,
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. Login as Admin / emp\n2. navigate to vibe\n3. click on edit post\n4. add embed link to content in edit post modal\n5. verify",
+        "data": null,
+        "expectedResult": "should able to add embed link to content in edit post modal"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-190",
+    "summary": "verify whether workflow emails trigger to the employee\n",
+    "description": "verify whether workflow emails trigger to the employee\n",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. Login as Admin / Emp\n2. navigate to dashboard\n3. click on pulse question\n4. select lowest rating on pulse",
+        "data": null,
+        "expectedResult": "email will trigger to the user based on workflow settings"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-227",
+    "summary": "Verify whether Allow Recognition To Be Given From Vibe disabled progams are visible in vibe-> Recognize",
+    "description": "Verify whether Allow Recognition To Be Given From Vibe disabled progams are visible in vibe-> Recognize",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Navigate to vibe\n3. click on Recognize Tab and check",
+        "data": null,
+        "expectedResult": "Allow Recognition To Be Given From Vibe disabled progams should not be visible when user clicks on Recognize tab in vibe"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-266",
+    "summary": "verify all bell and dashboard notifications for the recognition from vibe",
+    "description": "verify all bell and dashboard notifications for the recognition from vibe",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Recognise from vibe\n3. check all the bell and dashboard notifications",
+        "data": null,
+        "expectedResult": "All the existing bell and dashboard notifications should get for the vibe recognition"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-224",
+    "summary": "verify whether Recognize tab is clickable in Vibe ",
+    "description": "verify whether Recognize tab is clickable in Vibe ",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. navigate to vibe\n3. Try to click on Recognize Tab",
+        "data": null,
+        "expectedResult": "Recognize tab should be clickable in Vibe"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-260",
+    "summary": "verify whether the citation is showing in recogniser and reciever history for the recognition done from vibe",
+    "description": "verify whether the citation is showing in recogniser and reciever history for the recognition done from vibe",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Recognise from vibe\n3. Check the recogniser/receiver history",
+        "data": null,
+        "expectedResult": "Citation should show in recogniser/reciever history for the recignition made from vibe"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-255",
+    "summary": "verify whether user can able to provide points for no reward program",
+    "description": "verify whether user can able to provide points for no reward program",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Navigate to vibe\n3. click on Recognise Tab \n4. select no reward type program\n5.Ensure that screen navigated to Recognition page post selection of program \n6. Ensure that selected program name is showing\n7. check the avaialble points\n8.Provide points and check",
+        "data": null,
+        "expectedResult": "user should not able to provide points/ error should throw"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-132",
+    "summary": "verify whether admin can embed link without selecting content\n",
+    "description": null,
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as Admin / emp\n2. navigate to vibe \n3. click on create post\n4. provide content\n5. embed link",
+        "data": "",
+        "expectedResult": "should throw error \nplease select text"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-269",
+    "summary": "verify old reports-> recognition activity",
+    "description": "verify old reports-> recognition activity",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. Login as admin\n2. Navigate to reports\n3. Select recogntion roaster\n4. select recognituon activity continuous\n5. check the vibe recognition",
+        "data": null,
+        "expectedResult": "vibe recognition should be availble in old reports"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-267",
+    "summary": "verify all mobile push notifications for the recognition from vibe",
+    "description": "verify all mobile push notifications for the recognition from vibe",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Recognise from vibe\n3.check all the mobile push notifications",
+        "data": null,
+        "expectedResult": "All the existing mobile push notifications should get for the vibe recognition"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-248",
+    "summary": "verify whether available points of selected program are showing at  the  recognition page while recognising",
+    "description": "verify whether available points of selected program are showing at  the  recognition page while recognising",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Navigate to vibe\n3. click on Recognise Tab \n4. select the required program\n5.Ensure that screen navigated to Recognition page post selection of program \n6. Ensure that selected program name is showing\n7. check the available points",
+        "data": null,
+        "expectedResult": "Available points of selected program should show at the recognition page while recognising"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-168",
+    "summary": "verify the edit post with Enable Hide creator name from post",
+    "description": "verify the edit post with Enable Hide creator name from post",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. Login as Admin\n2. navigate to Vibe\n3. click on edit post\n4. edit > update",
+        "data": null,
+        "expectedResult": "should not display creator name for edited post"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-125",
+    "summary": "verify whether indicator on vibe disappear",
+    "description": null,
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as Admin\n2. navigate to dashboard\n3. verify indicator on vibe icon",
+        "data": null,
+        "expectedResult": "Once the user opens the ‘All Posts’ page in the Vibe module on either the web app or the mobile app, the indicator is to be removed from the Vibe icon on the dashboard"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-264",
+    "summary": "verify whether the attachments added in vibe recognition are showing in vibe ",
+    "description": "verify whether the attachments added in vibe recognition are showing in vibe ",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Recognise from vibe by adding attachments\n3. check the attachments in vibe",
+        "data": null,
+        "expectedResult": "Attachments attached for vibe recognition should show in vibe"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-247",
+    "summary": "verify when multiple employees recognised in single post, whether one post is posting on vibe  or multiple",
+    "description": "verify when multiple employees recognised in single post, whether one post is posting on vibe  or multiple",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Navigate to vibe\n3. click on Recognise Tab \n4. select the required program\n5.Ensure that screen navigated to Recognition page post selection of program \n6. Ensure that selected program name is showing\n7. Enter \"@\" and check the employees in the list\n8. Select multiple employees to recognise \n9. check the post in vibe",
+        "data": null,
+        "expectedResult": "posts should go according to the employees in the recognition"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-165",
+    "summary": "verify whether admin can able to enable 'Hide creator name from post'",
+    "description": "verify whether admin can able to enable 'Hide creator name from post'",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as Admin\n2. navigate to settings\n3. click on vibe\n4. click on content control\n5. click on addition settings\n6. enable Hide creatot name from post",
+        "data": null,
+        "expectedResult": "should able to enable hide creator name from post"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-123",
+    "summary": "verify whether indicator display for unseen polls in Group",
+    "description": null,
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as Admin\n2. navigate to dashboard\n3. verify indicator on vibe icon",
+        "data": null,
+        "expectedResult": "should display"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-256",
+    "summary": "verify whether error is getting when provided points are more than avaialble points",
+    "description": "verify whether error is getting when provided points are more than avaialble points",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Navigate to vibe\n3. click on Recognise Tab \n4. select the required program\n5.Ensure that screen navigated to Recognition page post selection of program \n6. Select no reward type program\n7. Ensure that selected program name is showing\n8. check the avaialble points\n9.Provide more than available points and check",
+        "data": null,
+        "expectedResult": "Error should throw"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-254",
+    "summary": "verify whether user can able to provide points for non point based program",
+    "description": "verify whether user can able to provide points for non point based program",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Navigate to vibe\n3. click on Recognise Tab \n4. select non point program\n5.Ensure that screen navigated to Recognition page post selection of program \n6. Ensure that selected program name is showing\n7. check the avaialble points\n8.Provide points and check",
+        "data": null,
+        "expectedResult": "user should not able to provide points/ error should throw"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-232",
+    "summary": "verify whether user creating post can able to select req option in Share with field ",
+    "description": "verify whether user creating post can able to select req option in Share with field ",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Navigate to vibe\n3.Try to choose req option in shared with",
+        "data": null,
+        "expectedResult": "User creating post should not able to select req option in Share with field"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-226",
+    "summary": "Verify whether Allow Recognition To Be Given From Vibe enabled progams are visible in vibe-> Recognize",
+    "description": "Verify whether Allow Recognition To Be Given From Vibe enabled progams are visible in vibe-> Recognize",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Navigate to vibe\n3. click on Recognize Tab and check",
+        "data": null,
+        "expectedResult": "Allow Recognition To Be Given From Vibe enabled progams should be visible when user clicks on Recognize tab in vibe"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-271",
+    "summary": "verify the posts when allow post on vibe is also enbaled for the vibe recognition",
+    "description": "verify the posts when allow post on vibe is also enbaled for the vibe recognition",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. Login as admin\n2. Enable Allow post on vibe to the required program\n3. Recognise from vibe for the allow post on vibe enabled program\n4.Check the posts in vibe",
+        "data": null,
+        "expectedResult": "Only One post should go for the vibe recognition even though allow post from vibe is enabled for that program"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-169",
+    "summary": "verify the post with Enable Hide creator name from POLL",
+    "description": "verify the post with Enable Hide creator name from POLL",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. Login as Admin\n2. navigate to Vibe\n3. click on create POLL\n4. create",
+        "data": null,
+        "expectedResult": "should not display creator name for POLL"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-218",
+    "summary": "Verify whether Allow Recognition To Be Given From Vibe check box added in individual  nomination program settings (create new program)",
+    "description": "Verify whether Allow Recognition To Be Given From Vibe check box added in individual  nomination program settings (create new program)",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. Login as Admin\n2. Navigate to settings-> recognition-> programs->create new program\n3.Select individual  nomination program configuration\n4.Check the field",
+        "data": null,
+        "expectedResult": "Allow Recognition To Be Given From Vibe check box should not add in individual nomination settings (create new program)"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-183",
+    "summary": "verify whether Admin can tag workflow in custom flow\n",
+    "description": "verify whether Admin can tag workflow in custom flow\n",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as Admin\n2. navigate to settings\n3. click in custom workflow settings\n4. click on create custom flow\n5. tag workflow\n6. save",
+        "data": null,
+        "expectedResult": "should able to tag workflow in custom flow"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-130",
+    "summary": "verify whether employee can view embed link option \n",
+    "description": null,
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as employee\n2. navigate to vibe \n3. click on create post\n4. verify embed link option",
+        "data": null,
+        "expectedResult": "should display embed link option"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-221",
+    "summary": "Verify whether Allow Recognition To Be Given From Vibe check box added in previously created team nomination program settings (edit program)",
+    "description": "Verify whether Allow Recognition To Be Given From Vibe check box added in previously created team nomination program settings (edit program)",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. Login as Admin\n2. Navigate to settings-> recognition-> programs->Edit the team nomination program\n3.Check the field",
+        "data": null,
+        "expectedResult": "Allow Recognition To Be Given From Vibe check box should not add in previously created team nomination program settings (edit program)"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-178",
+    "summary": "verify the edit post with Disable Hide creator name from EVENT",
+    "description": "verify the edit post with Disable Hide creator name from EVENT",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. Login as Admin\n2. navigate to Vibe\n3. click on edit EVENT\n4. edit > update",
+        "data": null,
+        "expectedResult": "should display creator name for edited EVENT"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-268",
+    "summary": "verify all mails for the recognition from vibe",
+    "description": "verify all mails for the recognition from vibe",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Recognise from vibe\n3.check all the default and custom mails",
+        "data": null,
+        "expectedResult": "All the existing default and custom mails should get for the vibe recognition"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-240",
+    "summary": "verify whether user can able to attach gif, video, images, docs while recognising from vibe",
+    "description": "verify whether user can able to attach gif, video, images, docs while recognising from vibe",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Navigate to vibe\n3. click on Recognise Tab \n4. select the required program\n5.Ensure that screen navigated to Recognition page post selection of program \n6. Ensure that selected program name is showing\n7. Try to attach required image, gif, video,doc...",
+        "data": null,
+        "expectedResult": "User should able to attach gif, video, images, docs while recognising from vibe"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-177",
+    "summary": "verify the post with Disable Hide creator name from EVENT",
+    "description": "verify the post with Disable Hide creator name from EVENT",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. Login as Admin\n2. navigate to Vibe\n3. click on create EVENT\n4. create",
+        "data": null,
+        "expectedResult": "should display creator name for EVENT"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-136",
+    "summary": "verify whether Admin can remove given hyperlink",
+    "description": null,
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. Login as Admin / emp\n2. navigate to vibe\n3. click on edit post\n4. remove given hyperlink\n5. verify",
+        "data": null,
+        "expectedResult": "should able to remove given hyperlink"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-250",
+    "summary": "verify whether available points are showing when user selects no reward type program",
+    "description": "verify whether available points are showing when user selects no reward type program",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Navigate to vibe\n3. click on Recognise Tab \n4. select  no reward program\n5.Ensure that screen navigated to Recognition page post selection of program \n6. Ensure that selected program name is showing\n7. check the available points",
+        "data": null,
+        "expectedResult": "Available points should not show"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-249",
+    "summary": "verify whether available points are showing when user selects non point based program",
+    "description": "verify whether available points are showing when user selects non point based program",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Navigate to vibe\n3. click on Recognise Tab \n4. select  non point program\n5.Ensure that screen navigated to Recognition page post selection of program \n6. Ensure that selected program name is showing\n7. check the available points",
+        "data": null,
+        "expectedResult": "Available points should not show"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-236",
+    "summary": "verify whether use + to give them points  subtext is showing for non point based program",
+    "description": "verify whether use + to give them points  subtext is showing for non point based program",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Navigate to vibe\n3. click on Recognise Tab \n4. select non point based program\n5.Ensure that selected program name is showing\n6. Check the subtext",
+        "data": null,
+        "expectedResult": "use + to give them points  subtext should not show for non point based program"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-181",
+    "summary": "verify whether Admin can create workflow\n",
+    "description": "verify whether Admin can create workflow\n",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as Admin\n2. navigate to settings\n3. click in custom workflow settings\n4. click on create work flow\n5. create a work flow",
+        "data": null,
+        "expectedResult": "should able to create workflow"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-124",
+    "summary": "verify whether indicator display for unseen events in Group",
+    "description": null,
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as Admin\n2. navigate to dashboard\n3. verify indicator on vibe icon",
+        "data": null,
+        "expectedResult": "should display"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-257",
+    "summary": "verify whether the recognition done from vibe is available in recogniser given history",
+    "description": "verify whether the recognition done from vibe is available in recogniser given history",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Recognise from vibe\n3. Check the recogniser given history",
+        "data": null,
+        "expectedResult": "Recognition made from vibe should show in recogniser's given history"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-121",
+    "summary": "verify whether indicator display for unseen events\n",
+    "description": null,
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as Admin\n2. navigate to dashboard\n3. verify indicator on vibe icon",
+        "data": null,
+        "expectedResult": "should display"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-174",
+    "summary": "verify the edit post with Disable Hide creator name from post",
+    "description": "verify the edit post with Disable Hide creator name from post",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. Login as Admin\n2. navigate to Vibe\n3. click on edit post\n4. edit > update",
+        "data": null,
+        "expectedResult": "should display creator name for edited post"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-135",
+    "summary": "verify whether Admin can edit given hyperlink",
+    "description": null,
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. Login as Admin / emp\n2. navigate to vibe\n3. click on edit post\n4. edit given hyperlink\n5. verify",
+        "data": null,
+        "expectedResult": "should able to edit given hyperlink"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-235",
+    "summary": "verify whether use + to give them points  subtext is showing for fixed point based program",
+    "description": "verify whether use + to give them points  subtext is showing for fixed point based program",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Navigate to vibe\n3. click on Recognise Tab \n4. select fixed point based program\n5.Ensure that selected program name is showing\n6. Check the subtext",
+        "data": null,
+        "expectedResult": "use + to give them points  subtext should not show for fixed point based program"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-180",
+    "summary": "verify whether Admin can select Lowest Rating on Pulse in custom flow settings\n",
+    "description": "verify whether Admin can select Lowest Rating on Pulse in custom flow settings\n",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as Admin\n2. navigate to settings\n3. click in custom workflow settings\n4. click on create custom flow\n5. select Lowest rating on pulse\n6. create",
+        "data": null,
+        "expectedResult": "should able to select"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-234",
+    "summary": "verify whether use + to give them points  subtext is showing for variable point based program",
+    "description": "verify whether use + to give them points  subtext is showing for variable point based program",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Navigate to vibe\n3. click on Recognise Tab \n4. select variable point based program\n5.Ensure that selected program name is showing\n6. Check the subtext",
+        "data": null,
+        "expectedResult": "use + to give them points  subtext should show for variable point based program"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-164",
+    "summary": "verify whether admin can create post\n",
+    "description": "verify whether admin can create post\n",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. Login as Admin\n2. navigate to Vibe\n3. click on create post\n4. create",
+        "data": null,
+        "expectedResult": "should able to create post"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-175",
+    "summary": "verify the post with Disable Hide creator name from POLL",
+    "description": "verify the post with Disable Hide creator name from POLL",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. Login as Admin\n2. navigate to Vibe\n3. click on create POLL\n4. create",
+        "data": null,
+        "expectedResult": "should display creator name for POLL"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-131",
+    "summary": "verify whether admin can select content and embed link\n",
+    "description": null,
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as Admin / emp\n2. navigate to vibe \n3. click on create post\n4. provide content\n5. select content\n6. embed link",
+        "data": null,
+        "expectedResult": "should able to embed link"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-220",
+    "summary": "Verify whether Allow Recognition To Be Given From Vibe check box added in team nomination program settings (create new program)",
+    "description": "Verify whether Allow Recognition To Be Given From Vibe check box added in team nomination program settings (create new program)",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. Login as Admin\n2. Navigate to settings-> recognition-> programs->create new program\n3.Select team nomination program configuration\n4.Check the field",
+        "data": null,
+        "expectedResult": "Allow Recognition To Be Given From Vibe check box should not add in team nomination settings (create new program)"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-243",
+    "summary": "verify whether employees list is getting when user type \"@\" ",
+    "description": "verify whether employees list is getting when user type \"@\" ",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Navigate to vibe\n3. click on Recognise Tab \n4. select the required program\n5.Ensure that screen navigated to Recognition page post selection of program \n6. Ensure that selected program name is showing\n7. Enter \"@\" and check",
+        "data": null,
+        "expectedResult": "User should get the employee list post enter \"@\""
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-223",
+    "summary": "verify whether Recognize tab is added in Vibe ",
+    "description": "verify whether Recognize tab is added in Vibe ",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. navigate to vibe\n3. check Recognize Tab",
+        "data": null,
+        "expectedResult": "Recognize tab should be add in Vibe"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-270",
+    "summary": "verify new reports->recognition activity continuous",
+    "description": "verify new reports->recognition activity continuous",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. Login as admin\n2. Navigate to reports builder\n3. Select transaction-> recognition->recognituon activity continuous\n4. check the vibe recognition",
+        "data": null,
+        "expectedResult": "vibe recognition should be availble in new reports"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-261",
+    "summary": "verify whether the recognition done from vibe is showing in employee profile ",
+    "description": "verify whether the recognition done from vibe is showing in employee profile ",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Recognise from vibe\n3. check receiver profile",
+        "data": null,
+        "expectedResult": "Recognition done from vibe should show in reciver's profile"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-259",
+    "summary": "verify whether the points are showing in recogniser and reciever history for the recognition done from vibe",
+    "description": "verify whether the points are showing in recogniser and reciever history for the recognition done from vibe",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Recognise from vibe\n3. Check the recogniser/receiver history",
+        "data": null,
+        "expectedResult": "Points should show in recogniser/reciever history for the recignition made from vibe"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-253",
+    "summary": "verify whether user can able to provide points for fixed point based program",
+    "description": "verify whether user can able to provide points for fixed point based program",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Navigate to vibe\n3. click on Recognise Tab \n4. select fixed point program\n5.Ensure that screen navigated to Recognition page post selection of program \n6. Ensure that selected program name is showing\n7. check the avaialble points\n8.Provide  points and check",
+        "data": null,
+        "expectedResult": "user should not able to provide points/ error should throw"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-193",
+    "summary": "verify whether Admin can view pulse report\n",
+    "description": "verify whether Admin can view pulse report\n",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. Login as Admin\n2. navigate to reports\n3. click on employee roster\n4. select pulse roaster\n5. generate",
+        "data": null,
+        "expectedResult": "should display pulse submission data"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-252",
+    "summary": "verify whether error is throwing user provides less than min points for variable point based program",
+    "description": "verify whether error is throwing user provides less than min points for variable point based program",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Navigate to vibe\n3. click on Recognise Tab \n4. select  variable program\n5.Ensure that screen navigated to Recognition page post selection of program \n6. Ensure that selected program name is showing\n7. check the avaialble points\n8.Provide less than min points and check",
+        "data": null,
+        "expectedResult": "Error should throw"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-246",
+    "summary": "verify whether user can able to select multiple employees in single recognition ",
+    "description": "verify whether user can able to select multiple employees in single recognition ",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Navigate to vibe\n3. click on Recognise Tab \n4. select the required program\n5.Ensure that screen navigated to Recognition page post selection of program \n6. Ensure that selected program name is showing\n7. Enter \"@\" and check the employees in the list\n8. Select multiple employees to recognise",
+        "data": null,
+        "expectedResult": "User should able to recognise multiple employees in single recognition from vibe"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-225",
+    "summary": "Verify whether user can able to close the recognize modal",
+    "description": "Verify whether user can able to close the recognize modal",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. navigate to vibe\n3. click on Recognize Tab \n4. Ensure that \"X\" is avaialble and click on it",
+        "data": null,
+        "expectedResult": "recognize modal should close when user clicks on \"X\""
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-182",
+    "summary": "verify whether Admin can create Approval flow\n",
+    "description": "verify whether Admin can create Approval flow\n",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as Admin\n2. navigate to settings\n3. click in custom workflow settings\n4. click on create Approval flow\n5. create a Approval flow",
+        "data": null,
+        "expectedResult": "should able to create approval flow"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-239",
+    "summary": "verify whether user name and points are showing in citation preview",
+    "description": "verify whether user name and points are showing in citation preview",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Navigate to vibe\n3. Click on recognize\n4.select required program\n5.use @ to tag someone and enter ther citation,use + to give them points\n6.click on preview button\n7.check the citation in citation preview",
+        "data": null,
+        "expectedResult": "user name and points should not show in citation preview"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-244",
+    "summary": "verify whether only the employees who are all eligible to receive the recognition from the user for the selected program showing in the emp list",
+    "description": "verify whether only the employees who are all eligible to receive the recognition from the user for the selected program showing in the emp list",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Navigate to vibe\n3. click on Recognise Tab \n4. select the required program\n5.Ensure that screen navigated to Recognition page post selection of program \n6. Ensure that selected program name is showing\n7. Enter \"@\" and check the employees in the list",
+        "data": null,
+        "expectedResult": "When user enters \"@\" in the elastic search should show all the employees list"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-231",
+    "summary": "verify whether Share with field is freezed with All employees when user selects a program to recognise",
+    "description": "verify whether Share with field is freezed with All employees when user selects a program to recognise",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Navigate to vibe\n3. click on Recognize Tab \n4. select the required program\n5.Ensure that selected program name is showing\n6. Check share with field",
+        "data": null,
+        "expectedResult": "Share with field should be freez with All employees when user selects a program to recognise"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-230",
+    "summary": "verify whether selected program name is showing in Recognize modal ",
+    "description": "verify whether selected program name is showing in Recognize modal ",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Navigate to vibe\n3. click on Recognize Tab \n4. select the required program\n5.check the selected program name",
+        "data": null,
+        "expectedResult": "Selected program name should show in Recognize modal"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-222",
+    "summary": "Verify whether admin can able to uncheck Allow Recognition To Be Given From Vibe check box for continuous program ",
+    "description": "Verify whether admin can able to uncheck Allow Recognition To Be Given From Vibe check box for continuous program ",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. Login as Admin\n2. Navigate to settings-> recognition-> programs->create new program/edit program\n4.check the check box",
+        "data": null,
+        "expectedResult": "admin should able to uncheck Allow Recognition To Be Given From Vibe check box for continuous program"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-216",
+    "summary": "Verify whether Allow Recognition To Be Given From Vibe check box added in continuous program settings (create new program)",
+    "description": "Verify whether Allow Recognition To Be Given From Vibe check box added in continuous program settings (create new program)",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. Login as Admin\n2. Navigate to settings-> recognition-> programs->create new program\n3.Select continuous program configuration\n4.Check the field",
+        "data": null,
+        "expectedResult": "Allow Recognition To Be Given From Vibe check box should add in continuous program settings (create new program)"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-187",
+    "summary": "verify when only worflow is tagged in custom flow \n",
+    "description": "verify when only worflow is tagged in custom flow \n",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. Login as Admin / Emp\n2. navigate to dashboard\n3. click on pulse question\n4. select lowest rating on pulse",
+        "data": null,
+        "expectedResult": "only workflow will trigger to the employee"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-122",
+    "summary": "verify whether indicator display for unseen posts in Group",
+    "description": null,
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as Admin\n2. navigate to dashboard\n3. verify indicator on vibe icon",
+        "data": null,
+        "expectedResult": "should display"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-173",
+    "summary": "verify the post with Disable Hide creator name from post",
+    "description": "verify the post with Disable Hide creator name from post",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. Login as Admin\n2. navigate to Vibe\n3. click on create post\n4. create",
+        "data": null,
+        "expectedResult": "should display creator name for post"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-184",
+    "summary": "verify whether Admin can tag Approval flow in custom flow\n",
+    "description": "verify whether Admin can tag Approval flow in custom flow\n",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as Admin\n2. navigate to settings\n3. click in custom workflow settings\n4. click on create custom flow\n5. tag Approval flow\n6. save",
+        "data": null,
+        "expectedResult": "should able to tag Approval flow in custom flow"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-245",
+    "summary": "verify whether the user can able to select ineligible employee to give recognition",
+    "description": "verify whether the user can able to select ineligible employee to give recognition",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Navigate to vibe\n3. click on Recognise Tab \n4. select the required program\n5.Ensure that screen navigated to Recognition page post selection of program \n6. Ensure that selected program name is showing\n7. Enter \"@\" and check the employees in the list\n8. Select the ineligible employee to recognise",
+        "data": null,
+        "expectedResult": "user can able to select ineligible employee to give recognition but should throw error message as not a valid program for receiver"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-188",
+    "summary": "verify when both Approval flow & workflow is tagged in custom flow \n",
+    "description": "verify when both Approval flow & workflow is tagged in custom flow \n",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. Login as Admin / Emp\n2. navigate to dashboard\n3. click on pulse question\n4. select lowest rating on pulse",
+        "data": null,
+        "expectedResult": "first approval flow will trigger and after completion of approval flow, workflow will start"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-237",
+    "summary": "verify whether use + to give them points  subtext is showing for no reward based program",
+    "description": "verify whether use + to give them points  subtext is showing for no reward based program",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Navigate to vibe\n3. click on Recognise Tab \n4. select no reward based program\n5.Ensure that selected program name is showing\n6. Check the subtext",
+        "data": null,
+        "expectedResult": "use + to give them points  subtext should not show for no reward based program"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-191",
+    "summary": "verify whether Approval flow emails trigger to the employee\n",
+    "description": "verify whether Approval flow emails trigger to the employee\n",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. Login as Admin / Emp\n2. navigate to dashboard\n3. click on pulse question\n4. select lowest rating on pulse",
+        "data": null,
+        "expectedResult": "email will trigger to the user based on Approvalflow settings"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-185",
+    "summary": "verify whether Admin can select Lowest Rating on Pulse\n",
+    "description": "verify whether Admin can select Lowest Rating on Pulse\n",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. Login as Admin / Emp\n2. navigate to dashboard\n3. click on pulse question\n4. select lowest rating on pulse",
+        "data": null,
+        "expectedResult": "should able to select"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-263",
+    "summary": "verify whether the attachments added in vibe recognition are showing in recogniser/receiver history",
+    "description": "verify whether the attachments added in vibe recognition are showing in recogniser/receiver history",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Recognise from vibe by adding attachments\n3. check the attachments in recogniser/receiver history",
+        "data": null,
+        "expectedResult": "Attachments attached for vibe recognition should not show in recogniser/receiver history"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-242",
+    "summary": "verify whether user can able to text while giving recognition from vibe",
+    "description": "verify whether user can able to text while giving recognition from vibe",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Navigate to vibe\n3. click on Recognise Tab \n4. select the required program\n5.Ensure that screen navigated to Recognition page post selection of program \n6. Ensure that selected program name is showing\n7. Try to text in specified area",
+        "data": null,
+        "expectedResult": "User should able to text while giving recognition from vibe"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-192",
+    "summary": "verify whether admin can see pending with status in reports\n",
+    "description": "verify whether admin can see pending with status in reports\n",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. Login as Admin\n2. navigate to reports\n3. click on employee roster\n4. select Pending approval flows\n5. generate",
+        "data": null,
+        "expectedResult": "should display status of approval flow accordingly"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-170",
+    "summary": "verify the edit post with Enable Hide creator name from POLL",
+    "description": "verify the edit post with Enable Hide creator name from POLL",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. Login as Admin\n2. navigate to Vibe\n3. click on edit POLL\n4. edit > update",
+        "data": null,
+        "expectedResult": "should not display creator name for edited POLL"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-251",
+    "summary": "verify whether error is throwing user provides more than max points for variable point based program",
+    "description": "verify whether error is throwing user provides more than max points for variable point based program",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. login as any user\n2. Navigate to vibe\n3. click on Recognise Tab \n4. select  variable program\n5.Ensure that screen navigated to Recognition page post selection of program \n6. Ensure that selected program name is showing\n7. check the avaialble points\n8.Provide more than max points and check",
+        "data": null,
+        "expectedResult": "Error should throw"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-172",
+    "summary": "verify the edit post with Enable Hide creator name from EVENT",
+    "description": "verify the edit post with Enable Hide creator name from EVENT",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. Login as Admin\n2. navigate to Vibe\n3. click on edit EVENT\n4. edit > update",
+        "data": null,
+        "expectedResult": "should not display creator name for edited EVENT"
+      }
+    ]
+  },
+  {
+    "testKey": "VIBE-189",
+    "summary": "verify when only Approval flow is tagged in custom flow \n",
+    "description": "verify when only Approval flow is tagged in custom flow \n",
+    "status": "To Do",
+    "type": "Manual",
+    "preconditions": [],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "action": "1. Login as Admin / Emp\n2. navigate to dashboard\n3. click on pulse question\n4. select lowest rating on pulse",
+        "data": null,
+        "expectedResult": "approval flow will trigger accordingly"
+      }
+    ]
+  }
+]

@@ -1,0 +1,523 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - dialog [ref=e4]
+  - generic [ref=e15]:
+    - dialog [ref=e17]:
+      - generic [ref=e19]:
+        - img [ref=e24] [cursor=pointer]
+        - generic [ref=e29]:
+          - link "Dashboard" [ref=e31] [cursor=pointer]:
+            - /url: /ms/db/home
+            - img [ref=e36]
+            - generic [ref=e43]: Dashboard
+          - generic [ref=e44]:
+            - link "Profile" [ref=e45] [cursor=pointer]:
+              - /url: /ms/db/profile/view/21303
+              - img [ref=e48]
+              - generic [ref=e51]:
+                - generic [ref=e55]: Profile
+                - img [ref=e57]
+            - generic:
+              - link "Overview" [ref=e59] [cursor=pointer]:
+                - /url: /ms/db/profile/view/21303
+                - generic [ref=e63]: Overview
+              - link "Profile History" [ref=e64] [cursor=pointer]:
+                - /url: /employeeprofile/profileHistory/id/21303
+                - generic [ref=e68]: Profile History
+              - link "Assignment Details" [ref=e69] [cursor=pointer]:
+                - /url: /employeeprofile/assignmentdetails/id/21303
+                - generic [ref=e73]: Assignment Details
+              - link "Documents" [ref=e74] [cursor=pointer]:
+                - /url: /hrfiles/hrfiles/getDocuments/id/21303
+                - generic [ref=e78]: Documents
+          - link "Employees" [ref=e80] [cursor=pointer]:
+            - /url: /employee/list/is/1
+            - img [ref=e85]
+            - generic [ref=e97]: Employees
+          - link "Policies HR" [ref=e99] [cursor=pointer]:
+            - /url: /hrfiles/hrpolicy/employeepolicy
+            - img [ref=e104]
+            - generic [ref=e112]: Policies HR
+          - generic [ref=e113]:
+            - link "Flows" [ref=e114] [cursor=pointer]:
+              - /url: /confirmation/index/id/21303
+              - img [ref=e117]
+              - generic [ref=e124]:
+                - generic [ref=e128]: Flows
+                - img [ref=e130]
+            - generic:
+              - link "Flow Requests alias" [ref=e132] [cursor=pointer]:
+                - /url: /ms/flows/21303/flow-requests
+                - generic [ref=e136]: Flow Requests alias
+              - link "Onboarding" [ref=e137] [cursor=pointer]:
+                - /url: /onboarding/onboard/userdetailsonboard/id/21303
+                - generic [ref=e141]: Onboarding
+              - link "Confirmation" [ref=e142] [cursor=pointer]:
+                - /url: /confirmation/index/id/21303
+                - generic [ref=e146]: Confirmation
+              - link "Contract alias" [ref=e147] [cursor=pointer]:
+                - /url: /contract/index/id/21303
+                - generic [ref=e151]: Contract alias
+              - link "Separation" [ref=e152] [cursor=pointer]:
+                - /url: /separation/index/id/21303
+                - generic [ref=e156]: Separation
+              - link "Offer Letter" [ref=e157] [cursor=pointer]:
+                - /url: /recruitment/offerLetter/details/id/a69931f408504c
+                - generic [ref=e161]: Offer Letter
+          - link "Compensation" [ref=e163] [cursor=pointer]:
+            - /url: /payroll/employees/view/id/21303
+            - img [ref=e168]
+            - generic [ref=e177]: Compensation
+          - link "Employee Engagement" [ref=e179] [cursor=pointer]:
+            - /url: /ms/formbuilder/survey-manager/dashboard
+            - img [ref=e184]
+            - generic [ref=e197]: Employee Engagement
+          - link "Org View" [ref=e199] [cursor=pointer]:
+            - /url: /ms/db/home/orgdashboard
+            - img [ref=e204]
+            - generic [ref=e214]: Org View
+          - generic [ref=e215]:
+            - link "Helpdesk" [ref=e216] [cursor=pointer]:
+              - /url: /ms/helpdesk
+              - img [ref=e219]
+              - generic [ref=e225]:
+                - generic [ref=e229]: Helpdesk
+                - img [ref=e231]
+            - generic:
+              - link "Overview" [ref=e233] [cursor=pointer]:
+                - /url: /ms/helpdesk/helpdesk/issues/overview
+                - generic [ref=e237]: Overview
+              - link "All Issues" [ref=e238] [cursor=pointer]:
+                - /url: /ms/helpdesk/helpdesk/issues/all
+                - generic [ref=e242]: All Issues
+              - link "Issues raised by me" [ref=e243] [cursor=pointer]:
+                - /url: /ms/helpdesk/helpdesk/issues/my-raised-issues
+                - generic [ref=e247]: Issues raised by me
+              - link "Other Issues" [ref=e248] [cursor=pointer]:
+                - /url: /ms/helpdesk/helpdesk/issues/other-issues
+                - generic [ref=e252]: Other Issues
+              - link "Activity Log" [ref=e253] [cursor=pointer]:
+                - /url: /ms/helpdesk/helpdesk/issues/activity-log
+                - generic [ref=e257]: Activity Log
+              - link "Requested FAQs" [ref=e258] [cursor=pointer]:
+                - /url: /ms/helpdesk/helpdesk/requestedFAQs
+                - generic [ref=e262]: Requested FAQs
+              - link "FAQ's" [ref=e263] [cursor=pointer]:
+                - /url: /ms/helpdesk/helpdesk/faq
+                - generic [ref=e267]: FAQ's
+          - generic [ref=e268]:
+            - link "Performance" [ref=e269] [cursor=pointer]:
+              - /url: /pms/pms/talentprofilemsf/id/21303
+              - img [ref=e272]
+              - generic [ref=e281]:
+                - generic [ref=e285]: Performance
+                - img [ref=e287]
+            - generic:
+              - link "Overview" [ref=e289] [cursor=pointer]:
+                - /url: /ms/pms/dashboard/overview
+                - generic [ref=e293]: Overview
+              - link "Goal Plan" [ref=e294] [cursor=pointer]:
+                - /url: /ms/pms/goals/list/21303
+                - generic [ref=e298]: Goal Plan
+              - link "Goal Explorer" [ref=e299] [cursor=pointer]:
+                - /url: /ms/pms/goal-explore
+                - generic [ref=e303]: Goal Explorer
+              - link "Review" [ref=e304] [cursor=pointer]:
+                - /url: /ms/pms/appraisal/review/details/21303?landingPage=true
+                - generic [ref=e308]: Review
+              - link "MSF" [ref=e309] [cursor=pointer]:
+                - /url: /ms/pms/msf/msf-view/details/21303
+                - generic [ref=e313]: MSF
+              - link "Feedback" [ref=e314] [cursor=pointer]:
+                - /url: /ms/feedback/21303/summary
+                - generic [ref=e318]: Feedback
+              - link "Talent Review" [ref=e319] [cursor=pointer]:
+                - /url: /ms/pms/talent-review/list/21303
+                - generic [ref=e323]: Talent Review
+              - link "Assessment History" [ref=e324] [cursor=pointer]:
+                - /url: /ms/pms/talent/assessment/details/21303
+                - generic [ref=e328]: Assessment History
+              - link "MSF History" [ref=e329] [cursor=pointer]:
+                - /url: /pms/pms/talentprofilemsf/id/21303
+                - generic [ref=e333]: MSF History
+          - generic [ref=e334]:
+            - link "Travel and Expense" [ref=e335] [cursor=pointer]:
+              - /url: /ms/travelexpense/travel-expenses/summary
+              - img [ref=e338]
+              - generic [ref=e346]:
+                - generic [ref=e350]: Travel and Expense
+                - img [ref=e352]
+            - generic:
+              - link "Travel" [ref=e354] [cursor=pointer]:
+                - /url: /ms/travelexpense/v2/21303/overview
+                - generic [ref=e358]: Travel
+              - link "Preferences" [ref=e359] [cursor=pointer]:
+                - /url: /ms/travelexpense/v2/21303/preferences
+                - generic [ref=e363]: Preferences
+              - link "Overview" [ref=e364] [cursor=pointer]:
+                - /url: /ms/travelexpense/travel-expenses/summary
+                - generic [ref=e368]: Overview
+              - link "Reimbursements" [ref=e369] [cursor=pointer]:
+                - /url: /expenses/expenses/expensewallet/id/21303
+                - generic [ref=e373]: Reimbursements
+              - link "Advances" [ref=e374] [cursor=pointer]:
+                - /url: /expenses/expenses/advances/id/21303
+                - generic [ref=e378]: Advances
+          - generic [ref=e379]:
+            - link "VIBE" [ref=e380] [cursor=pointer]:
+              - /url: /ms/vibe
+              - img [ref=e383]
+              - generic [ref=e387]:
+                - generic [ref=e391]: VIBE
+                - img [ref=e393]
+            - generic:
+              - link "Feed" [ref=e395] [cursor=pointer]:
+                - /url: /ms/vibe
+                - generic [ref=e399]: Feed
+              - link "Appreciations-History" [ref=e400] [cursor=pointer]:
+                - /url: /ms/vibe/home/history/appreciation/21303
+                - generic [ref=e404]: Appreciations-History
+              - link "Appreciations-Leaderboard" [ref=e405] [cursor=pointer]:
+                - /url: /ms/vibe/recognition/leaderboard/21303
+                - generic [ref=e409]: Appreciations-Leaderboard
+              - link "Awards-Live Programs & Winners" [ref=e410] [cursor=pointer]:
+                - /url: /ms/vibe/home/awards/awards-landing/21303
+                - generic [ref=e414]: Awards-Live Programs & Winners
+              - link "Awards-History" [ref=e415] [cursor=pointer]:
+                - /url: /ms/vibe/home/history/awards/21303
+                - generic [ref=e419]: Awards-History
+              - link "Awards-Nomination Workflows" [ref=e420] [cursor=pointer]:
+                - /url: /rewards/rewards/nominationworkflow/id/21303
+                - generic [ref=e424]: Awards-Nomination Workflows
+              - link "Earned Points Summary" [ref=e425] [cursor=pointer]:
+                - /url: /rewards/rewards/redemptionstatement/id/21303
+                - generic [ref=e429]: Earned Points Summary
+        - generic [ref=e430]:
+          - generic [ref=e434] [cursor=pointer]:
+            - img [ref=e437]
+            - generic [ref=e440]:
+              - link "Privacy Policy" [ref=e442]:
+                - /url: https://darwinbox.com/privacy-policy
+              - generic [ref=e443]: "|"
+              - link "Terms of Use" [ref=e445]:
+                - /url: https://darwinbox.com/terms-of-use
+          - text: ;
+        - generic:
+          - img
+    - generic [ref=e448]:
+      - link [ref=e452] [cursor=pointer]:
+        - /url: /
+        - img [ref=e453]
+      - generic [ref=e457]:
+        - textbox "Search for people and settings" [ref=e458]
+        - img [ref=e460]
+      - generic [ref=e463]:
+        - generic [ref=e469] [cursor=pointer]:
+          - img [ref=e471]
+          - generic [ref=e479]: 99+
+        - img [ref=e483] [cursor=pointer]
+        - img [ref=e495] [cursor=pointer]
+    - iframe [ref=e497]:
+      
+    - generic [ref=e503]:
+      - generic [ref=e504]:
+        - generic [ref=e511]: VIBE
+        - generic [ref=e515]:
+          - generic [ref=e517]:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: Admin
+          - generic [ref=e519]:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: Self
+      - generic [ref=e522]:
+        - generic [ref=e524]:
+          - generic [ref=e525]:
+            - generic [ref=e534]:
+              - img [ref=e540] [cursor=pointer]
+              - generic [ref=e541]: DarwinBox SuperAdmin Mr.
+            - generic [ref=e543]:
+              - button "4" [ref=e546] [cursor=pointer]:
+                - generic [ref=e549]: "4"
+              - button "0" [ref=e553] [cursor=pointer]:
+                - generic [ref=e556]: "0"
+            - button "Redeem Points" [ref=e559] [cursor=pointer]:
+              - generic [ref=e562]: Redeem Points
+            - generic [ref=e566]:
+              - generic [ref=e570] [cursor=pointer]:
+                - img [ref=e572]
+                - generic [ref=e576]: All Posts
+              - generic [ref=e580] [cursor=pointer]:
+                - img [ref=e582]
+                - generic [ref=e588]: My Activity
+              - generic [ref=e592] [cursor=pointer]:
+                - img [ref=e594]
+                - generic [ref=e598]: Saved Posts
+                - generic [ref=e605]: "0"
+              - generic [ref=e609] [cursor=pointer]:
+                - img [ref=e611]
+                - generic [ref=e618]: Following
+                - generic [ref=e625]: "0"
+              - generic [ref=e629] [cursor=pointer]:
+                - img [ref=e631]
+                - generic [ref=e638]: Followers
+                - generic [ref=e645]: "0"
+          - progressbar [ref=e651]
+        - generic [ref=e654]:
+          - generic [ref=e657]:
+            - generic [ref=e675]:
+              - generic [ref=e676] [cursor=pointer]: Create a Post!
+              - generic [ref=e678]:
+                - generic [ref=e679] [cursor=pointer]:
+                  - img [ref=e681]
+                  - generic [ref=e682]: Express in pictures
+                - generic [ref=e683] [cursor=pointer]:
+                  - img [ref=e685]
+                  - generic [ref=e686]: Share Epic Reads
+                - generic [ref=e687] [cursor=pointer]:
+                  - img [ref=e689]
+                  - generic [ref=e690]: Ask the Forum
+            - dialog [ref=e691]:
+              - generic [ref=e693]:
+                - generic [ref=e695]:
+                  - generic [ref=e697]: Create Post
+                  - button [ref=e700] [cursor=pointer]:
+                    - img [ref=e702]
+                - generic [ref=e708]:
+                  - generic [ref=e709]: Explore Creation Templates
+                  - generic [ref=e710]:
+                    - generic [ref=e712] [cursor=pointer]:
+                      - generic [ref=e714]:
+                        - generic: New Post
+                      - generic [ref=e715]:
+                        - generic: Connect, share and bond through insightful articles, engaging videos, and unique expressions.
+                    - generic [ref=e717] [cursor=pointer]:
+                      - generic [ref=e719]:
+                        - generic: Poll
+                      - generic [ref=e720]:
+                        - generic: Capture perspectives, fuel conversations, and drive engagement with interactive polls.
+                    - generic [ref=e722] [cursor=pointer]:
+                      - generic [ref=e724]:
+                        - generic: Event
+                      - generic [ref=e725]:
+                        - generic: Organize a workplace event and rally your colleagues for team bonding.
+                    - generic [ref=e727] [cursor=pointer]:
+                      - generic [ref=e729]:
+                        - generic: Org Insights
+                      - generic [ref=e730]:
+                        - generic: Connect the dots! Share team and company updates to keep everyone in the loop.
+                    - generic [ref=e732] [cursor=pointer]:
+                      - generic [ref=e734]:
+                        - generic: Ask the Forum
+                      - generic [ref=e735]:
+                        - generic: Post thought-provoking questions or propose solutions to foster collaboration.
+                    - generic [ref=e737] [cursor=pointer]:
+                      - generic [ref=e739]:
+                        - generic: Idea Forge
+                      - generic [ref=e740]:
+                        - generic: Got an idea for events, workplace or product improvements? Share your creative thoughts.
+                    - generic [ref=e742] [cursor=pointer]:
+                      - generic [ref=e744]:
+                        - generic: Express in pictures
+                      - generic [ref=e745]:
+                        - generic: A quick and easy way to share anything with pictures.
+                    - generic [ref=e747] [cursor=pointer]:
+                      - generic [ref=e749]:
+                        - generic: Share Epic Reads
+                      - generic [ref=e750]:
+                        - generic: Add links for insightful articles or blogs to spark conversations.
+                    - generic [ref=e752] [cursor=pointer]:
+                      - generic [ref=e754]:
+                        - generic: Mentor Matchup
+                      - generic [ref=e755]:
+                        - generic: Ready to grow? Find guidance, and unlock new possibilities with a mentor by your side.
+                    - generic [ref=e757] [cursor=pointer]:
+                      - generic [ref=e759]:
+                        - generic: Ice Breaker
+                      - generic [ref=e760]:
+                        - generic: Dive in! Share your first post or introduce yourself to kick start your onboarding journey.
+                    - generic [ref=e762] [cursor=pointer]:
+                      - generic [ref=e764]:
+                        - generic: New Finds
+                      - generic [ref=e765]:
+                        - generic: Post interesting articles and share knowledge with a wide audience!
+                    - generic [ref=e767] [cursor=pointer]:
+                      - generic [ref=e769]:
+                        - generic: Sports Buzz
+                      - generic [ref=e770]:
+                        - generic: Be a game changer! Share your stories to spark conversations about sports events.
+          - generic [ref=e772]:
+            - generic [ref=e775]:
+              - generic [ref=e776]:
+                - generic [ref=e783] [cursor=pointer]:
+                  - generic [ref=e786]: All Posts
+                  - img [ref=e790]
+                - generic [ref=e792]:
+                  - img [ref=e796] [cursor=pointer]
+                  - img [ref=e800] [cursor=pointer]
+                  - img [ref=e804] [cursor=pointer]
+                  - img [ref=e808] [cursor=pointer]
+                  - img [ref=e812] [cursor=pointer]
+              - generic [ref=e813]:
+                - generic [ref=e814] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic [ref=e815]: Search
+                          - combobox [ref=e816]:
+                            - textbox
+                - img [ref=e819] [cursor=pointer]
+            - generic [ref=e821]:
+              - progressbar [ref=e822]
+              - progressbar [ref=e823]
+              - progressbar [ref=e824]
+        - generic [ref=e826]:
+          - generic [ref=e829]:
+            - generic [ref=e831]:
+              - generic [ref=e832]: Appreciate your colleagues!
+              - generic [ref=e833]:
+                - img [ref=e834]
+                - generic [ref=e835]:
+                  - generic [ref=e836]: Express gratitude and acknowledgment to your colleagues. ✨
+                  - button "Appreciate Now" [ref=e839] [cursor=pointer]:
+                    - generic [ref=e842]: Appreciate Now
+            - generic [ref=e843]:
+              - generic [ref=e844]: Leaderboard
+              - generic [ref=e846]:
+                - generic [ref=e847] [cursor=pointer]: Last 30 Days
+                - img "time_filter_icon" [ref=e848] [cursor=pointer]
+            - generic [ref=e849]:
+              - generic [ref=e850]:
+                - generic [ref=e851]:
+                  - generic [ref=e856] [cursor=pointer]: SO
+                  - generic [ref=e857]:
+                    - img "rank_star" [ref=e858]
+                    - generic [ref=e859]: "1"
+                  - generic [ref=e860]:
+                    - link "Saitama_15 OPM" [ref=e869] [cursor=pointer]:
+                      - /url: /employeeprofile/view/id/410452
+                    - generic [ref=e870]:
+                      - img "score_icon" [ref=e871]
+                      - generic [ref=e873]:
+                        - generic: "91"
+                - generic [ref=e874]:
+                  - generic [ref=e879] [cursor=pointer]: GP
+                  - generic [ref=e880]:
+                    - img "rank_star" [ref=e881]
+                    - generic [ref=e882]: "2"
+                  - generic [ref=e883]:
+                    - link "Gautam p" [ref=e892] [cursor=pointer]:
+                      - /url: /employeeprofile/view/id/519071
+                    - generic [ref=e893]:
+                      - img "score_icon" [ref=e894]
+                      - generic [ref=e896]:
+                        - generic: "25"
+                - generic [ref=e897]:
+                  - generic [ref=e902] [cursor=pointer]: GH
+                  - generic [ref=e903]:
+                    - img "rank_star" [ref=e904]
+                    - generic [ref=e905]: "3"
+                  - generic [ref=e906]:
+                    - link "GoalPlan03 HappyFlowTesting03" [ref=e915] [cursor=pointer]:
+                      - /url: /employeeprofile/view/id/372303
+                    - generic [ref=e916]:
+                      - img "score_icon" [ref=e917]
+                      - generic [ref=e919]:
+                        - generic: "25"
+              - generic [ref=e920]:
+                - generic [ref=e921]:
+                  - generic [ref=e923]: "4"
+                  - generic [ref=e924]:
+                    - img [ref=e929] [cursor=pointer]
+                    - link "Priyal dbox Test check ah" [ref=e939] [cursor=pointer]:
+                      - /url: /employeeprofile/view/id/312426
+                  - generic [ref=e940]:
+                    - img "score_icon" [ref=e941]
+                    - generic [ref=e943]:
+                      - generic: "25"
+                - generic [ref=e944]:
+                  - generic [ref=e946]: "5"
+                  - generic [ref=e947]:
+                    - generic [ref=e952] [cursor=pointer]: RP
+                    - link "Rohit Kumar Paul" [ref=e962] [cursor=pointer]:
+                      - /url: /employeeprofile/view/id/37489
+                  - generic [ref=e963]:
+                    - img "score_icon" [ref=e964]
+                    - generic [ref=e966]:
+                      - generic: "25"
+            - button "View All" [ref=e970] [cursor=pointer]:
+              - generic [ref=e973]: View All
+          - generic [ref=e976]:
+            - generic [ref=e977]:
+              - generic [ref=e978]: Awards
+              - button "View All" [ref=e980] [cursor=pointer]:
+                - generic [ref=e983]: View All
+            - generic [ref=e985]:
+              - generic [ref=e996]:
+                - generic [ref=e1002]:
+                  - generic [ref=e1006]: Convocation 2025
+                  - generic [ref=e1013]: Open till 2026-03-31
+                  - button "Nominate Individual" [ref=e1016] [cursor=pointer]:
+                    - generic [ref=e1019]: Nominate Individual
+                - generic [ref=e1025]:
+                  - generic [ref=e1029]: Award Test BB
+                  - generic [ref=e1036]: Open till 2026-03-31
+                  - button "Nominate Team" [ref=e1039] [cursor=pointer]:
+                    - generic [ref=e1042]: Nominate Team
+                - generic [ref=e1048]:
+                  - generic [ref=e1052]: Employee of the Month
+                  - generic [ref=e1059]: Open till 2026-09-10
+                  - button "Nominate Individual" [ref=e1062] [cursor=pointer]:
+                    - generic [ref=e1065]: Nominate Individual
+                - generic [ref=e1071]:
+                  - generic [ref=e1075]: Team nomiation program instant
+                  - generic [ref=e1082]: Open till 2026-10-31
+                  - button "Nominate Team" [ref=e1085] [cursor=pointer]:
+                    - generic [ref=e1088]: Nominate Team
+                - generic [ref=e1091]:
+                  - generic [ref=e1095]:
+                    - img [ref=e1097]
+                    - generic [ref=e1103]: Winners
+                    - img [ref=e1105]
+                  - generic [ref=e1107]:
+                    - img [ref=e1115]
+                    - paragraph [ref=e1119]: Priyal dbox Test check ah has won
+                  - generic [ref=e1122]:
+                    - generic [ref=e1126]: Convocation 2025
+                    - generic [ref=e1127]: "Duration: 2026-02-01 to 2026-03-31"
+                - generic [ref=e1130]:
+                  - generic [ref=e1134]:
+                    - img [ref=e1136]
+                    - generic [ref=e1142]: Winners
+                    - img [ref=e1144]
+                  - generic [ref=e1146]:
+                    - generic [ref=e1151]:
+                      - img [ref=e1155]
+                      - generic [ref=e1159]: SK
+                    - paragraph [ref=e1163]: Virat Kohli and Shivaa Kumarr have won
+                  - generic [ref=e1166]:
+                    - generic [ref=e1170]: Program01
+                    - generic [ref=e1171]: "Duration: 2025-10-01 to 2025-10-29"
+              - img [ref=e1174] [cursor=pointer]
+          - generic [ref=e1178]:
+            - generic [ref=e1180]: Notice Board
+            - progressbar [ref=e1183]
+          - generic [ref=e1186]:
+            - generic [ref=e1188]: Milestones and Events
+            - generic [ref=e1189]:
+              - generic [ref=e1193]:
+                - generic [ref=e1200] [cursor=pointer]: Milestones
+                - generic [ref=e1207] [cursor=pointer]: Org Events
+              - generic [ref=e1210]:
+                - progressbar [ref=e1211]
+                - progressbar [ref=e1212]
+                - progressbar [ref=e1213]
+```

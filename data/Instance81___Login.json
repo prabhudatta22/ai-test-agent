@@ -1,0 +1,2594 @@
+{
+  "Instance81 : Login": {
+    "url": "https://instance8.darwinbox.in/user/login",
+    "depth": 0,
+    "elements": [
+      {
+        "tag": "html",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "Dashboard\nRemember me\nDefault\nForgot Password\nSIGN IN\nPowered By\n© 2026 Darwinbox Digital Solutions Pvt Ltd.\nCookie Policy Terms Of Use Privacy Policy",
+        "attributes": {
+          "style": "--primary-color: #4c4b5d; --primary-gradient: linear-gradient( #1676e2); --primary-color-lighter: #5b5a6f; --primary-color-light: #535266; --primary-color-dark: #444353; --primary-color-darker: #3c3c4a;"
+        },
+        "xpath": "/html[1]",
+        "css": "html"
+      },
+      {
+        "tag": "head",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "(window.NREUM||(NREUM={})).init={privacy:{cookies_enabled:true},ajax:{deny_list:[\"bam.nr-data.net\"]},feature_flags:[\"soft_nav\"],distributed_tracing:{enabled:true}};(window.NREUM||(NREUM={})).loader_co",
+        "attributes": {},
+        "xpath": "/html[1]/head[1]",
+        "css": "head"
+      },
+      {
+        "tag": "meta",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "",
+        "attributes": {
+          "charset": "utf-8"
+        },
+        "xpath": "/html[1]/head[1]/meta[1]",
+        "css": "meta"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "",
+        "attributes": {
+          "async": "",
+          "src": "https://cdn.pendo.io/agent/static/ef82c8d3-52b7-41b9-4f25-b592098285e7/pendo-staging.js"
+        },
+        "xpath": "/html[1]/head[1]/script[1]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "",
+        "attributes": {
+          "async": "",
+          "src": "https://cdn.pendo.io/agent/static/ef82c8d3-52b7-41b9-4f25-b592098285e7/pendo.js"
+        },
+        "xpath": "/html[1]/head[1]/script[2]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/javascript",
+        "text": "(window.NREUM||(NREUM={})).init={privacy:{cookies_enabled:true},ajax:{deny_list:[\"bam.nr-data.net\"]},feature_flags:[\"soft_nav\"],distributed_tracing:{enabled:true}};(window.NREUM||(NREUM={})).loader_co",
+        "attributes": {
+          "type": "text/javascript"
+        },
+        "xpath": "/html[1]/head[1]/script[3]",
+        "css": "script"
+      },
+      {
+        "tag": "link",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/css",
+        "text": "",
+        "attributes": {
+          "rel": "stylesheet",
+          "type": "text/css",
+          "href": "/assets/3ea737fb/css/bootstrap.min.css"
+        },
+        "xpath": "/html[1]/head[1]/link[1]",
+        "css": "link"
+      },
+      {
+        "tag": "link",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/css",
+        "text": "",
+        "attributes": {
+          "rel": "stylesheet",
+          "type": "text/css",
+          "href": "/assets/3ea737fb/db-icon-font/fonts-darwinbox.css"
+        },
+        "xpath": "/html[1]/head[1]/link[2]",
+        "css": "link"
+      },
+      {
+        "tag": "link",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/css",
+        "text": "",
+        "attributes": {
+          "rel": "stylesheet",
+          "type": "text/css",
+          "href": "/assets/3ea737fb/editor-font/editor-fonts-darwinbox.css"
+        },
+        "xpath": "/html[1]/head[1]/link[3]",
+        "css": "link"
+      },
+      {
+        "tag": "link",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/css",
+        "text": "",
+        "attributes": {
+          "rel": "stylesheet",
+          "type": "text/css",
+          "href": "/assets/3ea737fb/css/bootstrap-wizard.css"
+        },
+        "xpath": "/html[1]/head[1]/link[4]",
+        "css": "link"
+      },
+      {
+        "tag": "link",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/css",
+        "text": "",
+        "attributes": {
+          "rel": "stylesheet",
+          "type": "text/css",
+          "href": "/assets/3ea737fb/css/jquery-ui.custom.css"
+        },
+        "xpath": "/html[1]/head[1]/link[5]",
+        "css": "link"
+      },
+      {
+        "tag": "link",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/css",
+        "text": "",
+        "attributes": {
+          "rel": "stylesheet",
+          "type": "text/css",
+          "href": "/assets/3ea737fb/css/tokenfield.css"
+        },
+        "xpath": "/html[1]/head[1]/link[6]",
+        "css": "link"
+      },
+      {
+        "tag": "link",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/css",
+        "text": "",
+        "attributes": {
+          "rel": "stylesheet",
+          "type": "text/css",
+          "href": "/assets/3ea737fb/css/bootstrap-multiselect.css"
+        },
+        "xpath": "/html[1]/head[1]/link[7]",
+        "css": "link"
+      },
+      {
+        "tag": "link",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/css",
+        "text": "",
+        "attributes": {
+          "rel": "stylesheet",
+          "type": "text/css",
+          "href": "/assets/3ea737fb/css/bootstrap-responsive.css"
+        },
+        "xpath": "/html[1]/head[1]/link[8]",
+        "css": "link"
+      },
+      {
+        "tag": "link",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/css",
+        "text": "",
+        "attributes": {
+          "rel": "stylesheet",
+          "type": "text/css",
+          "href": "/assets/3ea737fb/fonts/css/font-awesome.min.css"
+        },
+        "xpath": "/html[1]/head[1]/link[9]",
+        "css": "link"
+      },
+      {
+        "tag": "link",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/css",
+        "text": "",
+        "attributes": {
+          "rel": "stylesheet",
+          "type": "text/css",
+          "href": "/assets/3ea737fb/css/style.css"
+        },
+        "xpath": "/html[1]/head[1]/link[10]",
+        "css": "link"
+      },
+      {
+        "tag": "link",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/css",
+        "text": "",
+        "attributes": {
+          "rel": "stylesheet",
+          "type": "text/css",
+          "href": "/assets/3ea737fb/css/style1.css"
+        },
+        "xpath": "/html[1]/head[1]/link[11]",
+        "css": "link"
+      },
+      {
+        "tag": "link",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/css",
+        "text": "",
+        "attributes": {
+          "rel": "stylesheet",
+          "type": "text/css",
+          "href": "/assets/3ea737fb/css/rating.css"
+        },
+        "xpath": "/html[1]/head[1]/link[12]",
+        "css": "link"
+      },
+      {
+        "tag": "link",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/css",
+        "text": "",
+        "attributes": {
+          "rel": "stylesheet",
+          "type": "text/css",
+          "href": "/assets/3ea737fb/css/circle.css"
+        },
+        "xpath": "/html[1]/head[1]/link[13]",
+        "css": "link"
+      },
+      {
+        "tag": "link",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/css",
+        "text": "",
+        "attributes": {
+          "rel": "stylesheet",
+          "type": "text/css",
+          "href": "/assets/3ea737fb/css/build.css"
+        },
+        "xpath": "/html[1]/head[1]/link[14]",
+        "css": "link"
+      },
+      {
+        "tag": "link",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/css",
+        "text": "",
+        "attributes": {
+          "rel": "stylesheet",
+          "type": "text/css",
+          "href": "/assets/3ea737fb/css/star-rating.css"
+        },
+        "xpath": "/html[1]/head[1]/link[15]",
+        "css": "link"
+      },
+      {
+        "tag": "link",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/css",
+        "text": "",
+        "attributes": {
+          "rel": "stylesheet",
+          "type": "text/css",
+          "href": "/assets/3ea737fb/css/jquery.dataTables.min.css"
+        },
+        "xpath": "/html[1]/head[1]/link[16]",
+        "css": "link"
+      },
+      {
+        "tag": "link",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/css",
+        "text": "",
+        "attributes": {
+          "rel": "stylesheet",
+          "type": "text/css",
+          "href": "/assets/3ea737fb/css/introjs.css"
+        },
+        "xpath": "/html[1]/head[1]/link[17]",
+        "css": "link"
+      },
+      {
+        "tag": "link",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/css",
+        "text": "",
+        "attributes": {
+          "rel": "stylesheet",
+          "type": "text/css",
+          "href": "/assets/3ea737fb/handsontable/jquery.handsontablenew1.full.css"
+        },
+        "xpath": "/html[1]/head[1]/link[18]",
+        "css": "link"
+      },
+      {
+        "tag": "link",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/css",
+        "text": "",
+        "attributes": {
+          "rel": "stylesheet",
+          "type": "text/css",
+          "href": "/assets/3ea737fb/darwin-assets/css/css-library/bootstrap-timepicker.css"
+        },
+        "xpath": "/html[1]/head[1]/link[19]",
+        "css": "link"
+      },
+      {
+        "tag": "link",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/css",
+        "text": "",
+        "attributes": {
+          "rel": "stylesheet",
+          "type": "text/css",
+          "href": "/assets/3ea737fb/darwin-assets/css/css-library/dropdown.min.css"
+        },
+        "xpath": "/html[1]/head[1]/link[20]",
+        "css": "link"
+      },
+      {
+        "tag": "link",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/css",
+        "text": "",
+        "attributes": {
+          "rel": "stylesheet",
+          "type": "text/css",
+          "href": "/assets/3ea737fb/darwin-assets/css/css-library/transition.min.css"
+        },
+        "xpath": "/html[1]/head[1]/link[21]",
+        "css": "link"
+      },
+      {
+        "tag": "link",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/css",
+        "text": "",
+        "attributes": {
+          "rel": "stylesheet",
+          "type": "text/css",
+          "href": "/assets/3ea737fb/darwin-assets/css/css-local/theme.css"
+        },
+        "xpath": "/html[1]/head[1]/link[22]",
+        "css": "link"
+      },
+      {
+        "tag": "link",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/css",
+        "text": "",
+        "attributes": {
+          "rel": "stylesheet",
+          "type": "text/css",
+          "href": "/assets/3ea737fb/darwin-assets/css/css-local/mobile-responsive.css"
+        },
+        "xpath": "/html[1]/head[1]/link[23]",
+        "css": "link"
+      },
+      {
+        "tag": "link",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/css",
+        "text": "",
+        "attributes": {
+          "rel": "stylesheet",
+          "type": "text/css",
+          "href": "/assets/df59ecda/fileuploader.css"
+        },
+        "xpath": "/html[1]/head[1]/link[24]",
+        "css": "link"
+      },
+      {
+        "tag": "link",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/css",
+        "text": "",
+        "attributes": {
+          "rel": "stylesheet",
+          "type": "text/css",
+          "href": "/assets/1908f70c/chosen.css"
+        },
+        "xpath": "/html[1]/head[1]/link[25]",
+        "css": "link"
+      },
+      {
+        "tag": "link",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/css",
+        "text": "",
+        "attributes": {
+          "rel": "stylesheet",
+          "type": "text/css",
+          "href": "/assets/e7fa2eef/shadowbox.css"
+        },
+        "xpath": "/html[1]/head[1]/link[26]",
+        "css": "link"
+      },
+      {
+        "tag": "link",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/css",
+        "text": "",
+        "attributes": {
+          "rel": "stylesheet",
+          "type": "text/css",
+          "href": "/assets/fb53802d/css/css-local/login_page.css"
+        },
+        "xpath": "/html[1]/head[1]/link[27]",
+        "css": "link"
+      },
+      {
+        "tag": "link",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/css",
+        "text": "",
+        "attributes": {
+          "rel": "stylesheet",
+          "type": "text/css",
+          "href": "/assets/fb53802d/css/css-local/res_login.css"
+        },
+        "xpath": "/html[1]/head[1]/link[28]",
+        "css": "link"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/javascript",
+        "text": "",
+        "attributes": {
+          "type": "text/javascript",
+          "src": "/assets/1eb074c9/jquery.js"
+        },
+        "xpath": "/html[1]/head[1]/script[4]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/javascript",
+        "text": "",
+        "attributes": {
+          "type": "text/javascript",
+          "src": "/assets/1eb074c9/jui/js/jquery-ui.min.js"
+        },
+        "xpath": "/html[1]/head[1]/script[5]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/javascript",
+        "text": "",
+        "attributes": {
+          "type": "text/javascript",
+          "src": "/assets/bdda64a/jquery.browser.js"
+        },
+        "xpath": "/html[1]/head[1]/script[6]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/javascript",
+        "text": "",
+        "attributes": {
+          "type": "text/javascript",
+          "src": "/assets/3ea737fb/darwinboxjs/default-darwinbox.js"
+        },
+        "xpath": "/html[1]/head[1]/script[7]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/javascript",
+        "text": "",
+        "attributes": {
+          "type": "text/javascript",
+          "src": "/assets/3ea737fb/darwinboxjs/default-darwinbox-external.js"
+        },
+        "xpath": "/html[1]/head[1]/script[8]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/javascript",
+        "text": "",
+        "attributes": {
+          "type": "text/javascript",
+          "src": "/assets/3ea737fb/js/bootstrap-wizard.js"
+        },
+        "xpath": "/html[1]/head[1]/script[9]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/javascript",
+        "text": "",
+        "attributes": {
+          "type": "text/javascript",
+          "src": "/assets/3ea737fb/js/bootstrap-treeview.js"
+        },
+        "xpath": "/html[1]/head[1]/script[10]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/javascript",
+        "text": "",
+        "attributes": {
+          "type": "text/javascript",
+          "src": "/assets/3ea737fb/js/star-rating.js"
+        },
+        "xpath": "/html[1]/head[1]/script[11]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/javascript",
+        "text": "",
+        "attributes": {
+          "type": "text/javascript",
+          "src": "/assets/3ea737fb/js/rating.js"
+        },
+        "xpath": "/html[1]/head[1]/script[12]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/javascript",
+        "text": "",
+        "attributes": {
+          "type": "text/javascript",
+          "src": "/assets/3ea737fb/js/tokenfield.js"
+        },
+        "xpath": "/html[1]/head[1]/script[13]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/javascript",
+        "text": "",
+        "attributes": {
+          "type": "text/javascript",
+          "src": "/assets/3ea737fb/js/bootstrap-multiselect.js"
+        },
+        "xpath": "/html[1]/head[1]/script[14]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/javascript",
+        "text": "",
+        "attributes": {
+          "type": "text/javascript",
+          "src": "/assets/3ea737fb/js/lodash.min.js"
+        },
+        "xpath": "/html[1]/head[1]/script[15]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/javascript",
+        "text": "",
+        "attributes": {
+          "type": "text/javascript",
+          "src": "/assets/3ea737fb/js/knockout.js"
+        },
+        "xpath": "/html[1]/head[1]/script[16]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/javascript",
+        "text": "",
+        "attributes": {
+          "type": "text/javascript",
+          "src": "/assets/3ea737fb/js/knockout.validation.3.0.0.js"
+        },
+        "xpath": "/html[1]/head[1]/script[17]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/javascript",
+        "text": "",
+        "attributes": {
+          "type": "text/javascript",
+          "src": "/assets/3ea737fb/js/bootstrap.js"
+        },
+        "xpath": "/html[1]/head[1]/script[18]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/javascript",
+        "text": "",
+        "attributes": {
+          "type": "text/javascript",
+          "src": "/assets/3ea737fb/js/jmigrate3.3.2.js"
+        },
+        "xpath": "/html[1]/head[1]/script[19]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/javascript",
+        "text": "",
+        "attributes": {
+          "type": "text/javascript",
+          "src": "/assets/3ea737fb/js/jquery.simpler-sidebar.min.js"
+        },
+        "xpath": "/html[1]/head[1]/script[20]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/javascript",
+        "text": "",
+        "attributes": {
+          "type": "text/javascript",
+          "src": "/assets/3ea737fb/js/intro.js"
+        },
+        "xpath": "/html[1]/head[1]/script[21]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/javascript",
+        "text": "",
+        "attributes": {
+          "type": "text/javascript",
+          "src": "/assets/3ea737fb/js/jquery.combinedScroll.js"
+        },
+        "xpath": "/html[1]/head[1]/script[22]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/javascript",
+        "text": "",
+        "attributes": {
+          "type": "text/javascript",
+          "src": "/assets/3ea737fb/handsontable/jquery.handsontablenew1.full.js"
+        },
+        "xpath": "/html[1]/head[1]/script[23]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/javascript",
+        "text": "",
+        "attributes": {
+          "type": "text/javascript",
+          "src": "/assets/3ea737fb/js/sticky.js"
+        },
+        "xpath": "/html[1]/head[1]/script[24]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/javascript",
+        "text": "",
+        "attributes": {
+          "type": "text/javascript",
+          "src": "/assets/3ea737fb/darwin-assets/js/js-library/bootstrap-timepicker.js"
+        },
+        "xpath": "/html[1]/head[1]/script[25]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/javascript",
+        "text": "",
+        "attributes": {
+          "type": "text/javascript",
+          "src": "/assets/3ea737fb/darwin-assets/js/js-library/transition.min.js"
+        },
+        "xpath": "/html[1]/head[1]/script[26]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/javascript",
+        "text": "",
+        "attributes": {
+          "type": "text/javascript",
+          "src": "/assets/3ea737fb/darwin-assets/js/js-library/dropdown.min.js"
+        },
+        "xpath": "/html[1]/head[1]/script[27]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/javascript",
+        "text": "",
+        "attributes": {
+          "type": "text/javascript",
+          "src": "/assets/3ea737fb/darwin-assets/js/js-library/beautify-css.min.js"
+        },
+        "xpath": "/html[1]/head[1]/script[28]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/javascript",
+        "text": "",
+        "attributes": {
+          "type": "text/javascript",
+          "src": "/assets/3ea737fb/darwin-assets/js/js-library/css-vars-ponyfill.min.js"
+        },
+        "xpath": "/html[1]/head[1]/script[29]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/javascript",
+        "text": "",
+        "attributes": {
+          "type": "text/javascript",
+          "src": "/assets/3ea737fb/darwin-assets/js/theme.js"
+        },
+        "xpath": "/html[1]/head[1]/script[30]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/javascript",
+        "text": "",
+        "attributes": {
+          "type": "text/javascript",
+          "src": "/assets/cc16e5bf/dbox-currency.min.js"
+        },
+        "xpath": "/html[1]/head[1]/script[31]",
+        "css": "script"
+      },
+      {
+        "tag": "style",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": ".dbox-currency-container {\n  display: flex;\n  padding-right: .5rem !important;\n  padding-left: .5rem !important;\n}\n\n.dbox-currency-container * {\n  font-family: Roboto;\n}\n\n.dbox-currency-container .mx-",
+        "attributes": {},
+        "xpath": "/html[1]/head[1]/style[1]",
+        "css": "style"
+      },
+      {
+        "tag": "style",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "",
+        "attributes": {},
+        "xpath": "/html[1]/head[1]/style[2]",
+        "css": "style"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/javascript",
+        "text": "",
+        "attributes": {
+          "type": "text/javascript",
+          "src": "/assets/df59ecda/fileuploader.js"
+        },
+        "xpath": "/html[1]/head[1]/script[32]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/javascript",
+        "text": "",
+        "attributes": {
+          "type": "text/javascript",
+          "src": "/assets/1908f70c/chosen.jquery.min.js"
+        },
+        "xpath": "/html[1]/head[1]/script[33]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/javascript",
+        "text": "",
+        "attributes": {
+          "type": "text/javascript",
+          "src": "/assets/e7fa2eef/shadowbox.js"
+        },
+        "xpath": "/html[1]/head[1]/script[34]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/javascript",
+        "text": "",
+        "attributes": {
+          "type": "text/javascript",
+          "src": "/assets/f4846cba/jqueryRedirect.js"
+        },
+        "xpath": "/html[1]/head[1]/script[35]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/javascript",
+        "text": "",
+        "attributes": {
+          "type": "text/javascript",
+          "src": "/assets/f4846cba/jsencrypt.js"
+        },
+        "xpath": "/html[1]/head[1]/script[36]",
+        "css": "script"
+      },
+      {
+        "tag": "title",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "Instance81 : Login",
+        "attributes": {},
+        "xpath": "/html[1]/head[1]/title[1]",
+        "css": "title"
+      },
+      {
+        "tag": "title",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "Password Recovery",
+        "attributes": {},
+        "xpath": "/html[1]/head[1]/title[2]",
+        "css": "title"
+      },
+      {
+        "tag": "meta",
+        "id": null,
+        "class": null,
+        "name": "description",
+        "type": null,
+        "text": "",
+        "attributes": {
+          "name": "description",
+          "content": ""
+        },
+        "xpath": "/html[1]/head[1]/meta[2]",
+        "css": "meta"
+      },
+      {
+        "tag": "meta",
+        "id": null,
+        "class": null,
+        "name": "author",
+        "type": null,
+        "text": "",
+        "attributes": {
+          "name": "author",
+          "content": ""
+        },
+        "xpath": "/html[1]/head[1]/meta[3]",
+        "css": "meta"
+      },
+      {
+        "tag": "link",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "image/x-icon",
+        "text": "",
+        "attributes": {
+          "rel": "shortcut icon",
+          "href": "/themes/bootstrap/images/favicon.ico",
+          "type": "image/x-icon"
+        },
+        "xpath": "/html[1]/head[1]/link[29]",
+        "css": "link"
+      },
+      {
+        "tag": "body",
+        "id": null,
+        "class": "bg-base-7 clearfix",
+        "name": null,
+        "type": null,
+        "text": "Dashboard\nRemember me\nDefault\nForgot Password\nSIGN IN\nPowered By\n© 2026 Darwinbox Digital Solutions Pvt Ltd.\nCookie Policy Terms Of Use Privacy Policy",
+        "attributes": {
+          "class": "bg-base-7 clearfix",
+          "style": "height: 720px; background-image: url(\"https://darwinbox-data-prod-mum.s3.ap-south-1.amazonaws.com/DRL_5f854e37a7996_5/workflows/a156712797969906cea96aec__1771072746_desktop-background-6v9qjuvtrckgn4mm.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZ5N2TJ7HBFZ2MR6X%2F20260304%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260304T120653Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=a486b88b376079b46bb0eb6a30cbbb9c7a209c2d818a209ae8cb53aa602360b5\"); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;"
+        },
+        "xpath": "/html[1]/body[1]",
+        "css": "body.bg-base-7.clearfix"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "login-form mb-24 clearfix",
+        "name": null,
+        "type": null,
+        "text": "Dashboard\nRemember me\nDefault\nForgot Password\nSIGN IN\nPowered By\n© 2026 Darwinbox Digital Solutions Pvt Ltd.\nCookie Policy Terms Of Use Privacy Policy",
+        "attributes": {
+          "class": "login-form mb-24 clearfix"
+        },
+        "xpath": "/html[1]/body[1]/div[1]",
+        "css": "div.login-form.mb-24.clearfix"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "client-img text-center mb-24",
+        "name": null,
+        "type": null,
+        "text": "",
+        "attributes": {
+          "class": "client-img text-center mb-24"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[1]",
+        "css": "div.client-img.text-center.mb-24"
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "class": "user-logo-login",
+        "name": null,
+        "type": null,
+        "text": "",
+        "attributes": {
+          "href": "javascript:void(0)",
+          "class": "user-logo-login"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[1]/a[1]",
+        "css": "a.user-logo-login"
+      },
+      {
+        "tag": "img",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "",
+        "attributes": {
+          "src": "https://instance8.darwinbox.in/ms/s3proxy/getFile?fileKey=DRL_5f854e37a7996_5/logo/a64622367969a56f7db5af8__tenant-avatar-5_470916160.jpg",
+          "alt": "logo"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[1]/a[1]/img[1]",
+        "css": "img"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "clearfix",
+        "name": null,
+        "type": null,
+        "text": "",
+        "attributes": {
+          "class": "clearfix"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[2]",
+        "css": "div.clearfix"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "mt-12 mobile_width",
+        "name": null,
+        "type": null,
+        "text": "Dashboard\nRemember me\nDefault\nForgot Password\nSIGN IN",
+        "attributes": {
+          "class": "mt-12 mobile_width"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]",
+        "css": "div.mt-12.mobile_width"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "form-group db-form-group",
+        "name": null,
+        "type": null,
+        "text": "",
+        "attributes": {
+          "class": "form-group db-form-group"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[1]",
+        "css": "div.form-group.db-form-group"
+      },
+      {
+        "tag": "input",
+        "id": "UserLogin_username",
+        "class": "login username-field form-control db-input",
+        "name": "UserLogin[username]",
+        "type": "text",
+        "text": "",
+        "attributes": {
+          "class": "login username-field form-control db-input",
+          "placeholder": "Email / Emp ID",
+          "onfocus": "placeholder=\"\"",
+          "onblur": "placeholder=\"Email / Emp ID\"",
+          "autocomplete": "off",
+          "maxlength": "117",
+          "name": "UserLogin[username]",
+          "id": "UserLogin_username",
+          "type": "text"
+        },
+        "xpath": "//*[@id=\"UserLogin_username\"]",
+        "css": "input#UserLogin_username.login.username-field.form-control.db-input"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "form-group db-form-group showpassword",
+        "name": null,
+        "type": null,
+        "text": "",
+        "attributes": {
+          "class": "form-group db-form-group showpassword"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[2]",
+        "css": "div.form-group.db-form-group.showpassword"
+      },
+      {
+        "tag": "input",
+        "id": "UserLogin_password",
+        "class": "login password-field form-control db-input",
+        "name": "UserLogin[password]",
+        "type": "password",
+        "text": "",
+        "attributes": {
+          "class": "login password-field form-control db-input",
+          "placeholder": "Password",
+          "onfocus": "placeholder=\"\"",
+          "onblur": "placeholder=\"Password\"",
+          "autocomplete": "off",
+          "name": "UserLogin[password]",
+          "id": "UserLogin_password",
+          "type": "password",
+          "value": ""
+        },
+        "xpath": "//*[@id=\"UserLogin_password\"]",
+        "css": "input#UserLogin_password.login.password-field.form-control.db-input"
+      },
+      {
+        "tag": "df",
+        "id": null,
+        "class": "db-Showpassword show-password",
+        "name": null,
+        "type": null,
+        "text": "",
+        "attributes": {
+          "class": "db-Showpassword show-password"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[2]/df[1]",
+        "css": "df.db-Showpassword.show-password"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "form-group db-form-group",
+        "name": null,
+        "type": null,
+        "text": "Dashboard",
+        "attributes": {
+          "class": "form-group db-form-group"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]",
+        "css": "div.form-group.db-form-group"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "form-control search dropdown db-dropdown selection ui searchabledropdown",
+        "name": null,
+        "type": null,
+        "text": "Dashboard",
+        "attributes": {
+          "class": "form-control search dropdown db-dropdown selection ui searchabledropdown"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]/div[1]",
+        "css": "div.form-control.search.dropdown.db-dropdown.selection.ui.searchabledropdown"
+      },
+      {
+        "tag": "select",
+        "id": "UserLogin_redirectpage",
+        "class": null,
+        "name": "UserLogin[redirectpage]",
+        "type": null,
+        "text": "Dashboard\nTask Box\nLeaves\nAttendance\nVIBE\nReimbursements\nPerformance Management\nTalent Hub",
+        "attributes": {
+          "name": "UserLogin[redirectpage]",
+          "id": "UserLogin_redirectpage"
+        },
+        "xpath": "//*[@id=\"UserLogin_redirectpage\"]",
+        "css": "select#UserLogin_redirectpage"
+      },
+      {
+        "tag": "option",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "Dashboard",
+        "attributes": {
+          "value": "dashboard"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]/div[1]/select[1]/option[1]",
+        "css": "option"
+      },
+      {
+        "tag": "option",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "Task Box",
+        "attributes": {
+          "value": "tasksApi/GetTasks"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]/div[1]/select[1]/option[2]",
+        "css": "option"
+      },
+      {
+        "tag": "option",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "Leaves",
+        "attributes": {
+          "value": "leaves"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]/div[1]/select[1]/option[3]",
+        "css": "option"
+      },
+      {
+        "tag": "option",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "Attendance",
+        "attributes": {
+          "value": "attendance"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]/div[1]/select[1]/option[4]",
+        "css": "option"
+      },
+      {
+        "tag": "option",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "VIBE",
+        "attributes": {
+          "value": "ms/vibe"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]/div[1]/select[1]/option[5]",
+        "css": "option"
+      },
+      {
+        "tag": "option",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "Reimbursements",
+        "attributes": {
+          "value": "expenses"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]/div[1]/select[1]/option[6]",
+        "css": "option"
+      },
+      {
+        "tag": "option",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "Performance Management",
+        "attributes": {
+          "value": "ms/pms/dashboard/overview"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]/div[1]/select[1]/option[7]",
+        "css": "option"
+      },
+      {
+        "tag": "option",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "Talent Hub",
+        "attributes": {
+          "value": "ms/talent/talent-hub/overview/"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]/div[1]/select[1]/option[8]",
+        "css": "option"
+      },
+      {
+        "tag": "i",
+        "id": null,
+        "class": "searchabledropdown icon",
+        "name": null,
+        "type": null,
+        "text": "",
+        "attributes": {
+          "class": "searchabledropdown icon"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]/div[1]/i[1]",
+        "css": "i.searchabledropdown.icon"
+      },
+      {
+        "tag": "input",
+        "id": null,
+        "class": "search",
+        "name": null,
+        "type": null,
+        "text": "",
+        "attributes": {
+          "class": "search",
+          "autocomplete": "off",
+          "tabindex": "0"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]/div[1]/input[1]",
+        "css": "input.search"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "text",
+        "name": null,
+        "type": null,
+        "text": "Dashboard",
+        "attributes": {
+          "class": "text"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]/div[1]/div[1]",
+        "css": "div.text"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "menu",
+        "name": null,
+        "type": null,
+        "text": "DashboardTask BoxLeavesAttendanceVIBEReimbursementsPerformance ManagementTalent Hub",
+        "attributes": {
+          "class": "menu",
+          "tabindex": "-1"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]/div[1]/div[2]",
+        "css": "div.menu"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "item active selected",
+        "name": null,
+        "type": null,
+        "text": "Dashboard",
+        "attributes": {
+          "class": "item active selected",
+          "data-value": "dashboard",
+          "title": "Dashboard"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]/div[1]/div[2]/div[1]",
+        "css": "div.item.active.selected"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "item",
+        "name": null,
+        "type": null,
+        "text": "Task Box",
+        "attributes": {
+          "class": "item",
+          "data-value": "tasksApi/GetTasks",
+          "title": "Task Box"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]/div[1]/div[2]/div[2]",
+        "css": "div.item"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "item",
+        "name": null,
+        "type": null,
+        "text": "Leaves",
+        "attributes": {
+          "class": "item",
+          "data-value": "leaves",
+          "title": "Leaves"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]/div[1]/div[2]/div[3]",
+        "css": "div.item"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "item",
+        "name": null,
+        "type": null,
+        "text": "Attendance",
+        "attributes": {
+          "class": "item",
+          "data-value": "attendance",
+          "title": "Attendance"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]/div[1]/div[2]/div[4]",
+        "css": "div.item"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "item",
+        "name": null,
+        "type": null,
+        "text": "VIBE",
+        "attributes": {
+          "class": "item",
+          "data-value": "ms/vibe",
+          "title": "VIBE"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]/div[1]/div[2]/div[5]",
+        "css": "div.item"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "item",
+        "name": null,
+        "type": null,
+        "text": "Reimbursements",
+        "attributes": {
+          "class": "item",
+          "data-value": "expenses",
+          "title": "Reimbursements"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]/div[1]/div[2]/div[6]",
+        "css": "div.item"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "item",
+        "name": null,
+        "type": null,
+        "text": "Performance Management",
+        "attributes": {
+          "class": "item",
+          "data-value": "ms/pms/dashboard/overview",
+          "title": "Performance Management"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]/div[1]/div[2]/div[7]",
+        "css": "div.item"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "item",
+        "name": null,
+        "type": null,
+        "text": "Talent Hub",
+        "attributes": {
+          "class": "item",
+          "data-value": "ms/talent/talent-hub/overview/",
+          "title": "Talent Hub"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]/div[1]/div[2]/div[8]",
+        "css": "div.item"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "d-flex justify-content-space-between",
+        "name": null,
+        "type": null,
+        "text": "Remember me\nDefault",
+        "attributes": {
+          "class": "d-flex justify-content-space-between"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]",
+        "css": "div.d-flex.justify-content-space-between"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "db-switche",
+        "name": null,
+        "type": null,
+        "text": "Remember me",
+        "attributes": {
+          "class": "db-switche"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]/div[1]",
+        "css": "div.db-switche"
+      },
+      {
+        "tag": "input",
+        "id": "Field",
+        "class": null,
+        "name": "Field",
+        "type": "checkbox",
+        "text": "",
+        "attributes": {
+          "id": "Field",
+          "name": "Field",
+          "type": "checkbox",
+          "value": "First Choice"
+        },
+        "xpath": "//*[@id=\"Field\"]",
+        "css": "input#Field"
+      },
+      {
+        "tag": "label",
+        "id": null,
+        "class": "caption base-4 pb-0 mb-0",
+        "name": null,
+        "type": null,
+        "text": "Remember me",
+        "attributes": {
+          "for": "Field",
+          "class": "caption base-4 pb-0 mb-0"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]/div[1]/label[1]",
+        "css": "label.caption.base-4.pb-0.mb-0"
+      },
+      {
+        "tag": "div",
+        "id": "language",
+        "class": "ui icon form-control button selection dropdown db-dropdown searchabledropdown",
+        "name": null,
+        "type": null,
+        "text": "Default",
+        "attributes": {
+          "class": "ui icon form-control button selection dropdown db-dropdown searchabledropdown",
+          "id": "language",
+          "tabindex": "0"
+        },
+        "xpath": "//*[@id=\"language\"]",
+        "css": "div#language.ui.icon.form-control.button.selection.dropdown.db-dropdown.searchabledropdown"
+      },
+      {
+        "tag": "i",
+        "id": null,
+        "class": "language icon",
+        "name": null,
+        "type": null,
+        "text": "",
+        "attributes": {
+          "class": "language icon"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]/div[2]/i[1]",
+        "css": "i.language.icon"
+      },
+      {
+        "tag": "span",
+        "id": null,
+        "class": "text base-4 anchor-hover",
+        "name": null,
+        "type": null,
+        "text": "Default",
+        "attributes": {
+          "class": "text base-4 anchor-hover"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]/div[2]/span[1]",
+        "css": "span.text.base-4.anchor-hover"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "menu",
+        "name": null,
+        "type": null,
+        "text": "DefaultEnglishعَرَبِي (Arabic)বাংলা (Bengali)Български (Bulgarian)中文 (Chinese)Čeština (Czech)English (US)English UKहिंदी (Hindi)ಕನ್ನಡ (Kannada)Melayu (Malay)Norsk bokmål (Norwegian Bokmål)Pусский (Rus",
+        "attributes": {
+          "class": "menu",
+          "tabindex": "-1"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]/div[2]/div[1]",
+        "css": "div.menu"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "item active selected",
+        "name": null,
+        "type": null,
+        "text": "Default",
+        "attributes": {
+          "class": "item active selected",
+          "data-value": "default"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]/div[2]/div[1]/div[1]",
+        "css": "div.item.active.selected"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "item ",
+        "name": null,
+        "type": null,
+        "text": "English",
+        "attributes": {
+          "class": "item ",
+          "data-value": "en"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]/div[2]/div[1]/div[2]",
+        "css": "div.item."
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "item ",
+        "name": null,
+        "type": null,
+        "text": "عَرَبِي (Arabic)",
+        "attributes": {
+          "class": "item ",
+          "data-value": "ar"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]/div[2]/div[1]/div[3]",
+        "css": "div.item."
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "item ",
+        "name": null,
+        "type": null,
+        "text": "বাংলা (Bengali)",
+        "attributes": {
+          "class": "item ",
+          "data-value": "bn"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]/div[2]/div[1]/div[4]",
+        "css": "div.item."
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "item ",
+        "name": null,
+        "type": null,
+        "text": "Български (Bulgarian)",
+        "attributes": {
+          "class": "item ",
+          "data-value": "bl"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]/div[2]/div[1]/div[5]",
+        "css": "div.item."
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "item ",
+        "name": null,
+        "type": null,
+        "text": "中文 (Chinese)",
+        "attributes": {
+          "class": "item ",
+          "data-value": "zh"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]/div[2]/div[1]/div[6]",
+        "css": "div.item."
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "item ",
+        "name": null,
+        "type": null,
+        "text": "Čeština (Czech)",
+        "attributes": {
+          "class": "item ",
+          "data-value": "cs"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]/div[2]/div[1]/div[7]",
+        "css": "div.item."
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "item ",
+        "name": null,
+        "type": null,
+        "text": "English (US)",
+        "attributes": {
+          "class": "item ",
+          "data-value": "en-us"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]/div[2]/div[1]/div[8]",
+        "css": "div.item."
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "item ",
+        "name": null,
+        "type": null,
+        "text": "English UK",
+        "attributes": {
+          "class": "item ",
+          "data-value": "en-UK"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]/div[2]/div[1]/div[9]",
+        "css": "div.item."
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "item ",
+        "name": null,
+        "type": null,
+        "text": "हिंदी (Hindi)",
+        "attributes": {
+          "class": "item ",
+          "data-value": "hi"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]/div[2]/div[1]/div[10]",
+        "css": "div.item."
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "item ",
+        "name": null,
+        "type": null,
+        "text": "ಕನ್ನಡ (Kannada)",
+        "attributes": {
+          "class": "item ",
+          "data-value": "kn"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]/div[2]/div[1]/div[11]",
+        "css": "div.item."
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "item ",
+        "name": null,
+        "type": null,
+        "text": "Melayu (Malay)",
+        "attributes": {
+          "class": "item ",
+          "data-value": "ms"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]/div[2]/div[1]/div[12]",
+        "css": "div.item."
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "item ",
+        "name": null,
+        "type": null,
+        "text": "Norsk bokmål (Norwegian Bokmål)",
+        "attributes": {
+          "class": "item ",
+          "data-value": "nb-NO"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]/div[2]/div[1]/div[13]",
+        "css": "div.item."
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "item ",
+        "name": null,
+        "type": null,
+        "text": "Pусский (Russian)",
+        "attributes": {
+          "class": "item ",
+          "data-value": "ru"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]/div[2]/div[1]/div[14]",
+        "css": "div.item."
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "item ",
+        "name": null,
+        "type": null,
+        "text": "Español (Spanish)",
+        "attributes": {
+          "class": "item ",
+          "data-value": "es"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]/div[2]/div[1]/div[15]",
+        "css": "div.item."
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "item ",
+        "name": null,
+        "type": null,
+        "text": "தமிழ் (Tamil)",
+        "attributes": {
+          "class": "item ",
+          "data-value": "ta"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]/div[2]/div[1]/div[16]",
+        "css": "div.item."
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "item ",
+        "name": null,
+        "type": null,
+        "text": "తెలుగు (Telugu)",
+        "attributes": {
+          "class": "item ",
+          "data-value": "te"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]/div[2]/div[1]/div[17]",
+        "css": "div.item."
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "item ",
+        "name": null,
+        "type": null,
+        "text": "ไทย (Thai)",
+        "attributes": {
+          "class": "item ",
+          "data-value": "th"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]/div[2]/div[1]/div[18]",
+        "css": "div.item."
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "item ",
+        "name": null,
+        "type": null,
+        "text": "Tiếng Việt (Vietnamese)",
+        "attributes": {
+          "class": "item ",
+          "data-value": "vi"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]/div[2]/div[1]/div[19]",
+        "css": "div.item."
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/javascript",
+        "text": "$(document).ready(function() {\n      $('.db-dropdown').searchabledropdown({\n          placeholder: \"Search\",\n            fullTextSearch: \"exact\",\n            match: \"text\",\n            message: {\n    ",
+        "attributes": {
+          "type": "text/javascript"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]/script[1]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "$(function() {\n                    var allForms = $(\"form\");\n                    for (let i = 0; i < allForms.length; i++) {\n                        let eachForm = $(allForms[i]);\n                    ",
+        "attributes": {},
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]/script[2]",
+        "css": "script"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "mt-16 clearfix login_forgot",
+        "name": null,
+        "type": null,
+        "text": "Forgot Password\nSIGN IN",
+        "attributes": {
+          "class": "mt-16 clearfix login_forgot"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[5]",
+        "css": "div.mt-16.clearfix.login_forgot"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "col-sm-12 col-xs-6 pl-0",
+        "name": null,
+        "type": null,
+        "text": "Forgot Password",
+        "attributes": {
+          "class": "col-sm-12 col-xs-6 pl-0"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[5]/div[1]",
+        "css": "div.col-sm-12.col-xs-6.pl-0"
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "class": "base-4 mt-8 dispaly-block anchor_hover",
+        "name": null,
+        "type": null,
+        "text": "Forgot Password",
+        "attributes": {
+          "class": "base-4 mt-8 dispaly-block anchor_hover",
+          "href": "/user/recovery/recovery"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[5]/div[1]/a[1]",
+        "css": "a.base-4.mt-8.dispaly-block.anchor_hover"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "col-sm-12 col-xs-6 pr-0 text-right",
+        "name": null,
+        "type": null,
+        "text": "SIGN IN",
+        "attributes": {
+          "class": "col-sm-12 col-xs-6 pr-0 text-right"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[3]/div[5]/div[2]",
+        "css": "div.col-sm-12.col-xs-6.pr-0.text-right"
+      },
+      {
+        "tag": "button",
+        "id": "login-submit",
+        "class": "btn btn-primary db-btn ripple login-btn",
+        "name": "login-submit",
+        "type": "submit",
+        "text": "SIGN IN",
+        "attributes": {
+          "type": "submit",
+          "name": "login-submit",
+          "id": "login-submit",
+          "class": "btn btn-primary db-btn ripple login-btn"
+        },
+        "xpath": "//*[@id=\"login-submit\"]",
+        "css": "button#login-submit.btn.btn-primary.db-btn.ripple.login-btn"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "clearfix",
+        "name": null,
+        "type": null,
+        "text": "",
+        "attributes": {
+          "class": "clearfix"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[4]",
+        "css": "div.clearfix"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "login-footer mt-24",
+        "name": null,
+        "type": null,
+        "text": "Powered By\n© 2026 Darwinbox Digital Solutions Pvt Ltd.\nCookie Policy Terms Of Use Privacy Policy",
+        "attributes": {
+          "class": "login-footer mt-24"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[5]",
+        "css": "div.login-footer.mt-24"
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "class": "pb-32 dispaly-block",
+        "name": null,
+        "type": null,
+        "text": "Powered By",
+        "attributes": {
+          "href": "https://www.darwinbox.com/?utm_source=dbox.darwinbox.com&utm_medium=powered-by-darwinbox&utm_campaign=product-traffic&utm_content=image",
+          "target": "_blank",
+          "class": "pb-32 dispaly-block"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[5]/a[1]",
+        "css": "a.pb-32.dispaly-block"
+      },
+      {
+        "tag": "span",
+        "id": null,
+        "class": "caption dispaly-block base-4 pb-0",
+        "name": null,
+        "type": null,
+        "text": "Powered By",
+        "attributes": {
+          "class": "caption dispaly-block base-4 pb-0"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[5]/a[1]/span[1]",
+        "css": "span.caption.dispaly-block.base-4.pb-0"
+      },
+      {
+        "tag": "img",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "",
+        "attributes": {
+          "src": "/images/darwinbox/poweredby.png",
+          "alt": "logo",
+          "width": "100px"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[5]/a[1]/img[1]",
+        "css": "img"
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "class": "caption base-3",
+        "name": null,
+        "type": null,
+        "text": "© 2026 Darwinbox Digital Solutions Pvt Ltd.",
+        "attributes": {
+          "href": "https://www.darwinbox.com/?utm_source=dbox.darwinbox.com&utm_medium=copyright-text&utm_campaign=product-traffic&utm_content=text",
+          "target": "_blank",
+          "class": "caption base-3"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[5]/a[2]",
+        "css": "a.caption.base-3"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "privacy-documents-links mt-12",
+        "name": null,
+        "type": null,
+        "text": "Cookie Policy Terms Of Use Privacy Policy",
+        "attributes": {
+          "class": "privacy-documents-links mt-12"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[5]/div[1]",
+        "css": "div.privacy-documents-links.mt-12"
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "Cookie Policy",
+        "attributes": {
+          "href": "https://darwinbox.com/cookie-policy.php",
+          "target": "_blank"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[5]/div[1]/a[1]",
+        "css": "a"
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "Terms Of Use",
+        "attributes": {
+          "href": "https://darwinbox.com/terms-of-use.php",
+          "target": "_blank"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[5]/div[1]/a[2]",
+        "css": "a"
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "Privacy Policy",
+        "attributes": {
+          "href": "https://darwinbox.com/privacy-policy.php",
+          "target": "_blank"
+        },
+        "xpath": "/html[1]/body[1]/div[1]/div[5]/div[1]/a[3]",
+        "css": "a"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "",
+        "attributes": {
+          "src": "/node_modules/thumbmarkjs/dist/thumbmark.umd.js"
+        },
+        "xpath": "/html[1]/body[1]/script[1]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "$(document).ready(function(){\n    var system_color = '#4c4b5d';\n    var system_top_color = 'linear-gradient( #1676e2)';\n    if(system_color){\n      document.documentElement.style.setProperty('--primar",
+        "attributes": {},
+        "xpath": "/html[1]/body[1]/script[2]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "var tenantId = \"5\";\n  var subdomain = \"instance8\";\n  var screenResolution = window.screen.width+ 'x' +window.screen.height;\n  (function(apiKey){\n    (function(p,e,n,d,o){var v,w,x,y,z;o=p[d]=p[d]||{};",
+        "attributes": {},
+        "xpath": "/html[1]/body[1]/script[3]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "",
+        "attributes": {
+          "src": "https://challenges.cloudflare.com/turnstile/v0/api.js",
+          "async": "",
+          "defer": ""
+        },
+        "xpath": "/html[1]/body[1]/script[4]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "function onTurnstileSuccess(token) {\n    $('#cf-turnstile-token').val(token);\n}\n\nfunction onTurnstileExpired() {\n    $('#cf-turnstile-token').val('');\n}\n\nfunction onTurnstileError() {\n    $('#cf-turns",
+        "attributes": {},
+        "xpath": "/html[1]/body[1]/script[5]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "",
+        "attributes": {
+          "src": "/ms/chatbot/assets/bot.js"
+        },
+        "xpath": "/html[1]/body[1]/script[6]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "$(function() {\n                    var allForms = $(\"form\");\n                    for (let i = 0; i < allForms.length; i++) {\n                        let eachForm = $(allForms[i]);\n                    ",
+        "attributes": {},
+        "xpath": "/html[1]/body[1]/script[7]",
+        "css": "script"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": "clearfix",
+        "name": null,
+        "type": null,
+        "text": "",
+        "attributes": {
+          "class": "clearfix"
+        },
+        "xpath": "/html[1]/body[1]/div[2]",
+        "css": "div.clearfix"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/javascript",
+        "text": "/*<![CDATA[*/\njQuery(function($) {\njQuery('a[rel=\"tooltip\"]').tooltip();\n\n                                                 Shadowbox.init({\n                                                   handleOve",
+        "attributes": {
+          "type": "text/javascript"
+        },
+        "xpath": "/html[1]/body[1]/script[8]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": "text/javascript",
+        "text": "window.NREUM||(NREUM={});NREUM.info={\"beacon\":\"bam.nr-data.net\",\"licenseKey\":\"NRJS-b74f7bf78de8d9658e6\",\"applicationID\":\"758883407\",\"transactionName\":\"NQMDY0ACWRYAABYMVgxJIFRGClgLTi8NAlAMJQ5ZRhFYCQ0GE",
+        "attributes": {
+          "type": "text/javascript"
+        },
+        "xpath": "/html[1]/body[1]/script[9]",
+        "css": "script"
+      },
+      {
+        "tag": "script",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "",
+        "attributes": {
+          "defer": "",
+          "src": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015",
+          "integrity": "sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==",
+          "data-cf-beacon": "{\"rayId\":\"9d70c1e76eabff9d\",\"version\":\"2025.9.1\",\"serverTiming\":{\"name\":{\"cfExtPri\":true,\"cfEdge\":true,\"cfOrigin\":true,\"cfL4\":true,\"cfSpeedBrain\":true,\"cfCacheStatus\":true}},\"token\":\"796f05beba604f8aacd73b7ceaf40d93\",\"b\":1}",
+          "crossorigin": "anonymous"
+        },
+        "xpath": "/html[1]/body[1]/script[10]",
+        "css": "script"
+      },
+      {
+        "tag": "div",
+        "id": "sb-container",
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "loading",
+        "attributes": {
+          "id": "sb-container"
+        },
+        "xpath": "//*[@id=\"sb-container\"]",
+        "css": "div#sb-container"
+      },
+      {
+        "tag": "div",
+        "id": "sb-overlay",
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "",
+        "attributes": {
+          "id": "sb-overlay"
+        },
+        "xpath": "//*[@id=\"sb-overlay\"]",
+        "css": "div#sb-overlay"
+      },
+      {
+        "tag": "div",
+        "id": "sb-wrapper",
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "loading",
+        "attributes": {
+          "id": "sb-wrapper"
+        },
+        "xpath": "//*[@id=\"sb-wrapper\"]",
+        "css": "div#sb-wrapper"
+      },
+      {
+        "tag": "div",
+        "id": "sb-title",
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "",
+        "attributes": {
+          "id": "sb-title"
+        },
+        "xpath": "//*[@id=\"sb-title\"]",
+        "css": "div#sb-title"
+      },
+      {
+        "tag": "a",
+        "id": "sb-nav-reload",
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "",
+        "attributes": {
+          "id": "sb-nav-reload",
+          "title": "Reload"
+        },
+        "xpath": "//*[@id=\"sb-nav-reload\"]",
+        "css": "a#sb-nav-reload"
+      },
+      {
+        "tag": "div",
+        "id": "sb-title-inner",
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "",
+        "attributes": {
+          "id": "sb-title-inner"
+        },
+        "xpath": "//*[@id=\"sb-title-inner\"]",
+        "css": "div#sb-title-inner"
+      },
+      {
+        "tag": "div",
+        "id": "sb-wrapper-inner",
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "loading",
+        "attributes": {
+          "id": "sb-wrapper-inner"
+        },
+        "xpath": "//*[@id=\"sb-wrapper-inner\"]",
+        "css": "div#sb-wrapper-inner"
+      },
+      {
+        "tag": "div",
+        "id": "sb-body",
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "loading",
+        "attributes": {
+          "id": "sb-body"
+        },
+        "xpath": "//*[@id=\"sb-body\"]",
+        "css": "div#sb-body"
+      },
+      {
+        "tag": "div",
+        "id": "sb-body-inner",
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "",
+        "attributes": {
+          "id": "sb-body-inner"
+        },
+        "xpath": "//*[@id=\"sb-body-inner\"]",
+        "css": "div#sb-body-inner"
+      },
+      {
+        "tag": "div",
+        "id": "sb-loading",
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "loading",
+        "attributes": {
+          "id": "sb-loading"
+        },
+        "xpath": "//*[@id=\"sb-loading\"]",
+        "css": "div#sb-loading"
+      },
+      {
+        "tag": "div",
+        "id": "sb-loading-inner",
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "loading",
+        "attributes": {
+          "id": "sb-loading-inner"
+        },
+        "xpath": "//*[@id=\"sb-loading-inner\"]",
+        "css": "div#sb-loading-inner"
+      },
+      {
+        "tag": "span",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "loading",
+        "attributes": {},
+        "xpath": "/html[1]/body[1]/div[3]/div[2]/div[2]/div[1]/div[2]/div[1]/span[1]",
+        "css": "span"
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "",
+        "attributes": {
+          "style": "width: 80px;height: 80px;position: absolute; opaque:0 ;right: 0px;top: 0px;"
+        },
+        "xpath": "/html[1]/body[1]/div[3]/div[2]/div[2]/div[1]/div[3]",
+        "css": "div"
+      },
+      {
+        "tag": "div",
+        "id": "sb-info",
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "",
+        "attributes": {
+          "id": "sb-info"
+        },
+        "xpath": "//*[@id=\"sb-info\"]",
+        "css": "div#sb-info"
+      },
+      {
+        "tag": "div",
+        "id": "sb-info-inner",
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "",
+        "attributes": {
+          "id": "sb-info-inner"
+        },
+        "xpath": "//*[@id=\"sb-info-inner\"]",
+        "css": "div#sb-info-inner"
+      },
+      {
+        "tag": "div",
+        "id": "sb-counter",
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "",
+        "attributes": {
+          "id": "sb-counter"
+        },
+        "xpath": "//*[@id=\"sb-counter\"]",
+        "css": "div#sb-counter"
+      },
+      {
+        "tag": "div",
+        "id": "sb-nav",
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "",
+        "attributes": {
+          "id": "sb-nav"
+        },
+        "xpath": "//*[@id=\"sb-nav\"]",
+        "css": "div#sb-nav"
+      },
+      {
+        "tag": "a",
+        "id": "sb-nav-close",
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "",
+        "attributes": {
+          "id": "sb-nav-close",
+          "title": "Close",
+          "onclick": "Shadowbox.close()"
+        },
+        "xpath": "//*[@id=\"sb-nav-close\"]",
+        "css": "a#sb-nav-close"
+      },
+      {
+        "tag": "a",
+        "id": "sb-nav-next",
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "",
+        "attributes": {
+          "id": "sb-nav-next",
+          "title": "Next",
+          "onclick": "Shadowbox.next()"
+        },
+        "xpath": "//*[@id=\"sb-nav-next\"]",
+        "css": "a#sb-nav-next"
+      },
+      {
+        "tag": "a",
+        "id": "sb-nav-play",
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "",
+        "attributes": {
+          "id": "sb-nav-play",
+          "title": "Play",
+          "onclick": "Shadowbox.play()"
+        },
+        "xpath": "//*[@id=\"sb-nav-play\"]",
+        "css": "a#sb-nav-play"
+      },
+      {
+        "tag": "a",
+        "id": "sb-nav-pause",
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "",
+        "attributes": {
+          "id": "sb-nav-pause",
+          "title": "Pause",
+          "onclick": "Shadowbox.pause()"
+        },
+        "xpath": "//*[@id=\"sb-nav-pause\"]",
+        "css": "a#sb-nav-pause"
+      },
+      {
+        "tag": "a",
+        "id": "sb-nav-previous",
+        "class": null,
+        "name": null,
+        "type": null,
+        "text": "",
+        "attributes": {
+          "id": "sb-nav-previous",
+          "title": "Previous",
+          "onclick": "Shadowbox.previous()"
+        },
+        "xpath": "//*[@id=\"sb-nav-previous\"]",
+        "css": "a#sb-nav-previous"
+      }
+    ]
+  }
+}
