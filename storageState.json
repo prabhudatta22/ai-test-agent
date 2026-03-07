@@ -1,0 +1,83 @@
+{
+  "cookies": [
+    {
+      "name": "session",
+      "value": "20bd84e199b16cfec02ca75a2e4f591e",
+      "domain": "instance8.darwinbox.in",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "GqzqkvV9Bqmj2fJO6aYzjxLt6KFQah.4TXl.XnISz4g-1772621812-1.0.1.1-bJdUKa1vD4fRpJ_F0t2RYP_uY5iAtiACrTfuT2Qs1UdEQS0pCt36bUAVFkLa6F7zp5I2wyfaW_TIHnhn_1yb7wLczl_PSQiyyis.q19_h_g",
+      "domain": ".darwinbox.in",
+      "path": "/",
+      "expires": 1772623612.377941,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_cfuvid",
+      "value": "1vcKcbsAi3q99R1WNyjVafTJ6NfYeV8bWilR5dnUc0g-1772621812376-0.0.1.1-604800000",
+      "domain": ".darwinbox.in",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "pbqBeYWPUn",
+      "value": "UFF-SWR5RVFSa3lENndRYmVRRlNzb2ZHNzBSckR3dGpLkXIo0_zOoxksdF7wkjlisWhBuI3RXVstwGSVhVJ1pQ%3D%3D",
+      "domain": "instance8.darwinbox.in",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://instance8.darwinbox.in",
+      "localStorage": [
+        {
+          "name": "_pendo_sessionId.ef82c8d3-52b7-41b9-4f25-b592098285e7",
+          "value": "{\"sessionId\":\"JvIv5PcUzwPu31BT\",\"timestamp\":1772621815932}"
+        },
+        {
+          "name": "_pendo_meta.ef82c8d3-52b7-41b9-4f25-b592098285e7",
+          "value": "{\"ttl\":1781261814226,\"value\":2932268396}"
+        },
+        {
+          "name": "NRBA_SESSION",
+          "value": "{\"value\":\"b70ae5364a2a60f4\",\"inactiveAt\":1772623615932,\"expiresAt\":1772636214469,\"updatedAt\":1772621815932,\"sessionReplayMode\":0,\"sessionReplaySentFirstChunk\":false,\"sessionTraceMode\":0,\"traceHarvestStarted\":false,\"loggingMode\":0,\"logApiMode\":0,\"serverTimeDiff\":-98,\"custom\":{},\"numOfResets\":0,\"consent\":false}"
+        },
+        {
+          "name": "_pendo_visitorId.ef82c8d3-52b7-41b9-4f25-b592098285e7",
+          "value": "{\"ttl\":1781261814225,\"value\":\"_PENDO_T_EX5GqP6gvHq\"}"
+        },
+        {
+          "name": "_pendo_guides_blocked.ef82c8d3-52b7-41b9-4f25-b592098285e7",
+          "value": "{\"ttl\":1772636214953,\"value\":\"0\"}"
+        },
+        {
+          "name": "_pendo_accountId.ef82c8d3-52b7-41b9-4f25-b592098285e7",
+          "value": "{\"ttl\":1781261814225,\"value\":\"instance8_5\"}"
+        },
+        {
+          "name": "_pendo___sg__.ef82c8d3-52b7-41b9-4f25-b592098285e7",
+          "value": "{}"
+        },
+        {
+          "name": "_pendo_utm.ef82c8d3-52b7-41b9-4f25-b592098285e7",
+          "value": "{\"channel\":\"Direct\"}"
+        }
+      ]
+    }
+  ]
+}
