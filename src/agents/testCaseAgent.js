@@ -52,4 +52,18 @@ async function generateTestCases(structuredPRD) {
     // }
 }
 
-module.exports = { generateTestCases };
+/**
+ * Convenience helper: generate testcases AND parse to array.
+ * Existing callers can keep using `generateTestCases`.
+ */
+async function generateTestCasesAsArray(structuredPRD) {
+  const jsonText = await generateTestCases(structuredPRD);
+  try {
+    return JSON.parse(jsonText);
+  } catch (e) {
+    const repaired = tryRepairJsonArray(jsonText);
+    return JSON.parse(repaired);
+  }
+}
+
+module.exports = { generateTestCases, generateTestCasesAsArray };
