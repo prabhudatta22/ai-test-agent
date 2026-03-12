@@ -6,7 +6,7 @@ require('dotenv').config();
 
 const logger = require('../utils/logger');
 const { searchTestcases } = require('../vector/testcaseVectorService');
-const { closeMongo } = require('../vector/mongoVectorStore');
+const { closeVectorStore } = require('../vector/vectorStore');
 
 async function run() {
   const query = process.argv.slice(2).join(' ').trim();
@@ -23,7 +23,7 @@ async function run() {
     logger.info(`- score=${(r.score ?? 0).toFixed(4)} [${r.source}] ${r.externalId} :: ${r.title}`);
   }
 
-  await closeMongo();
+  await closeVectorStore();
 }
 
 run();

@@ -9,7 +9,7 @@ const fs = require('fs');
 const path = require('path');
 const logger = require('../utils/logger');
 const { indexTestcase } = require('../vector/testcaseVectorService');
-const { closeMongo } = require('../vector/mongoVectorStore');
+const { closeVectorStore } = require('../vector/vectorStore');
 
 function readJson(filePath) {
   return JSON.parse(fs.readFileSync(filePath, 'utf8'));
@@ -85,7 +85,7 @@ async function run() {
     }
   }
 
-  await closeMongo();
+  await closeVectorStore();
 
   logger.success(`Done. Indexed=${ok}, failed=${fail}`);
 }

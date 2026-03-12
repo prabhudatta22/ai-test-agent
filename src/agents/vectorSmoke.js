@@ -8,7 +8,7 @@ require('dotenv').config();
 
 const logger = require('../utils/logger');
 const { indexTestcase, searchTestcases } = require('../vector/testcaseVectorService');
-const { closeMongo } = require('../vector/mongoVectorStore');
+const { closeVectorStore } = require('../vector/vectorStore');
 
 async function run() {
   const seed = {
@@ -40,13 +40,13 @@ async function run() {
   }
 
   logger.success('VectorDB smoke test passed.');
-  await closeMongo();
+  await closeVectorStore();
 }
 
 run().catch(async (e) => {
   logger.error(e.message);
   try {
-    await closeMongo();
+    await closeVectorStore();
   } catch (_) {
     // ignore
   }
