@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const FILE = 'selector-memory.json';
+const FILE = 'ui-controls.json';
 
 function loadSelectors() {
     if (!fs.existsSync(FILE)) return {};
