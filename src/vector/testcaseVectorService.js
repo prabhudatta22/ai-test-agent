@@ -1,6 +1,6 @@
 const { createEmbedding } = require('../services/embeddingService');
 const { buildEmbeddingText } = require('./testcaseText');
-const { upsertTestcase, semanticSearch } = require('./mongoVectorStore');
+const { upsertTestcase, semanticSearch } = require('./vectorStore');
 
 /**
  * Index (upsert) a testcase by generating an embedding.
