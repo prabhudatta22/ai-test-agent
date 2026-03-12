@@ -1,8 +1,8 @@
 {
   "cookies": [
     {
-      "name": "session",
-      "value": "20bd84e199b16cfec02ca75a2e4f591e",
+      "name": "pbqBeYWPUn",
+      "value": "N25DcHV2WF9XVGU1S0NMbWJRdUVHU3BrMWp4cUtZT1U2oDWdrRIzyzTV9ZksWFs0zZ052eAxBxPkGUdFa_nasA%3D%3D",
       "domain": "instance8.darwinbox.in",
       "path": "/",
       "expires": -1,
@@ -12,17 +12,17 @@
     },
     {
       "name": "__cf_bm",
-      "value": "GqzqkvV9Bqmj2fJO6aYzjxLt6KFQah.4TXl.XnISz4g-1772621812-1.0.1.1-bJdUKa1vD4fRpJ_F0t2RYP_uY5iAtiACrTfuT2Qs1UdEQS0pCt36bUAVFkLa6F7zp5I2wyfaW_TIHnhn_1yb7wLczl_PSQiyyis.q19_h_g",
+      "value": "kyD6YEZWn33A0A.9M04QgRdghMDpmXTh0sPv5w8nG9w-1773231515-1.0.1.1-qv.bWq05BjUTV70pcwLfm92X8PExcWPmjo4pUNosI7HbRzxJpjW_cNjIVarEhrHIDfL1E5Qh1VLRE2qx4kjSAaZIMXUGcs9DRBrMX.hqsHY",
       "domain": ".darwinbox.in",
       "path": "/",
-      "expires": 1772623612.377941,
+      "expires": 1773233315.595584,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "_cfuvid",
-      "value": "1vcKcbsAi3q99R1WNyjVafTJ6NfYeV8bWilR5dnUc0g-1772621812376-0.0.1.1-604800000",
+      "value": "Jan8pg36s_yGDmIaE5503OYMOKc2NVnD.fPUuSBgZ1A-1773231515579-0.0.1.1-604800000",
       "domain": ".darwinbox.in",
       "path": "/",
       "expires": -1,
@@ -31,11 +31,81 @@
       "sameSite": "None"
     },
     {
-      "name": "pbqBeYWPUn",
-      "value": "UFF-SWR5RVFSa3lENndRYmVRRlNzb2ZHNzBSckR3dGpLkXIo0_zOoxksdF7wkjlisWhBuI3RXVstwGSVhVJ1pQ%3D%3D",
+      "name": "session",
+      "value": "33268546fb04c1cdfe70bcf1074b7052",
       "domain": "instance8.darwinbox.in",
       "path": "/",
       "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ab805d4a680a53f51e16ffb2737d0dc5",
+      "value": "1362833f297511ab9af464ba0a99ceb1b6861d5aa%3A4%3A%7Bi%3A0%3Bs%3A5%3A%2221303%22%3Bi%3A1%3Bs%3A10%3A%22segunubeza%22%3Bi%3A2%3Bi%3A604800%3Bi%3A3%3Ba%3A16%3A%7Bs%3A18%3A%22userSessionTimeout%22%3Bi%3A1773231516%3Bs%3A9%3A%22plan_name%22%3Bs%3A0%3A%22%22%3Bs%3A9%3A%22tenant_id%22%3Bs%3A1%3A%225%22%3Bs%3A13%3A%22monthly_spend%22%3Bi%3A0%3Bs%3A14%3A%22account_status%22%3Bi%3A2%3Bs%3A7%3A%22is_paid%22%3Bi%3A0%3Bs%3A15%3A%22financial_cycle%22%3Bs%3A1%3A%224%22%3Bs%3A26%3A%22no_of_employees_on_payment%22%3Bi%3A0%3Bs%3A18%3A%22account_created_on%22%3Bi%3A1602571831%3Bs%3A31%3A%22changed_from_trial_to_active_on%22%3Bi%3A0%3Bs%3A12%3A%22mod_is_leave%22%3Bi%3A1%3Bs%3A17%3A%22mod_is_attendance%22%3Bi%3A1%3Bs%3A13%3A%22mod_is_stream%22%3Bi%3A1%3Bs%3A20%3A%22mod_is_reimbursement%22%3Bi%3A1%3Bs%3A14%3A%22mod_is_payroll%22%3Bi%3A1%3Bs%3A9%3A%22expire_on%22%3Bi%3A2207327400%3B%7D%7D",
+      "domain": "instance8.darwinbox.in",
+      "path": "/",
+      "expires": 1773836317.061786,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "language",
+      "value": "en",
+      "domain": "instance8.darwinbox.in",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_CO_identify_instance8-5",
+      "value": "eyJkYXJ3aW5ib3giOnsiX0NPX2lkIjoiMTk3N2FkZmQtMTQzYS1hZWQyLTEyYTktNDVlMDFjYjdiNjE2IiwidGVuYW50IjoiNSJ9fQ%3D%3D",
+      "domain": ".darwinbox.in",
+      "path": "/",
+      "expires": 1807791521.937739,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_CO_sid",
+      "value": "%7B%22sessionId%22%3A1773231521948%7D",
+      "domain": ".darwinbox.in",
+      "path": "/",
+      "expires": 1773233321.937937,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_CO_keyinstance8-5",
+      "value": "%7B%22licenseKey%22%3A%22instance8-5%22%2C%22anonymousId%22%3A%22bdd0a519-ffa5-4444-4fcd-7aabe644c906%22%7D",
+      "domain": ".darwinbox.in",
+      "path": "/",
+      "expires": 1807791522.022222,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_CO_sid_trk",
+      "value": "%7B%22sessionId%22%3A1773231521991%7D",
+      "domain": ".darwinbox.in",
+      "path": "/",
+      "expires": 1773233322.022272,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "chatbot_token",
+      "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjaGFubmVsIjoiY2hhdF9ib3QiLCJ1c2VyX2lkIjoiMjEzMDMiLCJ0ZW5hbnRfaWQiOiI1IiwiaWF0IjoxNzczMjMxNTI0LCJleHAiOjE3NzMzMTc5MjR9.hwwyC40akuRCx3DAG7p8OyVIVb8SjEmmpghCIIflhTM",
+      "domain": "instance8.darwinbox.in",
+      "path": "/",
+      "expires": 1773317924.130145,
       "httpOnly": true,
       "secure": true,
       "sameSite": "Lax"
@@ -47,31 +117,59 @@
       "localStorage": [
         {
           "name": "_pendo_sessionId.ef82c8d3-52b7-41b9-4f25-b592098285e7",
-          "value": "{\"sessionId\":\"JvIv5PcUzwPu31BT\",\"timestamp\":1772621815932}"
+          "value": "{\"sessionId\":\"Edn34uzxaha14OTp\",\"timestamp\":1773231521904}"
         },
         {
           "name": "_pendo_meta.ef82c8d3-52b7-41b9-4f25-b592098285e7",
-          "value": "{\"ttl\":1781261814226,\"value\":2932268396}"
+          "value": "{\"ttl\":1781871521904,\"value\":1830871420}"
+        },
+        {
+          "name": "theme",
+          "value": "dark"
         },
         {
           "name": "NRBA_SESSION",
-          "value": "{\"value\":\"b70ae5364a2a60f4\",\"inactiveAt\":1772623615932,\"expiresAt\":1772636214469,\"updatedAt\":1772621815932,\"sessionReplayMode\":0,\"sessionReplaySentFirstChunk\":false,\"sessionTraceMode\":0,\"traceHarvestStarted\":false,\"loggingMode\":0,\"logApiMode\":0,\"serverTimeDiff\":-98,\"custom\":{},\"numOfResets\":0,\"consent\":false}"
+          "value": "{\"value\":\"24b427e3ced38b8f\",\"inactiveAt\":1773233317185,\"expiresAt\":1773245917185,\"updatedAt\":1773231521325,\"sessionReplayMode\":0,\"sessionReplaySentFirstChunk\":false,\"sessionTraceMode\":0,\"traceHarvestStarted\":false,\"loggingMode\":0,\"logApiMode\":0,\"serverTimeDiff\":-137,\"custom\":{},\"numOfResets\":0,\"consent\":false}"
         },
         {
           "name": "_pendo_visitorId.ef82c8d3-52b7-41b9-4f25-b592098285e7",
-          "value": "{\"ttl\":1781261814225,\"value\":\"_PENDO_T_EX5GqP6gvHq\"}"
+          "value": "{\"ttl\":1781871521904,\"value\":\"instance8_5_21303\"}"
+        },
+        {
+          "name": "dbx_lib_env",
+          "value": "prod"
+        },
+        {
+          "name": "dbx_selected_language",
+          "value": "en"
         },
         {
           "name": "_pendo_guides_blocked.ef82c8d3-52b7-41b9-4f25-b592098285e7",
-          "value": "{\"ttl\":1772636214953,\"value\":\"0\"}"
+          "value": "{\"ttl\":1773245918968,\"value\":\"0\"}"
         },
         {
           "name": "_pendo_accountId.ef82c8d3-52b7-41b9-4f25-b592098285e7",
-          "value": "{\"ttl\":1781261814225,\"value\":\"instance8_5\"}"
+          "value": "{\"ttl\":1781871521904,\"value\":\"instance8_5\"}"
         },
         {
           "name": "_pendo___sg__.ef82c8d3-52b7-41b9-4f25-b592098285e7",
-          "value": "{}"
+          "value": "{\"visitormetadata\":{\"agent__permission\":\"Admin\"}}"
+        },
+        {
+          "name": "dboxUiLibrarySapienDSTheme",
+          "value": "{\"themeColorSelection\":\"standard\",\"secondaryButtonsBehaveAsThemeButtons\":true,\"selectedCustomColor\":null,\"selectedThemeId\":\"coral-red\"}"
+        },
+        {
+          "name": "db_top_bar",
+          "value": "{\"clock_options\":{\"enable\":0,\"visible\":0,\"text\":\"\",\"is_clock_widget_enabled\":0},\"vibe_article\":{\"feed\":false,\"article_group_admin\":0},\"status\":1,\"tenant_details\":{\"name\":\"Instance8\",\"page_title\":\"Instance8\",\"logo_bg_dynamic\":\"0\",\"logo\":{\"logo\":{\"ObjectURL\":\"https://darwinbox-data-prod-mum.s3.ap-south-1.amazonaws.com/DRL_5f854e37a7996_5/logo/a112785393869aaa8f041fae__tenant-avatar-5_1553425575.jpg\",\"Bucket\":\"darwinbox-data-prod-mum\",\"Key\":\"DRL_5f854e37a7996_5/logo/a112785393869aaa8f041fae__tenant-avatar-5_1553425575.jpg\"},\"name\":\"Instance8\",\"subdomain\":\"instance8\"},\"dynamic_color\":\"#4c4b5d\",\"dynamic_color_top\":\"linear-gradient( #1676e2)\",\"dynamic_color_selection\":\"0\",\"font_color_career_page\":\"#167bda\",\"tenant_id\":\"5\",\"quick_filter\":\"1\",\"auto_logout_mins\":9999999,\"auto_logout_redirect_url\":\"\",\"allow_teams_bot\":1,\"org_view_fields_in_elastic_search\":\"Search by Employee Name, Contribution Level or Employee Type\",\"enable_left_nav\":true},\"menu\":{\"employee\":{\"Dashboard\":{\"image\":\"/images/Icons_latest/dashboard.png\",\"image_svg\":\"/images/app-icons/dashboard.svg\",\"url\":\"/dashboard\"},\"Profile\":{\"image\":\"/images/Icons_latest/profile-icon.svg\",\"image_svg\":\"/images/app-icons/profile-icon.svg\",\"url\":\"/ms/db/profile/view/21303\"},\"Employees\":{\"image\":\"/images/Icons_latest/employees.png\",\"image_svg\":\"/images/app-icons/employees.svg\",\"url\":\"/employee/list/is/1\",\"module_id\":\"employee_dashboard\"},\"Travel\":{\"image\":\"/images/Icons_latest/travel.png\",\"image_svg\":\"/images/app-icons/travel.svg\",\"url\":\"/ms/travelexpense/travel-expenses/summary\",\"module_id\":\"travel\"},\"HR Docs\":{\"image\":\"/images/Icons_latest/hr-documents-new.svg\",\"image_svg\":\"/images/app-icons/hr_documents.svg\",\"url\":\"/hrfiles/hrfiles/getDocuments/id/21303\",\"module_id\":\"hr_documents\"},\"Policies HR\":{\"image\":\"/images/Icons_latest/hr-documents.png\",\"image_svg\":\"/images/app-icons/hr-policy.svg\",\"url\":\"/hrfiles/hrpolicy/employeepolicy\",\"module_id\":\"hr_policies\"},\"Flows\":{\"image\":\"/images/Icons_latest/Flows.png\",\"image_svg\":\"/images/app-icons/flows.svg\",\"url\":\"/ms/flows/21303/flow-requests\"},\"Compensation\":{\"image\":\"/images/Icons_latest/compensation.png\",\"image_svg\":\"/images/app-icons/compensation.svg\",\"url\":\"/payroll\",\"module_id\":\"compensation\"},\"Employee Engagement\":{\"image\":\"/images/Icons_latest/Engagement.png\",\"image_svg\":\"/images/app-icons/surveys.svg\",\"url\":\"/ms/formbuilder/survey-manager/dashboard\",\"module_id\":\"employee_engagement\"},\"Org View\":{\"image\":\"/images/Icons_latest/org_structure_icon.svg\",\"image_svg\":\"/images/app-icons/org_structure.svg\",\"url\":\"/ms/db/home/orgdashboard\",\"module_id\":\"org_view\"},\"Helpdesk\":{\"image\":\"/images/Icons_latest/helpdesk.png\",\"image_svg\":\"/images/app-icons/helpdesk.svg\",\"url\":\"/ms/helpdesk\",\"module_id\":\"helpdesk\"},\"Performance\":{\"image\":\"/images/Icons_latest/performance.png\",\"image_svg\":\"/images/app-icons/performance.svg\",\"module_id\":\"performance\",\"url\":\"/ms/pms/dashboard/overview\"},\"VIBE\":{\"image\":\"/images/Icons_latest/new_vibe.svg\",\"image_svg\":\"/images/app-icons/vibe.svg\",\"url\":\"/ms/vibe/home/posts/admin\",\"beta\":1,\"module_id\":\"vibe\"},\"Reports\":{\"image\":\"/images/Icons_latest/reports.png\",\"image_svg\":\"/images/app-icons/reports.svg\",\"url\":\"/reports/index\",\"module_id\":\"reports\"},\"Reports Builder\":{\"image\":\"/images/Icons_latest/reports_builder.png\",\"image_svg\":\"/images/app-icons/reports_builder.svg\",\"url\":\"/ms/report\",\"module_id\":\"reports_builder\"},\"Calendar\":{\"image\":\"/images/Icons_latest/calendarc-img.png\",\"image_svg\":\"/images/app-icons/calendar.svg\",\"url\":\"/settings/calendar\",\"module_id\":\"calendar\"},\"Journeys\":{\"image\":\"/images/Icons_latest/employee_journeys_icon.svg\",\"image_svg\":\"/images/app-icons/employee_journeys_icon.svg\",\"url\":\"/ms/flows/21303/my-trails\",\"module_id\":\"journeys\"},\"test\":{\"image\":\"/images/Icons_latest/extra-link.png\",\"image_svg\":\"/images/Icons_latest/extra-link.png\",\"url\":\"/dashboardApi/redirect?url=https%3A%2F%2Fwww.google.com%3F\",\"extra_menu\":1,\"module_id\":\"a69453b69f3eba640250120\"},\"Talent Hub\":{\"image\":\"/images/Icons_latest/TalentManagementDashboard_Icon.svg\",\"image_svg\":\"/images/app-icons/talent_hub.svg\",\"url\":\"/ms/talent/talent-hub/overview/21303\",\"beta\":1,\"module_id\":\"talent_management\"},\"Task Box\":{\"url\":\"/tasksApi/GetTasks\",\"image\":\"/images/Icons_latest/pending-action.png\",\"image_svg\":\"/images/app-icons/requests_tasks.svg\",\"module_id\":\"task_box\"},\"Visitor Management\":{\"image\":\"/images/Icons_latest/visitor-management.svg\",\"image_svg\":\"/images/app-icons/visitor_management.svg\",\"url\":\"/customflow/index/id/21303?visitor=1\",\"module_id\":\"visitor_management\"},\"People Analytics\":{\"image\":\"/images/Icons_latest/analyticsDashboard.png\",\"image_svg\":\"/images/app-icons/analyticsDashboard.svg\",\"url\":\"/ms/analyticsnew/dashboard\",\"module_id\":\"people_analytics\",\"qna_enabled\":true},\"Tax Filing\":{\"image\":\"/images/Icons_latest/tax2win-icon.svg\",\"image_svg\":\"/images/app-icons/tax2win-icon.svg\",\"url\":\"/payroll/employees/view/id/21303/year_dropdown/2024#pay_slips\",\"module_id\":\"tax_filing\"},\"Benefits Page\":{\"image\":\"/images/Icons_latest/benefits.png\",\"image_svg\":\"/images/app-icons/benefits.svg\",\"url\":\"/benefits/others/id/21303\",\"module_id\":\"benefits\"},\"redirection menu help portal\":{\"image\":\"/images/app-icons/extra-link.svg\",\"image_svg\":\"/images/app-icons/extra-link.svg\",\"url\":\"/dashboardApi/redirect?url=https%3A%2F%2Finstance8.darwinbox.in%2Fdata%3DEgMlAgtlBAZVeiFSCyICKy5KLQALZQQGVXpdDiB9dCs7OSVeCGVzGlQKOgwgFwUrOBAqXSdIDw96Qy1VDyUJMT4XBwYKACUfeFAiDw8LCXM6EDpaJnYlAXpuMg0bJQU6OUg9AyR2EB56VC0dDBgVdjkuIQMnWCYeeX4tURgLBi8tLjkGJ1gbDG1tAx4NCB04Oj4IXid2A0N4fjoIDxgVci0uPhczXxtDen09Vw8lBTo6PjZdJFgDR21uIg4YJS81LhA6XSR2Dw9tbSVRDyIBdjkQOlswZRAfbm49VRsbHTsuSD5aJ3UTRHhtMg4MCAFwOj0mGSZhCwV%252BVT4UGAwNdD4QKhckSwsFflQ%252BECEIPDQSLTkCMQB3AH5TBw0MJQUrOzklBAsAcwFubl1RGn1xKhUtOgcmWwg8VVcmVBsYcSgtLggHJXEIG1ZhIh4mCHEqFS06ByZbCDNuYSJXIxhxARVJCAclcQgFbmEmVCAiAjYtKSZYIF4MR1R%252BPh0TGBY2Fi1bByVxCABtVDIUG30SJBUtVgcIZToaflMHDQsmMysVSDUDCGUMGm8LEBIbfQJyFi1WGzEADAZTcQMNDSYOCxItPQIKXwQfbm45DQ4MDjQtFzUeMAAUEFV%252BUQ4bFxYyFUhaCAp1LgNuC1EPGBwNdD4QOhkkdgMMelAhFwshFjQWSDkbIFgtH3puOgwPCyNyLS0iXCRmC0N5QykdDyUWKDoXNQYkdgdCbW4tHhslEi45ECIHJXEIAm5uXQwYfRI7L0g5GjBlLgV%252BUwcNFAgSOBM5WigLagAFemwqDxsXDnEWLVoFDWVzAlJqXQ4gfXQrOzklXghlcxpSVFERGBwNdD4TBzg%252Fdw8Een09Ug81BTI%252BPyEBM2V3A25uAxcLCjA0FT0bBg11BwV%252BfFlVIBgOKhYpGAk9XxRFfnw6CCAILDI%252BExgHMGUQGW5hIgIbfQI7LTxWGw1lcx9tYSENDSYNKxErUlM%253D\",\"extra_menu\":1,\"key_sso\":\"https://instance8.darwinbox.in/\",\"sso_enabled\":1,\"id\":\"a699fc850d9272136687302\",\"module_id\":\"a699fc850d9272136687302\"},\"sso check\":{\"image\":\"/images/app-icons/extra-link.svg\",\"image_svg\":\"/images/app-icons/extra-link.svg\",\"url\":\"/dashboardApi/redirect?url=https%3A%2F%2Fmarketplace1.qa.darwinbox.io%2Fintegrations%2FgetDynamicSsoIdpUrl%2Ftab%2Fhelp_portaldata%3DVxh%252BPw8YMQoNBTNnAyQpCGtRdj0PGDEKDQVPOyh7Xwh%252BIn5jDBhGFgx1KDkoES4IfQtxYCM1OgMiPD9gByMiEnsMXDsOfRATIC8wOgcNIlB%252FC2FnIgsQDSIRIDgTIy4ZfFNmPiALJRIiKz8oBB4%252BVXw1ej4jJRMSIQE%252FZBANLQxoNWI7IyUuADUSESsFDjYbfyVTYyMLNk8gASg9Bx4%252BUWg1ZSo3Ii5PIgIvYgcjLhl%252FJW1gICU2SzURMDsQIwQWawthYCALOgM1EjdkByQqVXwLYWY0GCUTNhEvYBMdNhhrU2VnIwgmSCASIDsEDipTfyZ9JCIcPgkmKiwhEAomV3sLcSogNj4JJissJSkOFxdXNmI%252FNX1CDCYsFTgEIy4IfiJ%252BOQ99Rg02EU9kEntaCVA2YToiJj0wDSg0YRMeWgtoNVM6IQw9Fw4eMCsuDloJUDZhOiImPT82HjBiKx5aIlBSUzohDD0JNh40YSgkKRVoMn1lJCM5SwwBLCgbHj0VUzYAOiEMPQw1KyAhE3s5B1A2DToMGA8WJiwVOAMgGAhQU24%252BDBg5Fjd0AicTeylRUzYNJjV9OQoLDhE4BSAlKFc2Zj8OIjETNhErOAYKJRdoDG4jNH0hHA0BQzsTET0RUFMBNQ4IGw82dEM6EBomV3sLYSQgCzYAIi8zIgMnPRdTU2ImJCUYEzZ0IygEMwhVazVfJDcbOg0hATcmBDM6VHw2Yjs3GCESNSwsOAcONQp%252FNmE6IQw9Sg4RSz0vJFYUaDJ9ZSQmHyw5AzcjBw06V38bdSMkCjkVNRFPJBMeBBJ7JEAlDwgDEgsBPyIDDF5QUDZ%252BOwwcAB07KyxiAww9DVAmXCMkJgATNQFDIAMjAAh%252FJW0nIBs2DiIsOygHGiYSewxyOAwIMQM3dDQ5KSQ9B1APYic0IiEDJiwVOAMgGAhrDHImDH5ODTYRTzcoJzkVewtbOiQhR0c%253D\",\"extra_menu\":1,\"key_sso\":\"https://marketplace1.qa.darwinbox.io/integrations/getDynamicSsoIdpUrl/tab/help_portal\",\"sso_enabled\":1,\"id\":\"a69a1ac8d0b8e2627892107\",\"module_id\":\"a69a1ac8d0b8e2627892107\"},\"PST-115552\":{\"image\":\"/images/Icons_latest/extra-link.png\",\"image_svg\":\"/images/Icons_latest/extra-link.png\",\"url\":\"/dashboardApi/redirect?url=https%3A%2F%2Finstance8.darwinbox.in%2Fms%2Fvibe%2Fhome%2Fgroups%2Fgroup%2F659e4d2253eaa%2Fgroup-posts\",\"extra_menu\":1,\"module_id\":\"a696e0a4457e6b857666718\"},\"logo check extra menu\":{\"image\":\"https://darwinbox-data-prod-mum.s3.ap-south-1.amazonaws.com/DRL_5f854e37a7996_5/workflows/a130833090769a25ed1cd2b0__1772248785_Screenshot_from_2026-02-27_14-24-34.png\",\"image_svg\":\"https://darwinbox-data-prod-mum.s3.ap-south-1.amazonaws.com/DRL_5f854e37a7996_5/workflows/a130833090769a25ed1cd2b0__1772248785_Screenshot_from_2026-02-27_14-24-34.png\",\"url\":\"/dashboardApi/redirect?url=https%3A%2F%2Finstance8.darwinbox.in%2Fsettings%2Fcompany%2Fextramenu\",\"extra_menu\":1,\"module_id\":\"a69a25e5ea9b83665452727\"},\"MyTest\":{\"image\":\"https://darwinbox-data-prod-mum.s3.ap-south-1.amazonaws.com/DRL_5f854e37a7996_5/workflows/a127340311669a7fc6dca2b5__1772616813_Screenshot_2026-02-27_191943.png\",\"image_svg\":\"https://darwinbox-data-prod-mum.s3.ap-south-1.amazonaws.com/DRL_5f854e37a7996_5/workflows/a127340311669a7fc6dca2b5__1772616813_Screenshot_2026-02-27_191943.png\",\"url\":\"/dashboardApi/redirect?url=%2Fms%2Fflows%2F21303%2Fflow-requests%2Ftrail-view%2Fa63f8c6b1ec273\",\"extra_menu\":1,\"module_id\":\"a69a7fc6ddd38c489360512\"},\"Expenses\":{\"image\":\"/images/Icons_latest/reimbursement.png\",\"url\":\"/ms/travelexpense/reports-expense/reports/id/21303\",\"module_id\":\"expenses\",\"image_svg\":\"/images/app-icons/expenses.svg\"},\"Time Management\":{\"image\":\"/images/Icons_latest/attendance.png\",\"image_svg\":\"/images/app-icons/time_management.svg\",\"url\":\"/ms/time/21303/overview\",\"module_id\":\"time_management\"},\"Recruitment\":{\"image\":\"/images/Icons_latest/recruitment.png\",\"image_svg\":\"/images/app-icons/recruitment.svg\",\"url\":\"/ms/recruitment/summary\",\"module_id\":\"recruitment\"},\"Project\":{\"image\":\"/images/Icons_latest/projects.png\",\"image_svg\":\"/images/app-icons/projects.svg\",\"url\":\"/projects/index\",\"module_id\":\"project\"},\"Employee Survey 3P\":{\"image\":\"/images/Icons_latest/extra-link.png\",\"image_svg\":\"/images/Icons_latest/extra-link.png\",\"url\":\"/dashboardApi/redirect?url=\",\"extra_menu\":1,\"module_id\":\"a69aeb7e38f9cc662633073\"}},\"admin\":{\"Settings\":{\"image\":\"/images/Icons_latest/settingsimg.png\",\"image_svg\":\"/images/app-icons/settingsimg.svg\",\"url\":\"/settings\",\"module_id\":\"settings\"},\"Onboarding\":{\"image\":\"/images/Icons_latest/onboarding.png\",\"image_svg\":\"/images/app-icons/onboarding.svg\",\"url\":\"/ms/onboarding\",\"module_id\":\"onboarding\"},\"Recognition\":{\"image\":\"/images/Icons_latest/randr_logo.svg\",\"image_svg\":\"/images/app-icons/recognition-admin.svg\",\"url\":\"/rewards/rewards/recognitions\",\"module_id\":\"recognition\"},\"Performance\":{\"image\":\"/images/Icons_latest/performance.png\",\"module_id\":\"performance_admin\",\"image_svg\":\"/images/app-icons/performance_management.svg\",\"url\":\"/ms/pms/msf/dashboard/panel\"},\"Talent Hub\":{\"image\":\"/images/Icons_latest/TalentManagementDashboard_Icon.svg\",\"image_svg\":\"/images/app-icons/talent_management.svg\",\"url\":\"/ms/talent/talent-pool/list\",\"module_id\":\"talent_management_admin\"},\"Survey Manager\":{\"image\":\"/images/Icons_latest/SurveyManager.png\",\"image_svg\":\"/images/app-icons/survey_manager.svg\",\"url\":\"/ms/formbuilder/survey-manager/all-surveys\",\"module_id\":\"survey_manager_admin\"},\"Position Management\":{\"image\":\"/images/Icons_latest/position.png\",\"image_svg\":\"/images/app-icons/position.svg\",\"url\":\"/position/dashboard\",\"module_id\":\"position_management_admin\"},\"Helpdesk\":{\"image\":\"/images/Icons_latest/helpdesk.png\",\"image_svg\":\"/images/app-icons/helpdesk-admin.svg\",\"url\":\"/helpdesk\",\"module_id\":\"helpdesk_admin\"},\"Payroll\":{\"image\":\"/images/Icons_latest/compensation.png\",\"image_svg\":\"/images/app-icons/payroll-admin.svg\",\"url\":\"/payroll/setup/dashboard\"},\"Payroll Reports\":{\"image\":\"/images/Icons_latest/reports_builder.png\",\"image_svg\":\"/images/app-icons/payroll-report.svg\",\"url\":\"/payroll/reports\",\"module_id\":\"payroll_reports_admin\"},\"Travel & Expense\":{\"image\":\"/images/Icons_latest/compensation.png\",\"module_id\":\"travel_expense_admin\",\"image_svg\":\"/images/app-icons/te-management.svg\",\"url\":\"/ms/travelexpense/process-advance\"},\"HR Docs\":{\"image\":\"/images/Icons_latest/hr-documents-new.svg\",\"image_svg\":\"/images/app-icons/hr_documents-admin.svg\",\"url\":\"/hrfiles/hrfiles/admindashboard\",\"module_id\":\"hr_documents_admin\"},\"Darwinbox Studio\":{\"image\":\"/images/Icons_latest/studio.svg\",\"image_svg\":\"/images/app-icons/studio.svg\",\"url\":\"/studio\",\"module_id\":\"darwinbox_studio_admin\"},\"Imports Center\":{\"image\":\"/images/Icons_latest/import-centre.svg\",\"image_svg\":\"/images/app-icons/import_center.svg\",\"url\":\"/importCenter\",\"module_id\":\"import_center_admin\"},\"Flow Manager\":{\"image\":\"/images/Icons_latest/flow-manager.svg\",\"image_svg\":\"/images/app-icons/flow_manager.svg\",\"url\":\"/ms/flows/manager/overview\",\"module_id\":\"flow_manager_admin\"},\"Talent Search\":{\"image\":\"/images/Icons_latest/talent_search.svg\",\"image_svg\":\"/images/app-icons/talent_search.svg\",\"url\":\"/ms/talentsearch\",\"module_id\":\"talent_search_admin\"},\"Marketplace\":{\"image\":\"/images/Icons_latest/marketplace_icon.svg\",\"image_svg\":\"/images/app-icons/marketplace_icon.svg\",\"url\":\"/integrations/getDynamicSsoIdpUrl/tab/marketplace\",\"extra_menu\":1,\"module_id\":\"marketplace_admin\"},\"Talent Intelligence\":{\"image\":\"/images/Icons_latest/talent_intelligence.svg\",\"image_svg\":\"/images/app-icons/talent_intelligence.svg\",\"url\":\"/ms/skill/admin/skills-admin\",\"module_id\":\"talent_intelligence_admin\"},\"Darwinbox Help Portal\":{\"image\":\"/images/Icons_latest/help_portal.svg\",\"image_svg\":\"/images/app-icons/help_portal.svg\",\"url\":\"/integrations/getDynamicSsoIdpUrl/tab/help_portal\",\"extra_menu\":1,\"module_id\":\"darwinbox_help_portal_admin\"},\"Scheduler\":{\"image\":\"/images/Icons_latest/scheduling_admin.svg\",\"image_svg\":\"/images/app-icons/time_scheduler.svg\",\"url\":\"/ms/time/schedule\",\"extra_menu\":1,\"module_id\":\"schedule_admin\"}},\"order_map\":{\"Profile\":1,\"Employees\":2,\"Travel\":3,\"HR Docs\":4,\"Policies HR\":5,\"Flows\":6,\"Compensation\":7,\"Employee Engagement\":8,\"Org View\":9,\"Helpdesk\":10,\"Performance\":11,\"VIBE\":12,\"Reports\":13,\"Reports Builder\":14,\"Calendar\":15,\"Journeys\":16,\"test\":17,\"Talent Hub\":18,\"Task Box\":19,\"Visitor Management\":20,\"People Analytics\":21,\"Tax Filing\":22,\"Benefits Page\":23,\"redirection menu help portal\":24,\"sso check\":25,\"PST-115552\":26,\"logo check extra menu\":27,\"MyTest\":28,\"Expenses\":29,\"Time Management\":30,\"Recruitment\":31,\"Project\":32,\"Employee Survey 3P\":33,\"Dashboard\":0},\"recent\":{\"Task Box\":0,\"Flows\":1,\"Profile\":2,\"Policies HR\":3,\"Employees\":4,\"HR Docs\":5,\"VIBE\":6,\"Performance\":7}},\"view_all\":\"View All\",\"view_profile\":\"View Profile\",\"no_notifications\":\"No Notifications Available\",\"pms_menu_bar\":{\"Merit Planning Letters\":\"/hrfiles/hrfiles/meritplanningcandidates\",\"Goal Plan\":\"/ms/pms/gp-dashboard\",\"Bulk Goal\":\"/ms/pms/bulk-goals\",\"Performance Review\":\"/ms/pms/review/panel/dashboard\",\"Performance Calibration\":\"/ms/pms/newcalibration/admin\",\"Talent Review\":\"/ms/pms/tr-dashboard\",\"Talent Calibration\":\"/ms/pms/talent-calibration/admin\",\"MSF\":\"/ms/pms/msf/dashboard/panel\"},\"talent_menu_bar\":{\"talent_pool_access\":true,\"succession_plan_access\":true,\"role_based_successionplan_access\":true,\"career_development_access\":true},\"hide_search_bar\":0,\"org_view_fields_in_elastic_search\":\"Search by Employee Name, Contribution Level or Employee Type\",\"mobile_app_support\":{\"is_supported\":false},\"theme_settings\":{\"theme_color_selection\":\"standard\",\"selected_theme_id\":\"coral-red\",\"selected_custom_color\":null,\"company_logo\":\"https://darwinbox-data-prod-mum.s3.ap-south-1.amazonaws.com/DRL_5f854e37a7996_5/general/a18654582869955db68fcb8__a60c62fafc7311__tenant_a69955db68bf46.jpg\",\"alternate_company_logo\":\"https://darwinbox-data-prod-mum.s3.ap-south-1.amazonaws.com/DRL_5f854e37a7996_5/general/a85868004769955ce2e32c4__a60c62fafc7311__tenant_a69955ce2ded51.jpg\",\"use_theme_for_secondary_button\":true},\"available_rewards\":27,\"right_corner\":{\"user_details\":{\"user_id\":\"21303\",\"mongo_id\":\"5f854e37d1930\",\"firstcharacters\":\"DS\",\"first_characters\":\"DS\",\"fullname\":\"DarwinBox SuperAdmin Mr.\",\"profile_url\":\"employeeprofile/view/id/21303\",\"employee_no\":\"60\",\"image_url\":\"https://darwinbox-data-prod-mum.s3.ap-south-1.amazonaws.com/DRL_5f854e37a7996_5/profile_pics/21303/a62c69100d9821__user-avatar-21303.png\",\"languages\":{\"ar\":\"عَرَبِي<br/> <span class=\\\"fnt-size12\\\"> Arabic </span>\",\"bn\":\"বাংলা<br/> <span class=\\\"fnt-size12\\\"> Bengali </span>\",\"bl\":\"Български<br/> <span class=\\\"fnt-size12\\\"> Bulgarian </span>\",\"zh\":\"中文<br/> <span class=\\\"fnt-size12\\\"> Chinese </span>\",\"cs\":\"Čeština<br/> <span class=\\\"fnt-size12\\\"> Czech </span>\",\"en-us\":\"English (US)\",\"en-UK\":\"English UK\",\"hi\":\"हिंदी<br/> <span class=\\\"fnt-size12\\\"> Hindi </span>\",\"kn\":\"ಕನ್ನಡ<br/> <span class=\\\"fnt-size12\\\"> Kannada </span>\",\"ms\":\"Melayu<br/> <span class=\\\"fnt-size12\\\"> Malay </span>\",\"nb-NO\":\"Norsk bokmål<br/> <span class=\\\"fnt-size12\\\"> Norwegian Bokmål </span>\",\"ru\":\"Pусский<br/> <span class=\\\"fnt-size12\\\"> Russian </span>\",\"es\":\"Español<br/> <span class=\\\"fnt-size12\\\"> Spanish </span>\",\"ta\":\"தமிழ்<br/> <span class=\\\"fnt-size12\\\"> Tamil </span>\",\"te\":\"తెలుగు<br/> <span class=\\\"fnt-size12\\\"> Telugu </span>\",\"th\":\"ไทย<br/> <span class=\\\"fnt-size12\\\"> Thai </span>\",\"vi\":\"Tiếng Việt<br/> <span class=\\\"fnt-size12\\\"> Vietnamese </span>\"},\"selected_language\":\"en\",\"time_zone\":\"Asia/Kolkata\"},\"switch\":\"Switch to Employee\",\"Accounts\":\"/settings/accountdetails\",\"Proxy As User\":\"/behaveas\",\"Mobile QR Code\":\"/dashboard/mobileqrcode\",\"Preferences\":\"/employee/settings\",\"Change Language\":\"/employee/language\",\"Change Password\":\"/employee/changepassword\",\"Logout\":\"/user/logout\",\"Redeem Points\":{\"url\":\"/rewards/rewards/xoxosso\",\"points\":27}},\"right_corner_mlf\":{\"user_details\":\"user_details\",\"switch\":\"Switch to Employee\",\"Accounts\":\"Accounts\",\"Proxy As User\":\"Proxy As User\",\"Mobile QR Code\":\"Mobile QR Code\",\"Preferences\":\"Preferences\",\"Change Language\":\"Change Language\",\"Change Password\":\"Change Password\",\"Logout\":\"Logout\",\"Merit Planning Letters\":\"Merit Planning Letters\",\"Goal Plan\":\"Goal Plan\",\"Bulk Goal\":\"Bulk Goal\",\"Performance Review\":\"Performance Review\",\"Performance Calibration\":\"Performance Calibration\",\"Talent Review\":\"Talent Review\",\"Talent Calibration\":\"Talent Calibration\",\"MSF\":\"MSF\",\"Redeem Points\":\"Redeem Points\"},\"toastMsg\":\"Successfully logged in Administrator Mode\"}"
+        },
+        {
+          "name": "_Dbox",
+          "value": "{\"source\":\"https://instance8.darwinbox.in/user/login\",\"landing_page\":\"https://instance8.darwinbox.in/tasksApi/GetTasks\",\"firstVisitOn\":\"2026-03-11T12:18:41.664Z\",\"userId\":\"21303\",\"lastProps\":{\"tenant\":\"5\"},\"anonId\":\"bdd0a519-ffa5-4444-4fcd-7aabe644c906\"}"
+        },
+        {
+          "name": "_pendo_oldVisitorId.ef82c8d3-52b7-41b9-4f25-b592098285e7",
+          "value": "{\"ttl\":1781871521904,\"value\":\"_PENDO_T_LYWfrYsAMKh\"}"
         },
         {
           "name": "_pendo_utm.ef82c8d3-52b7-41b9-4f25-b592098285e7",

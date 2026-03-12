@@ -4,46 +4,21 @@
   "description": "Autonomous PRD to Playwright AI Agent",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "locators": "node src/services/locatorService.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "@qdrant/js-client-rest": "^1.17.0",
     "axios": "^1.13.6",
     "chalk": "^5.6.2",
     "cheerio": "^1.2.0",
     "commander": "^14.0.3",
     "dotenv": "^17.3.1",
-    "fs-extra": "^11.3.4",
-    "mongodb": "^7.1.0",
-    "openai": "^6.27.0",
-    "playwright": "^1.58.2"
-  },
-  "devDependencies": {
-    "@playwright/test": "^1.58.2",
-    "@reportportal/agent-js-playwright": "^5.4.0"
-  }
-}
-{
-  "name": "ai-automation-agent",
-  "version": "1.0.0",
-  "description": "Autonomous PRD to Playwright AI Agent",
-  "main": "src/index.js",
-  "scripts": {
-    "start": "node src/index.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "dependencies": {
-    "axios": "^1.13.6",
-    "chalk": "^5.6.2",
-    "cheerio": "^1.2.0",
-    "commander": "^14.0.3",
-    "dotenv": "^17.3.1",
+    "fs": "^0.0.1-security",
     "fs-extra": "^11.3.4",
     "mongodb": "^7.1.0",
     "openai": "^6.27.0",
