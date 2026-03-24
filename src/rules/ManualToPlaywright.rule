@@ -6,32 +6,44 @@ Follow best practices:
 - Use @playwright/test
 - Use test.describe grouping by module
 - Use beforeEach for login
-- Use logintoApp function present in LoginPage.js for login functionality in before each
+- Reuse the existing Login Page Object from `pages/LoginPage.js` and call `logintoApp()` in beforeEach.
 - Use navigateToCreatePost Function to navigate to module 
 - Use async/await
 - Use Page Object Model (POM) structure
-- Use ${locatorFile} for locators only
+- Reuse existing Page Objects provided under EXISTING PAGE OBJECTS below when applicable.
 - Use stable selectors (getByText, getByRole, getByLabel preferred)
 - Add proper assertions using expect()
 - Add API validation using request fixture if required
 - Add proper test annotations (tags)
 - Handle waits correctly (no hard waits)
 - Include error handling best practices
-- Use environment variables where required
+- Use environment variables where required. Prefer APP_BASE_URL for the application URL (fallback to BASE_URL).
 - Use .nav navigation from ${navFile} which contains application page navigation details
 
-Return only valid JavaScript code.
+IMPORTANT OUTPUT RULES (multi-file):
+
+1) Do NOT inline Page Object classes inside the spec file.
+2) If new page objects are needed, output them as separate files under `/pages`.
+3) Output the Playwright spec as a separate file under `/output` (because Playwright config uses `testDir: ./output`).
+4) Use the following exact marker at the start of each file:
+
+// FILE: <relative/path/from/repo/root>
+
+Example:
+// FILE: pages/MainDashboardPage.js
+<file contents>
+// FILE: output/TALM-64367.test.js
+<file contents>
+
+Return ONLY the multi-file JavaScript output with `// FILE:` markers.
 No explanations.
 No markdown.
-OUTPUT STRUCTURE
 
-The AI must generate:
-Page Object file (if required)
-Test spec file
-API validation logic if present
+EXISTING PAGE OBJECTS (reuse these; do not duplicate them in the spec):
+${existingPages}
 
 EXPECTED OUTPUT EXAMPLE STRUCTURE
-// pages/LoginPage.js
+// FILE: pages/LoginPage.js
 class LoginPage {
   constructor(page) {
     this.page = page;
@@ -48,7 +60,8 @@ class LoginPage {
 }
 
 module.exports = { LoginPage };
-// tests/login.spec.js
+
+// FILE: output/login.spec.js
 const { test, expect } = require('@playwright/test');
 const { LoginPage } = require('../pages/LoginPage');
 
