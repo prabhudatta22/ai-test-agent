@@ -24,6 +24,12 @@ const path = require('path');
 const logger = require('../utils/logger');
 const { indexTestcase } = require('../vector/testcaseVectorService');
 const { closeVectorStore } = require('../vector/vectorStore');
+const { reportVectorUpsert, reportVectorCounts } = require('../vector/vectorExecutionReporter');
+const { getEnv } = require('../utils/env');
+
+function isVerbose() {
+  return String(getEnv('VECTOR_REPORT_VERBOSE', 'false')).toLowerCase() === 'true';
+}
 
 function readJson(filePath) {
   return JSON.parse(fs.readFileSync(filePath, 'utf8'));
@@ -44,9 +50,11 @@ async function run() {
     throw new Error('Input JSON must include externalId and source');
   }
 
-  logger.info(`Upserting testcase ${doc.source}:${doc.externalId} from ${filePath}`);
-  await indexTestcase(doc);
-  logger.success('Upsert complete.');
+  if (isVerbose()) logger.info(`Upserting testcase ${doc.source}:${doc.externalId} from ${filePath}`);
+  const res = await indexTestcase(doc);
+  reportVectorUpsert({ inserted: res?.inserted, tc: doc });
+  reportVectorCounts({ upserted: 1, usedForAutomation: 0 });
+  if (isVerbose()) logger.success('Upsert complete.');
   await closeVectorStore();
 }
 

@@ -8,8 +8,14 @@ require('dotenv').config();
 const fs = require('fs');
 const path = require('path');
 const logger = require('../utils/logger');
-const { indexTestcase } = require('../vector/testcaseVectorService');
+const { indexTestcase, findDuplicates } = require('../vector/testcaseVectorService');
 const { closeVectorStore } = require('../vector/vectorStore');
+const { reportVectorUpsert, reportVectorCounts } = require('../vector/vectorExecutionReporter');
+const { getEnv } = require('../utils/env');
+
+function isVerbose() {
+  return String(getEnv('VECTOR_REPORT_VERBOSE', 'false')).toLowerCase() === 'true';
+}
 
 function readJson(filePath) {
   return JSON.parse(fs.readFileSync(filePath, 'utf8'));
@@ -64,20 +70,52 @@ async function run() {
   const json = readJson(filePath);
   const items = Array.isArray(json) ? json : json?.tests || [];
 
-  logger.info(`Ingesting ${items.length} ${source} testcases from ${filePath}`);
+  if (isVerbose()) logger.info(`Ingesting ${items.length} ${source} testcases from ${filePath}`);
+
+  const dedupThreshold = Number(getEnv('VECTOR_DUP_THRESHOLD', '0.86'));
+  const dedupEnabled = String(getEnv('VECTOR_DEDUP_ENABLED', 'true')).toLowerCase() === 'true';
+  if (isVerbose()) logger.info(`VECTOR_DEDUP_ENABLED=${dedupEnabled} threshold=${dedupThreshold}`);
 
   let ok = 0;
   let fail = 0;
+  let upsertedCount = 0;
+  let skippedDuplicates = 0;
 
   for (let i = 0; i < items.length; i += 1) {
     const t = items[i];
     try {
       const doc = source === 'xray' ? mapXrayTestToDoc(t) : mapPrdTestToDoc(t, i);
-      await indexTestcase(doc);
+
+      // Semantic de-dup: skip indexing if a close match already exists.
+      // This is crucial when doing a one-time bootstrap ingestion.
+      if (dedupEnabled) {
+        try {
+          const dups = await findDuplicates(doc, { threshold: dedupThreshold, limit: 1 });
+          if (Array.isArray(dups) && dups.length > 0) {
+            skippedDuplicates += 1;
+            if (isVerbose()) {
+              logger.info(
+                `Skip duplicate: ${doc.externalId} matched ${dups[0].externalId} score=${(dups[0].score ?? 0).toFixed(4)}`
+              );
+            }
+            continue;
+          }
+        } catch (e) {
+          // Fail-open: de-dup failure should not stop ingestion.
+          // Most commonly happens if the vector store is not ready yet.
+          logger.warn(`De-dup check failed for ${doc.externalId}: ${e.message}`);
+        }
+      }
+
+      const res = await indexTestcase(doc);
+      reportVectorUpsert({ inserted: res?.inserted, tc: doc });
+
+      // Count every successful upsert operation.
+      upsertedCount += 1;
       ok += 1;
 
       if (ok % 25 === 0) {
-        logger.info(`Progress: ${ok}/${items.length} indexed`);
+        if (isVerbose()) logger.info(`Progress: ${ok}/${items.length} indexed`);
       }
     } catch (e) {
       fail += 1;
@@ -87,7 +125,12 @@ async function run() {
 
   await closeVectorStore();
 
-  logger.success(`Done. Indexed=${ok}, failed=${fail}`);
+  // Ingest is only indexing; no automation execution here.
+  reportVectorCounts({ upserted: upsertedCount, usedForAutomation: 0 });
+
+  if (isVerbose()) logger.info(`Skipped duplicates=${skippedDuplicates}`);
+
+  if (isVerbose()) logger.success(`Done. Indexed=${ok}, failed=${fail}`);
 }
 
 run();

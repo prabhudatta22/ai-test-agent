@@ -31,9 +31,37 @@ async function generateTestCases(structuredPRD) {
 // ${JSON.stringify(structuredPRD)}
 // `;
     const prd = typeof structuredPRD === 'string' ? structuredPRD : JSON.stringify(structuredPRD, null, 2);
-    const prompt = fs
-      .readFileSync('src/rules/BRDToManual.rule', 'utf-8')
-      .replace('{PRD}', prd);
+    // Expand coverage: we keep strict JSON output rules in BRDToManual.rule,
+    // but add additional instruction to maximize scenario breadth.
+    const baseRule = fs.readFileSync('src/rules/BRDToManual.rule', 'utf-8');
+
+    const expansion = `
+
+ADDITIONAL REQUIREMENT (coverage expansion)
+
+Generate as MANY distinct test cases as reasonably possible for the PRD.
+
+You MUST include scenarios across multiple test design methodologies, for every feature/module:
+- Happy path / smoke
+- Negative scenarios (invalid inputs, failures)
+- Boundary/value analysis (min/max/empty/large values)
+- State transitions and workflow variations
+- RBAC / roles and permissions (if PRD mentions roles)
+- Security checks (authz/authn, input injection, sensitive data exposure) when applicable
+- Integration/API validation scenarios if PRD mentions integrations
+- Performance-related acceptance criteria ONLY when PRD mentions response time / load
+- Accessibility / usability checks when UI is involved (where applicable)
+
+De-dup rule:
+- Do NOT output duplicates. If two scenarios are similar, merge them or keep the stricter one.
+
+Atomicity rule:
+- Keep each test case atomic (one primary assertion).
+
+Important: still return ONLY the JSON array in the exact schema.
+`;
+
+    const prompt = baseRule.replace('{PRD}', prd) + expansion;
 
     const response = await callAI(prompt, {
       model: process.env.OPENAI_MODEL || 'gpt-4.1-mini',

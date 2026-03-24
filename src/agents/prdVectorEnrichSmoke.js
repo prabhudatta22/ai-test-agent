@@ -8,9 +8,15 @@
 require('dotenv').config();
 
 const logger = require('../utils/logger');
-const { enrichPrdTestsWithVector } = require('../vector/prdTestcaseEnrichment');
+const { enrichPrdTestsWithVector, toVectorDoc } = require('../vector/prdTestcaseEnrichment');
 const { indexTestcase } = require('../vector/testcaseVectorService');
 const { closeVectorStore } = require('../vector/vectorStore');
+const { reportVectorCounts } = require('../vector/vectorExecutionReporter');
+const { getEnv } = require('../utils/env');
+
+function isVerbose() {
+  return String(getEnv('VECTOR_REPORT_VERBOSE', 'false')).toLowerCase() === 'true';
+}
 
 async function run() {
   const synthetic = [
@@ -34,15 +40,16 @@ async function run() {
 
   try {
     // Seed once
-    await indexTestcase(enrichPrdTestsWithVector.toVectorDoc(synthetic[0], 0));
+    await indexTestcase(toVectorDoc(synthetic[0], 0));
 
     // Enrich should now reuse it
     const enriched = await enrichPrdTestsWithVector(synthetic, { threshold: 0.7, limit: 3 });
-    logger.info(JSON.stringify(enriched.stats, null, 2));
+    if (isVerbose()) logger.info(JSON.stringify(enriched.stats, null, 2));
     if (enriched.stats.reused < 1) {
       throw new Error('Expected reused >= 1');
     }
-    logger.success('PRD vector enrichment smoke passed.');
+    reportVectorCounts({ upserted: 0, usedForAutomation: enriched.tests.length });
+    if (isVerbose()) logger.success('PRD vector enrichment smoke passed.');
   } finally {
     await closeVectorStore();
   }
