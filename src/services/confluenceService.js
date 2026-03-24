@@ -3,37 +3,57 @@ const cheerio = require('cheerio');
 const { retry } = require('../utils/retry');
 const { getEnv, requireEnv } = require('../utils/env');
 
-// Use .env values instead of hardcoding secrets.
-// Accept both historical naming styles.
-const BASE_URL = getEnv('CONFLUENCE_BASE_URL') || getEnv('BASE_URL');
-const USERNAME = getEnv('CONFLUENCE_USERNAME');
-const API_TOKEN = getEnv('CONFLUENCE_API_TOKEN');
+function normalizeConfluenceBaseUrl(rawUrl) {
+    const raw = String(rawUrl || '').trim();
+    if (!raw) return '';
 
-// Fail fast with a clear message if not configured.
-requireEnv('CONFLUENCE_USERNAME');
-requireEnv('CONFLUENCE_API_TOKEN');
-if (!BASE_URL) {
-    throw new Error(
-        'Missing env var CONFLUENCE_BASE_URL (or BASE_URL). Please set it in .env'
-    );
+    // Remove trailing slashes
+    let url = raw.replace(/\/+$/g, '');
+
+    // Confluence Cloud REST base typically includes `/wiki`.
+    // If user provided the site root, add `/wiki` automatically.
+    if (!url.endsWith('/wiki')) {
+        // Avoid double-appending if `/wiki/` or `/wiki` is already present.
+        if (!url.includes('/wiki')) {
+            url = `${url}/wiki`;
+        }
+    }
+
+    return url;
 }
 
-const client = axios.create({
-    baseURL: BASE_URL,
-    auth: {
-        username: USERNAME,
-        password: API_TOKEN
-    },
-    headers: {
-        Accept: 'application/json'
-    },
-    timeout: 15000
-});
+function getClient() {
+    // Read env at runtime so importing this module doesn't crash pipelines that want to fall back.
+    const baseUrlRaw = getEnv('CONFLUENCE_BASE_URL') || getEnv('BASE_URL');
+    const baseURL = normalizeConfluenceBaseUrl(baseUrlRaw);
+    const USERNAME = getEnv('CONFLUENCE_USERNAME');
+    const API_TOKEN = getEnv('CONFLUENCE_API_TOKEN');
+
+    // Fail fast with a clear message if not configured.
+    requireEnv('CONFLUENCE_USERNAME');
+    requireEnv('CONFLUENCE_API_TOKEN');
+    if (!baseURL) {
+        throw new Error('Missing env var CONFLUENCE_BASE_URL (or BASE_URL). Please set it in .env');
+    }
+
+    return axios.create({
+        baseURL,
+        auth: {
+            username: USERNAME,
+            password: API_TOKEN,
+        },
+        headers: {
+            Accept: 'application/json',
+        },
+       // timeout: 15000,
+    });
+}
 
 /**
  * Get Confluence page content by space key and title
  */
 async function getConfluenceContent(spaceKey, pageTitle) {
+    const client = getClient();
 
     const response = await retry(
         async () => {
@@ -50,8 +70,8 @@ async function getConfluenceContent(spaceKey, pageTitle) {
         {
             shouldRetry: (err) => {
                 const status = err?.response?.status;
-                // Don't retry auth/config issues.
-                if (status === 401 || status === 403) return false;
+                // Don't retry auth/config/not-found issues.
+                if (status === 401 || status === 403 || status === 404) return false;
                 return true;
             }
         }
@@ -104,6 +124,7 @@ function cleanConfluenceHTML(html) {
  * Optional: Fetch page by ID instead of title (more stable)
  */
 async function getConfluenceContentById(pageId) {
+    const client = getClient();
 
     const response = await retry(
         async () => {
@@ -118,7 +139,7 @@ async function getConfluenceContentById(pageId) {
         {
             shouldRetry: (err) => {
                 const status = err?.response?.status;
-                if (status === 401 || status === 403) return false;
+                if (status === 401 || status === 403 || status === 404) return false;
                 return true;
             }
         }

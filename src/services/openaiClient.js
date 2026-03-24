@@ -6,7 +6,7 @@ const { requireEnv } = require('../utils/env');
 async function callAI(prompt, { model, temperature = 0.2, maxOutputTokens = 2500, timeoutMs = 180_000 } = {}) {
   const apiKey = requireEnv('OPENAI_API_KEY');
 
-  const finalModel =  'gpt-4.1-mini';
+  const finalModel = model || process.env.OPENAI_MODEL || 'gpt-4.1-mini';
 
   const payload = {
     model: finalModel,

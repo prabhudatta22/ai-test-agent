@@ -1,6 +1,11 @@
 const OpenAI = require('openai');
 const { requireEnv, getEnv } = require('../utils/env');
 
+// NOTE:
+// This module is the shared embedding layer for the entire repo.
+// Keep it focused on *embedding creation*.
+// Any one-off ingestion utilities (CSV/Qdrant) should live in separate scripts.
+
 // Keep this in one place so every consumer uses the same embedding model + dimension.
 const DEFAULT_EMBEDDING_MODEL = 'text-embedding-3-small';
 
@@ -31,8 +36,7 @@ async function createEmbedding(text, { model } = {}) {
   }
   return embedding;
 }
-
 module.exports = {
   DEFAULT_EMBEDDING_MODEL,
-  createEmbedding,
+  createEmbedding
 };
