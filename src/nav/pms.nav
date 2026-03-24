@@ -1,0 +1,108 @@
+(
+  ("/", (
+    ("settings", (
+      ("", "redirect: /settings/home"),
+      ("home",)
+    )),
+    ("ui", (
+      ("goal-card",)
+    )),
+    ("newcalibration", (
+      ("admin", (
+        ("",),
+        ("process/:processid",),
+        ("process/:processid/:lobbyId",)
+      )),
+      ("clusters",),
+      ("moderator/:processid/:lobbyId",),
+      ("facilitator/:processid/:lobbyId",),
+      ("owner/:processid/:lobbyId",)
+    )),
+    ("talent-calibration", (
+      ("admin", (
+        ("",),
+        ("process/:processid",),
+        ("process/:processid/:lobbyId",)
+      )),
+      ("clusters",),
+      ("moderator/:processid/:lobbyId",),
+      ("facilitator/:processid/:lobbyId",),
+      ("owner/:processid/:lobbyId",)
+    )),
+    ("goals", (
+      ("", "redirect: /goals/list"),
+      ("list",),
+      ("list/:userId",),
+      ("goal/:isEdit",),
+      ("goal/:isEdit/:goalId",),
+      ("goal/:isEdit/:goalId/:userId",),
+      ("checkin",),
+      ("checkin/:userId",),
+      ("journals",),
+      ("journals/notes/:userId",),
+      ("journals/:userId",),
+      ("journals/:userId/:type",),
+      ("cascade/:status/:goalPlanId/:goalId/:userId",)
+    )),
+    ("goal-explore", (
+      ("",)
+    )),
+    ("okr/goals", "redirect: /goals"),
+    ("review", (
+      ("panel", (
+        ("dashboard",),
+        ("details/:id",),
+        ("**", "redirect: /review/panel/dashboard")
+      ))
+    )),
+    ("appraisal", (
+      ("", "redirect: /appraisal/review"),
+      ("review", (
+        ("", "redirect: /appraisal/review/details"),
+        ("details",),
+        ("details/:userId",)
+      ))
+    )),
+    ("gp-dashboard", (
+      ("",),
+      ("details/:gpId",)
+    )),
+    ("talent-review", (
+      ("list",),
+      ("list/:userId",),
+      ("details/:talent_review_id",),
+      ("details/:talent_review_id/:userId",),
+      ("additionalreviewer/:talent_review_id/:user_id/:rating_id",),
+      ("**", "redirect: /talent-review/list")
+    )),
+    ("talent", (
+      ("assessment", (
+        ("details/:id",),
+        ("search",)
+      )),
+      ("nomination/:type/:id",)
+    )),
+    ("tr-dashboard", (
+      ("",),
+      ("details/:id",),
+      ("details/:id/add-talent",),
+      ("**", "redirect: /tr-dashboard")
+    )),
+    ("bulk-goals", (
+      ("",)
+    )),
+    ("dashboard", (
+      ("", "redirect: /dashboard/overview"),
+      ("overview", (
+        ("",),
+        (":id", "redirect: /dashboard/overview")
+      )),
+      ("download/:who",),
+      ("download/:who/:type",),
+      ("reviews-download/:who/:type",),
+      ("msf-download/:who/:type",)
+    )),
+    ("**", "PageNotFoundComponent")
+  )),
+  ("/**", "redirect: /")
+)

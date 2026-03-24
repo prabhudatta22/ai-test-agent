@@ -1,0 +1,13 @@
+Feature: User Login
+
+As a user, I want to login so that I can access the dashboard.
+
+Requirements:
+1. Login page has fields: Username, Password.
+2. Username is required; min length 3; max length 50.
+3. Password is required; min length 8.
+4. On valid credentials, redirect to /dashboard and show message "Welcome".
+5. On invalid credentials, show error "Invalid username or password" and do not redirect.
+6. Account locks after 5 consecutive failed attempts for 15 minutes.
+7. Must support mobile view.
+8. Security: Do not reveal whether username exists.

@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Test Agent Web</title>
+    <style>
+      body { font-family: Arial, sans-serif; margin: 24px; max-width: 900px; }
+      h1 { margin-bottom: 8px; }
+      section { border: 1px solid #ddd; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+      label { display: block; margin-top: 8px; font-weight: 600; }
+      input, button { margin-top: 6px; padding: 8px; width: 100%; box-sizing: border-box; }
+      button { width: auto; cursor: pointer; }
+      .row { display: flex; gap: 12px; align-items: center; margin-top: 12px; }
+      .msg { margin-top: 10px; color: #333; white-space: pre-wrap; }
+    </style>
+  </head>
+  <body>
+    <h1>AI Test Agent</h1>
+    <p>Generate manual test cases and Playwright tests from your requirements.</p>
+
+    <section>
+      <h2>1) Manual Test Case Creation</h2>
+      <label for="prdLink">PRD Link (Confluence)</label>
+      <input id="prdLink" type="text" placeholder="https://.../pages/viewpage.action?pageId=12345" />
+      <label for="jiraTicket">JIRA Ticket No</label>
+      <input id="jiraTicket" type="text" placeholder="PROJ-1234" />
+      <div class="row">
+        <button id="manualBtn" type="button">Generate + Download JSON</button>
+      </div>
+      <div id="manualMsg" class="msg"></div>
+    </section>
+
+    <section>
+      <h2>2) Playwright Test Creation</h2>
+      <label for="manualFile">Manual testcase JSON file</label>
+      <input id="manualFile" type="file" accept=".json,application/json" />
+      <label for="repoLink">Playwright Repo Link</label>
+      <input id="repoLink" type="text" placeholder="https://github.com/org/repo" />
+      <div class="row">
+        <button id="pwBtn" type="button">Generate + Download Playwright ZIP</button>
+      </div>
+      <div id="pwMsg" class="msg"></div>
+    </section>
+
+    <script>
+      function downloadBlob(blob, fileName) {
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = fileName;
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        URL.revokeObjectURL(url);
+      }
+
+      document.getElementById('manualBtn').addEventListener('click', async () => {
+        const prdLink = document.getElementById('prdLink').value.trim();
+        const jiraTicket = document.getElementById('jiraTicket').value.trim();
+        const msgEl = document.getElementById('manualMsg');
+        msgEl.textContent = 'Generating manual testcases...';
+        try {
+          const res = await fetch('/api/manual-testcases', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ prdLink, jiraTicket })
+          });
+          if (!res.ok) {
+            const err = await res.json();
+            throw new Error(err.error || 'Request failed');
+          }
+          const blob = await res.blob();
+          const fileName = `${jiraTicket || 'manual'}_manual_testcases.json`.replace(/\s+/g, '_');
+          downloadBlob(blob, fileName);
+          const upserted = res.headers.get('X-Upserted-Count');
+          msgEl.textContent = `Done. Downloaded ${fileName}. Upserted to vector DB: ${upserted || 'n/a'}`;
+        } catch (e) {
+          msgEl.textContent = `Failed: ${e.message}`;
+        }
+      });
+
+      document.getElementById('pwBtn').addEventListener('click', async () => {
+        const file = document.getElementById('manualFile').files[0];
+        const playwrightRepoLink = document.getElementById('repoLink').value.trim();
+        const msgEl = document.getElementById('pwMsg');
+        msgEl.textContent = 'Generating Playwright tests...';
+        try {
+          const fd = new FormData();
+          fd.append('manualTestcaseFile', file);
+          fd.append('playwrightRepoLink', playwrightRepoLink);
+          const res = await fetch('/api/playwright-tests', { method: 'POST', body: fd });
+          if (!res.ok) {
+            const err = await res.json();
+            throw new Error(err.error || 'Request failed');
+          }
+          const blob = await res.blob();
+          const fileName = 'playwright-tests.zip';
+          downloadBlob(blob, fileName);
+          msgEl.textContent = `Done. Downloaded ${fileName}.`;
+        } catch (e) {
+          msgEl.textContent = `Failed: ${e.message}`;
+        }
+      });
+    </script>
+  </body>
+</html>
+

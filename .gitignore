@@ -1,0 +1,6 @@
+node_modules/
+output/
+playwright-tests/
+test-results/
+report-playwright.zip
+.env
