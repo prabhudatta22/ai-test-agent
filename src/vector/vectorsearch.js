@@ -70,7 +70,7 @@ async function run() {
     const collection = db.collection(getMongoCollectionName());
 
     // === 1. FIND THE TARGET DOCUMENT ===
-    const targetId = getEnv('HF_EXPERIMENT_TARGET_ID', '').trim() || '69aff47657fdf9617119e19b';
+    const targetId = getEnv('HF_EXPERIMENT_TARGET_ID', '').trim() || '';
     let targetDoc = await collection.findOne({ _id: new ObjectId(targetId) });
 
     // Ensure it's found (fallback to another generic doc if needed)
