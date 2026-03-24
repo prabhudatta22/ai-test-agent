@@ -30,10 +30,11 @@ class CreatePostPage {
 
   async navigateToCreatePost(urlPath) {
   await this.page.waitForTimeout(20000);
-    await this.page.locator('#stdDialog > div > div.main-wrapper > div.all-apps-wrapper > div.all-apps-icon-wrapper > div').click();
+    await this.page.locator('#stdDialog > div > div.main-wrapper > div.all-apps-wrapper > div.all-apps-icon-wrapper > div > dbx-svg-wrapper > svg').click();
     await this.page.getByRole('textbox', { name: 'All Apps' }).click();
     await this.page.getByRole('textbox', { name: 'All Apps' }).fill('Vibe');
-    await this.page.getByRole('link', { name: 'BETA VIBE' }).click();
+    await this.page.waitForTimeout(2000);
+    await this.page.getByText('VIBE').click();
 
   }
 
