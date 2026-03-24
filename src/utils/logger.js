@@ -8,7 +8,9 @@ const logger = {
     info: (msg) => console.log(chalk.blue(String(msg))),
     success: (msg) => console.log(chalk.green(String(msg))),
     warn: (msg) => console.log(chalk.yellow(String(msg))),
-    error: (msg) => console.log(chalk.red(String(msg)))
+    error: (msg) => console.log(chalk.red(String(msg))),
+    // Print non-colored JSON so it can be piped/parsed in CI if needed.
+    json: (obj) => console.log(JSON.stringify(obj, null, 2))
 };
 
 module.exports = logger;
