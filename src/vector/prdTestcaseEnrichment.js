@@ -1,5 +1,6 @@
 const logger = require('../utils/logger');
 const { searchTestcases } = require('./testcaseVectorService');
+const { reportVectorEnrichmentExecution } = require('./vectorExecutionReporter');
 
 /**
  * Normalize a PRD testcase into the doc shape expected by the vector store.
@@ -63,6 +64,8 @@ async function enrichPrdTestsWithVector(prdTests, { threshold = 0.86, limit = 5 
 
   const finalTests = [];
   const upserts = [];
+  const upsertsNew = [];
+  const decisions = [];
 
   const stats = {
     reused: 0,
@@ -95,23 +98,55 @@ async function enrichPrdTestsWithVector(prdTests, { threshold = 0.86, limit = 5 
         finalTests.push(fromVectorDocToPrdSchema(best));
         upserts.push(doc);
         stats.reused += 1;
+        decisions.push({ externalId: doc.externalId, decision: 'reused', bestScore });
+
+        reportVectorEnrichmentExecution({
+          query,
+          hits,
+          decision: 'reused',
+          threshold,
+          generatedTc: doc,
+          reusedTc: best,
+        });
         continue;
       }
 
       // Treat as new. Keep generated test.
       finalTests.push(tc);
       upserts.push(doc);
+      upsertsNew.push(doc);
       stats.new += 1;
+
+      decisions.push({ externalId: doc.externalId, decision: 'new', bestScore });
+
+      reportVectorEnrichmentExecution({
+        query,
+        hits,
+        decision: 'new',
+        threshold,
+        generatedTc: doc,
+      });
     } catch (e) {
       stats.failed += 1;
       logger.warn(`Vector enrichment failed for testcase[${i}] ${doc.externalId}: ${e.message}`);
       // Fail-open: keep generated test so pipeline still works.
       finalTests.push(tc);
       upserts.push(doc);
+      upsertsNew.push(doc);
+
+      decisions.push({ externalId: doc.externalId, decision: 'failed', bestScore: undefined });
+
+      reportVectorEnrichmentExecution({
+        query: undefined,
+        hits: [],
+        decision: 'failed',
+        threshold,
+        generatedTc: doc,
+      });
     }
   }
 
-  return { tests: finalTests, upserts, stats };
+  return { tests: finalTests, upserts, upsertsNew, decisions, stats };
 }
 
 module.exports = {

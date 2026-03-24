@@ -2,6 +2,17 @@ const { createEmbedding } = require('../services/embeddingService');
 const { buildEmbeddingText } = require('./testcaseText');
 const { upsertTestcase, semanticSearch } = require('./vectorStore');
 
+function pickPublicFields(tc) {
+  if (!tc || typeof tc !== 'object') return {};
+  return {
+    externalId: tc.externalId,
+    source: tc.source,
+    title: tc.title,
+    module: tc.module,
+    priority: tc.priority,
+  };
+}
+
 /**
  * Index (upsert) a testcase by generating an embedding.
  */
@@ -9,13 +20,17 @@ async function indexTestcase(tc) {
   const text = buildEmbeddingText(tc);
   const embedding = await createEmbedding(text);
 
-  await upsertTestcase({
+  const upsertRes = await upsertTestcase({
     ...tc,
     text,
     embedding,
   });
 
-  return { ok: true };
+  return {
+    ok: true,
+    inserted: upsertRes?.inserted,
+    ...pickPublicFields(tc),
+  };
 }
 
 /**

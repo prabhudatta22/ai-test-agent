@@ -72,7 +72,7 @@ async function upsertTestcase(doc) {
   const now = new Date();
   const filter = { externalId: doc.externalId, source: doc.source };
 
-  await collection.updateOne(
+  const res = await collection.updateOne(
     filter,
     {
       $set: {
@@ -86,7 +86,15 @@ async function upsertTestcase(doc) {
     { upsert: true }
   );
 
-  return { ok: true };
+  const inserted = Boolean(res?.upsertedId);
+
+  return {
+    ok: true,
+    inserted,
+    matchedCount: res?.matchedCount ?? 0,
+    modifiedCount: res?.modifiedCount ?? 0,
+    upsertedId: res?.upsertedId || null,
+  };
 }
 
 /**

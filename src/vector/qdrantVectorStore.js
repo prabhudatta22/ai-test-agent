@@ -118,6 +118,17 @@ async function upsertTestcase(doc) {
   const now = new Date().toISOString();
   const pointId = toPointId(doc.externalId, doc.source);
 
+  // Best-effort: check existence so we can tell "inserted" vs "updated".
+  // This adds one extra round-trip per upsert, but it enables accurate counting.
+  let existed = false;
+  try {
+    const existing = await client.retrieve(collection_name, { ids: [pointId], with_payload: false, with_vector: false });
+    existed = Array.isArray(existing) && existing.length > 0;
+  } catch (_) {
+    // If collection doesn't exist yet, ensureCollection below will create it; treat as not existed.
+    existed = false;
+  }
+
   await ensureCollection({ vectorSize: doc.embedding?.length, distance: getQdrantDistance() });
 
   const payload = {
@@ -139,7 +150,7 @@ async function upsertTestcase(doc) {
     ],
   });
 
-  return { ok: true };
+  return { ok: true, inserted: !existed, id: pointId };
 }
 
 /**
