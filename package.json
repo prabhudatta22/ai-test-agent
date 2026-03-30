@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node src/index.js",
     "locators": "node src/services/locatorService.js",
-    "web:start": "node src/web/server.js"
+    "web:start": "node src/web/server.js",
+    "playwright:capture-apis": "API_CAPTURE_OUT=output/captured-apis.json npx playwright test"
   },
   "keywords": [],
   "author": "",

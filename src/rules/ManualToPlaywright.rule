@@ -13,7 +13,7 @@ Follow best practices:
 - Reuse existing Page Objects provided under EXISTING PAGE OBJECTS below when applicable.
 - Use stable selectors (getByText, getByRole, getByLabel preferred)
 - Add proper assertions using expect()
-- Add API validation using request fixture if required
+- Add API validation: capture XHR/Fetch during the UI flow, then validate/replay APIs using `page.request` (same session as the browser). Prefer `page.request` over the isolated `request` fixture so cookies/auth apply.
 - Add proper test annotations (tags)
 - Handle waits correctly (no hard waits)
 - Include error handling best practices
@@ -41,6 +41,35 @@ No markdown.
 
 EXISTING PAGE OBJECTS (reuse these; do not duplicate them in the spec):
 ${existingPages}
+
+API CAPTURE + AUTOMATION (REQUIRED FOR EVERY test)
+
+The repo includes `pages/ApiCaptureHelper.js` (CommonJS). For every generated `test(...)`, you MUST:
+
+1) At the top of the spec file (once), add:
+   const { createApiCapture, validateCapturedApis } = require('../pages/ApiCaptureHelper');
+
+2) Inside each test (after page is available), start capture before UI steps and stop after the main flow:
+   const apiCapture = createApiCapture(page);
+   apiCapture.start();
+   // ... all test.step UI interactions ...
+   const apiSummary = await apiCapture.stop();
+
+3) Add a final test.step named like "API: validate captured endpoints" that calls:
+   await validateCapturedApis(page, expect, apiSummary, { replayGetOnly: true, maxCalls: 25 });
+   - This replays safe GET/HEAD calls via page.request and soft-asserts response.ok().
+   - Do NOT set replayMutating: true unless the test explicitly needs POST replay (risk of duplicate writes).
+
+4) Optional: To write captured APIs to disk for debugging, document that running tests with env `API_CAPTURE_OUT=output/captured-apis.json` will persist the list (handled inside the helper).
+
+5) For critical APIs mentioned in the manual testcase (URLs, REST paths, GraphQL), additionally assert during the UI flow using:
+   await page.waitForResponse(resp => resp.url().includes('/expected-path') && resp.request().method() === 'GET' && resp.ok(), { timeout: 30000 });
+
+6) Exclude noise: the helper already ignores common analytics domains; do not assert on third-party trackers.
+
+If the spec path is under `output/` and `pages/` is at repo root, the require path MUST be:
+   require('../pages/ApiCaptureHelper')
+Adjust `../` depth only if the generated file lives in a different folder depth (e.g. `../../pages/ApiCaptureHelper`).
 
 EXPECTED OUTPUT EXAMPLE STRUCTURE
 // FILE: pages/LoginPage.js
@@ -91,7 +120,7 @@ CONVERSION RULES
 Map each test case to one Playwright test()
 Map steps → test.step()
 Map expected_result → expect()
-If type = API → use request fixture
+If type = API → prefer page.request or page.waitForResponse; use isolated `request` fixture only for public/unauthenticated APIs
 If database_validations present → comment placeholder
 Use environment config for URLs
 No static waits (no waitForTimeout)

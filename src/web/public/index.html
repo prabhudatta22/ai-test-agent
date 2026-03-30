@@ -55,13 +55,25 @@
         URL.revokeObjectURL(url);
       }
 
+      async function pollJob(jobId, msgEl, label) {
+        while (true) {
+          const res = await fetch(`/api/jobs/${jobId}`);
+          const job = await res.json();
+          if (!res.ok) throw new Error(job.error || 'Job fetch failed');
+          msgEl.textContent = `${label}: ${job.status}`;
+          if (job.status === 'completed') return job;
+          if (job.status === 'failed') throw new Error(job.error || 'Job failed');
+          await new Promise((r) => setTimeout(r, 1500));
+        }
+      }
+
       document.getElementById('manualBtn').addEventListener('click', async () => {
         const prdLink = document.getElementById('prdLink').value.trim();
         const jiraTicket = document.getElementById('jiraTicket').value.trim();
         const msgEl = document.getElementById('manualMsg');
-        msgEl.textContent = 'Generating manual testcases...';
+        msgEl.textContent = 'Queueing manual testcase job...';
         try {
-          const res = await fetch('/api/manual-testcases', {
+          const res = await fetch('/api/manual-testcases/jobs', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ prdLink, jiraTicket })
@@ -70,11 +82,16 @@
             const err = await res.json();
             throw new Error(err.error || 'Request failed');
           }
-          const blob = await res.blob();
-          const fileName = `${jiraTicket || 'manual'}_manual_testcases.json`.replace(/\s+/g, '_');
+          const body = await res.json();
+          const job = await pollJob(body.jobId, msgEl, 'Manual testcase generation');
+          const download = await fetch(`/api/jobs/${body.jobId}/download`);
+          const blob = await download.blob();
+          const fileName = job.output?.fileName || `${jiraTicket || 'manual'}_manual_testcases.json`;
           downloadBlob(blob, fileName);
-          const upserted = res.headers.get('X-Upserted-Count');
-          msgEl.textContent = `Done. Downloaded ${fileName}. Upserted to vector DB: ${upserted || 'n/a'}`;
+          msgEl.textContent =
+            `Done. Downloaded ${fileName}. ` +
+            `generated=${job.output.generated}, reused=${job.output.reusedFromDb}, ` +
+            `duplicatesRemoved=${job.output.signatureDuplicatesRemoved}, finalUnique=${job.output.finalUnique}, upserted=${job.output.upserted}`;
         } catch (e) {
           msgEl.textContent = `Failed: ${e.message}`;
         }
@@ -84,20 +101,23 @@
         const file = document.getElementById('manualFile').files[0];
         const playwrightRepoLink = document.getElementById('repoLink').value.trim();
         const msgEl = document.getElementById('pwMsg');
-        msgEl.textContent = 'Generating Playwright tests...';
+        msgEl.textContent = 'Queueing Playwright job...';
         try {
           const fd = new FormData();
           fd.append('manualTestcaseFile', file);
           fd.append('playwrightRepoLink', playwrightRepoLink);
-          const res = await fetch('/api/playwright-tests', { method: 'POST', body: fd });
+          const res = await fetch('/api/playwright-tests/jobs', { method: 'POST', body: fd });
           if (!res.ok) {
             const err = await res.json();
             throw new Error(err.error || 'Request failed');
           }
-          const blob = await res.blob();
-          const fileName = 'playwright-tests.zip';
+          const body = await res.json();
+          const job = await pollJob(body.jobId, msgEl, 'Playwright generation');
+          const dl = await fetch(`/api/jobs/${body.jobId}/download`);
+          const blob = await dl.blob();
+          const fileName = job.output?.fileName || 'playwright-tests.zip';
           downloadBlob(blob, fileName);
-          msgEl.textContent = `Done. Downloaded ${fileName}.`;
+          msgEl.textContent = `Done. Downloaded ${fileName}. filesGenerated=${job.output?.filesGenerated || 'n/a'}`;
         } catch (e) {
           msgEl.textContent = `Failed: ${e.message}`;
         }

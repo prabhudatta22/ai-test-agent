@@ -1,6 +1,10 @@
+.DS_Store
+**/.DS_Store
+
 node_modules/
 output/
 playwright-tests/
 test-results/
 report-playwright.zip
 .env
+output/web-jobs/
